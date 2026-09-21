@@ -1,0 +1,11 @@
+# MK2 mover. All four share the 86 mm width, the 30 mm pole pitch and the
+# 34 mm installation height; they differ in coil length, so they are rows.
+# Electrical figures are the catalogue values at the stated conditions.
+#
+# Only MK21 has a file. The rest are recorded because the table is the whole
+# catalogue and the geometry is a cache that fills as parts get used.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+MK21,MK2 iron core mover 118 mm,continuous thrust 181 N; peak thrust 512 N for 1 s; continuous current 2.0 Arms; thrust constant 92.5 N/Arms; back EMF 53.4 Vrms per m/s; resistance 13.8 ohm at 25 C; inductance 64.0 mH; attraction 963 N; pole pitch 30 mm; mover 118 x 86 mm; installation height 34 mm,1100,,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,STEP on file as cad/original/MK21.step; no FreeCAD document built from it yet. Envelope is 168 mm over the cable stub.
+MK22,MK2 iron core mover 223 mm,continuous thrust 362 N; peak thrust 1023 N for 1 s; continuous current 3.9 Arms; thrust constant 92.5 N/Arms; back EMF 53.4 Vrms per m/s; resistance 6.8 ohm at 25 C; inductance 33.0 mH; attraction 1926 N; pole pitch 30 mm; mover 223 x 86 mm; installation height 34 mm,2200,,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,
+MK23,MK2 iron core mover 328 mm,continuous thrust 544 N; peak thrust 1535 N for 1 s; continuous current 5.9 Arms; thrust constant 92.5 N/Arms; back EMF 53.4 Vrms per m/s; resistance 4.6 ohm at 25 C; inductance 22.4 mH; attraction 2888 N; pole pitch 30 mm; mover 328 x 86 mm; installation height 34 mm,3300,,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,
+MK24,MK2 iron core mover 433 mm,continuous thrust 725 N; peak thrust 2048 N for 1 s; continuous current 7.8 Arms; thrust constant 92.5 N/Arms; back EMF 53.4 Vrms per m/s; resistance 3.5 ohm at 25 C; inductance 16.0 mH; attraction 3851 N; pole pitch 30 mm; mover 433 x 86 mm; installation height 34 mm,1900,,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,Catalogue prints 1.9 kg where the 1.1 / 2.2 / 3.3 kg progression of the shorter movers points at about 4.4 kg. Confirm the mass with the brand before sizing anything on it.

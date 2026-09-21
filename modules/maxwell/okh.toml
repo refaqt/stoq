@@ -1,0 +1,22 @@
+okhv = "OKH-LOSHv1.0"
+name = "MAXWELL"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/maxwell"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Iron core linear motors from MAXWELL."
+
+# The name on the part and on the catalogue. The parts reached us through Saho
+# (Dongguan Shihai Automation), who sell them; a supplier is commercial and is
+# deliberately not recorded here.
+[brand]
+name = "Maxwell (Dongguan) Intelligent Equipment Co., Ltd."
+website = "https://www.maxwelldg.com"
+# The brand publishes no separate CAD download terms. The files came with a
+# quotation rather than from a public portal, so the company site is the only
+# address there is to record.
+cad-terms = "https://www.maxwelldg.com"
+# Set true on 2026-09-21 so the X-axis assembly keeps resolving for anyone who
+# clones the machine repository. See
+# docs/decisions/2026-09-21_committing-supplier-cad.md.
+redistribute = true

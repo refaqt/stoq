@@ -1,0 +1,5 @@
+# The FreeCAD document is indexed here rather than a supplier STEP, because the
+# STEP it was built from was never kept. The checksum is therefore the only
+# guard this part has: if the file changes, nothing else will notice.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+maxwell,WJM050-3,cad/parts/WJM050-3.FCStd,16180,57a440e1c2789b157934c0559b0cf72ce4202325a56b8e8ed5b2688476c09f85,,redistributable,2026-09-21T00:00:00Z

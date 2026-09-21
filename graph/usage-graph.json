@@ -1,0 +1,85 @@
+{
+  "modules/hiwin/modules/hgl-block": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/hiwin",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/hiwin/modules/hgr-rail": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/hiwin",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/hiwin": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/maxwell/modules/mk2-mover": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/maxwell",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/maxwell/modules/mk2-stator": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/maxwell",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/maxwell/modules/wjm-forcer": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/maxwell",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/maxwell": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  ".": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [],
+    "used_by_builds": []
+  }
+}

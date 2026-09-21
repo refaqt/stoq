@@ -1,9 +1,20 @@
 # Brands and families
 
-This folder is empty of parts on purpose. It is where the first brand goes.
-
-Everything below is the shape the checks expect. The full specification is
+One folder per brand, then one per family. Everything below is the shape the
+checks expect. The full specification is
 [`doqs/docs/parts-library.md`](../doqs/docs/parts-library.md).
+
+## What is here today
+
+| Brand | Families | What they are |
+| --- | --- | --- |
+| [`hiwin/`](hiwin/) | `hgr-rail`, `hgl-block` | Profile rail linear guideways |
+| [`maxwell/`](maxwell/) | `mk2-mover`, `mk2-stator`, `wjm-forcer` | Iron core linear motors |
+
+Both brands are marked as files we may share, so a machine that links one of
+these models keeps working for anyone who clones it. A new brand starts from
+`fetch-only` again. The reasoning is in
+[ADR-001](../docs/decisions/2026-09-21_committing-supplier-cad.md).
 
 ## Brand is not supplier
 

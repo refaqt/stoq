@@ -1,0 +1,8 @@
+# HG series profile rail. Size and mounting direction are architectural -- an
+# HGR15 and an HGR20 have different bolt patterns -- so they would be separate
+# families. Length is a number, so it is another row.
+#
+# Mass is the catalogue figure for the series (1.45 kg/m for HGR15R) times the
+# ordered length.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+HGR15R418H,HGR15 profile rail 418 mm accuracy class H,rail width 15 mm; rail height 15 mm; hole pitch 60 mm; mounting M4 x 20 from above; accuracy class H,606,cad/parts/HGR15R418H.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Configured and downloaded as HGR15R418H.stp. Rail for the AQTUATOR X axis.

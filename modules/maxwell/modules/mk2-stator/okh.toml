@@ -1,0 +1,13 @@
+okhv = "OKH-LOSHv1.0"
+name = "MAXWELL MK2 Stator"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/maxwell/modules/mk2-stator"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Magnet track for the MK2 mover, 86 mm wide, in three stocked lengths."
+
+[brand]
+name = "Maxwell (Dongguan) Intelligent Equipment Co., Ltd."
+website = "https://www.maxwelldg.com"
+cad-terms = "https://www.maxwelldg.com"
+redistribute = true

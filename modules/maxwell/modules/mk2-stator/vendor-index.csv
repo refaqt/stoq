@@ -1,0 +1,7 @@
+# No source address. These files arrived with a quotation rather than from a
+# public download portal. The STEP headers carry the brand's own export date of
+# 2025-09-05, which is not the day we received them.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+maxwell,MK2-120,cad/original/MK2-120.step,211954,3147f190992347905b21b17df9345d4298ec9fed9929d217adc5b5606d81ea85,,redistributable,2026-09-21T00:00:00Z
+maxwell,MK2-180,cad/original/MK2-180.step,222963,3ff2f0fb2f6ed132f6a45c4aa404291071fb5d595750feb3173b3450da2b01b9,,redistributable,2026-09-21T00:00:00Z
+maxwell,MK2-300,cad/original/MK2-300.step,244911,18f1a250deb7028cdfbca7bdea39ae250f006c5bc25d437a30a16477e97a6d79,,redistributable,2026-09-21T00:00:00Z

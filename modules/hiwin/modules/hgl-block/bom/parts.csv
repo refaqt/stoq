@@ -1,0 +1,10 @@
+# HG series low square block. The block type (HGH high square / HGL low square
+# / HGW flange) changes the mounting envelope, so each is its own family.
+#
+# One further HIWIN download is recorded in vendor-index.csv without a row
+# here: HGL15CA2R760ZBC2-ZZ+E2, an assembled guideway of two 760 mm rails with
+# two blocks each. An assembled guideway is neither a block nor a rail, so it
+# gets no row in either family; the file is kept because it is the only record
+# of that configuration.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+HGL15CAZBC+E2,HGL15CA low square block ZB preload class C with E2 lubrication unit,block width 34 mm; block height 19.7 mm; installation height 24 mm; block length 61.4 mm (69.6 mm over the E2 unit); 4 x M4 x 4 mounting threads; Cdyn 14700 N; C0 23470 N,140,cad/parts/HGL15CAZBC+E2.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Catalogue mass is the bare HGL15CA block without the E2 unit. Downloaded as HGL15CAZBC_E2_FILE_2.stp. Two per rail on the AQTUATOR X axis.
