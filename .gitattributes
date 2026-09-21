@@ -3,3 +3,24 @@
 
 # Shell helpers must keep LF, even on Windows. CRLF stops them from starting.
 *.sh text eol=lf
+
+# ---------------------------------------------------------------------------
+# Git LFS - supplier CAD binaries only.
+#
+# A library stores the brand's own STEP downloads and the FreeCAD documents
+# built from them. Both are binary and both grow, so they go through LFS.
+# Datasheet PDFs stay ordinary blobs: they are read far more often than they
+# change, and keeping LFS scoped to CAD keeps usage inside the GitHub free
+# tier.
+# ---------------------------------------------------------------------------
+*.FCStd  filter=lfs diff=lfs merge=lfs -text
+*.step   filter=lfs diff=lfs merge=lfs -text
+*.stp    filter=lfs diff=lfs merge=lfs -text
+*.stl    filter=lfs diff=lfs merge=lfs -text
+*.3mf    filter=lfs diff=lfs merge=lfs -text
+
+# ---------------------------------------------------------------------------
+# Binary - never apply CRLF heuristics.
+# ---------------------------------------------------------------------------
+*.pdf    -text
+*.png    -text

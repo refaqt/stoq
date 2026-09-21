@@ -1,0 +1,7 @@
+# MK2 magnet track. Every length shares one cross-section and one pole pitch,
+# so the whole stocked range is rows in this table. Mass is the catalogue
+# figure of 4.58 kg/m times the stated length.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+MK2-120,MK2 stator magnet track 120 mm,length LC 120 mm; width 86 mm; height 9.6 mm; pole pitch 30 mm; 4 x 5.5 mm through holes; one 120 mm hole pitch,550,cad/parts/MK2-120.FCStd,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,Pairs with any MK2 mover. Envelope is 122.7 mm over the ends.
+MK2-180,MK2 stator magnet track 180 mm,length LC 180 mm; width 86 mm; height 9.6 mm; pole pitch 30 mm; 6 x 5.5 mm through holes; two 120 mm hole pitches,824,cad/parts/MK2-180.FCStd,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,Fitted twice on the AQTUATOR X axis. Envelope is 182.7 mm over the ends.
+MK2-300,MK2 stator magnet track 300 mm,length LC 300 mm; width 86 mm; height 9.6 mm; pole pitch 30 mm; 10 x 5.5 mm through holes; four 120 mm hole pitches,1374,,../../docs/datasheets/maxwell-mk2-iron-core-linear-motor.pdf,redistributable,A,active,Downloaded but not yet used. The STEP is on file; no FreeCAD document has been built from it.

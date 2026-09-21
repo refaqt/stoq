@@ -1,0 +1,6 @@
+# One row, and it is a weak one. This forcer was selected before the MK2 range
+# and only its FreeCAD document survived the move out of the machine
+# repository: no catalogue, no datasheet, no supplier STEP and no download
+# address. Everything below the envelope is unknown.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+WJM050-3,WJM050 series linear motor forcer,envelope 196 x 75 x 23.2 mm,,cad/parts/WJM050-3.FCStd,,redistributable,A,active,Brand attribution is unverified: the only evidence is the FreeCAD label Saho_WJM050-3 left by the download, and Saho is a supplier rather than a brand. Confirm who makes it before ordering. No thrust or electrical data on file.

@@ -12,3 +12,8 @@ __pycache__/
 #
 # modules/thk/modules/shs-rail/cad/parts/SHS20R300.FCStd
 # modules/thk/modules/shs-rail/cad/original/SHS20R300.step
+
+# FreeCAD rotates a backup beside every document it saves. It is a copy of the
+# file next to it, so it never belongs in the history.
+*.FCBak
+*.FCStd1

@@ -10,16 +10,26 @@ Write this file in B2 English. Follow `.agents/rules/communication.md`.
 - Python 3.12 or newer. The checks use the standard library only, so there is
   nothing to install.
 - FreeCAD, only if you will build a `.FCStd` document from a supplier's model.
+- Git LFS. Supplier CAD files are stored through it.
 
 ## Setup
 
-1. Clone the repository with its submodules:
+1. Switch Git LFS on, once per computer:
+
+   ```bash
+   git lfs install
+   ```
+
+   Skip this and you get small text placeholders where the CAD files should be.
+   The checksum gate then fails on every one of them.
+
+2. Clone the repository with its submodules:
 
    ```bash
    git clone --recurse-submodules https://github.com/refaqt/stoq
    ```
 
-2. From the repository root, run the helper:
+3. From the repository root, run the helper:
 
    ```bash
    bash setup-tooling.sh
@@ -29,7 +39,7 @@ Write this file in B2 English. Follow `.agents/rules/communication.md`.
    Windows may double-click `setup-tooling.bat`. Agents must not: it waits for
    a key press.
 
-3. Check that everything is in place:
+4. Check that everything is in place:
 
    ```bash
    bash doqs.sh check

@@ -68,10 +68,14 @@ terms.
 ## Working here
 
 ```bash
+git lfs install           # once per computer; CAD files go through Git LFS
 git clone --recurse-submodules https://github.com/refaqt/stoq
 bash setup-tooling.sh     # fills doqs/ and .agents/, installs the launchers
 bash doqs.sh check        # every gate
 ```
+
+Without Git LFS you get small text placeholders instead of the CAD files, and
+the checksum gate fails on every one of them.
 
 [`docs/onboarding.md`](docs/onboarding.md) is the longer version, and
 [`CONTRIBUTING.md`](CONTRIBUTING.md) has the recipes for adding a brand, a

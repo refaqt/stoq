@@ -1,0 +1,8 @@
+# Two downloads, one part. HGL15CAZBC+E2 is the single block and is what
+# cad/parts/ was built from. HGL15CA2R760ZBC2-ZZ+E2 is an assembled guideway --
+# two 760 mm rails, two blocks each -- configured earlier in the project. It
+# has no row in bom/parts.csv because an assembled guideway is neither a block
+# nor a rail, but the file is the only record of that configuration.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+hiwin,HGL15CAZBC+E2,cad/original/HGL15CAZBC+E2.step,515207,9721bcc22dff6999388d692f06e78733a83ab813641a4da08661b642b6f51c8a,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-06-25T11:29:56Z
+hiwin,HGL15CA2R760ZBC2-ZZ+E2,cad/original/HGL15CA2R760ZBC2-ZZ+E2.step,4652838,2499243da907f759021d915c33803cc77b116035dbaf063a64b5ae2d27dd443c,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-06-25T10:14:15Z
