@@ -1,0 +1,10 @@
+okhv = "OKH-LOSHv1.0"
+name = "STOQ"
+repo = "https://github.com/refaqt/stoq"
+version = "0.1.0"
+# CC BY-SA, not CERN-OHL-S: nothing here is hardware we designed. What is ours
+# is the record we compile -- the part tables, the specifications we write
+# down, the manifests. See LICENSE.
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Parts library: components bought from third-party suppliers, recorded once so no two projects research the same part twice."

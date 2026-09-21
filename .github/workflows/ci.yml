@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # submodules: recursive checks out the doqs pin this repository records.
+      # Never --remote: CI must test the version that was committed, not
+      # whatever landed in doqs this morning.
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Every DOQS gate
+        run: python doqs/doqs.py check
