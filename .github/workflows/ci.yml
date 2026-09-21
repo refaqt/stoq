@@ -11,9 +11,14 @@ jobs:
       # submodules: recursive checks out the doqs pin this repository records.
       # Never --remote: CI must test the version that was committed, not
       # whatever landed in doqs this morning.
+      # lfs: true is not optional here. Supplier CAD files go through Git LFS,
+      # and the parts-library gate compares each committed file against the
+      # checksum in vendor-index.csv. Without the real bytes, every one of those
+      # checks fails on a pointer file.
       - uses: actions/checkout@v4
         with:
           submodules: recursive
+          lfs: true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
