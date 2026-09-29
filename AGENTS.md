@@ -50,8 +50,11 @@ than a failing check, because a check cannot catch them:
 2. **History is never rewritten.** No squash and no force-push on `main`.
    Build records in machine repositories point at commits here.
 3. **Store the link, not the file.** A supplier's CAD file or datasheet is
-   committed only where that brand's terms allow it. Otherwise record it as
-   `fetch-only`: address, checksum and date committed, file not.
+   committed only where the brand's newest `[[terms-review]]` says `public`, and
+   a named person approved it. Otherwise record it as `fetch-only` or `private`:
+   address, checksum and date committed, file not. Follow
+   [`docs/adding-components.md`](docs/adding-components.md) and the
+   `add-component` skill for every supplier file.
 4. **Brand is not supplier.** The folder is the brand on the part. No price and
    no distributor belongs in this repository.
 
@@ -87,6 +90,7 @@ list; do not repeat it in another file. Never hand-write a `LICENSE` or
 | Maintain patterns | `.agents/skills/maintain-patterns/SKILL.md` |
 | DOQS naming | `.agents/skills/doqs-naming/SKILL.md` |
 | FreeCAD debugging | `.agents/skills/freecad/SKILL.md` |
+| Adding a component | `.agents-local/skills/add-component/SKILL.md` |
 
 Role skills are at `.agents/skills/{category}/{skill-name}/SKILL.md`. The two
 that come up most here are `.agents/skills/business/purchasing/SKILL.md` and

@@ -14,7 +14,12 @@ checks expect. The full specification is
 Both brands are marked as files we may share, so a machine that links one of
 these models keeps working for anyone who clones it. A new brand starts from
 `fetch-only` again. The reasoning is in
-[ADR-001](../docs/decisions/2026-09-21_committing-supplier-cad.md).
+[ADR-001](../docs/decisions/2026-09-21_committing-supplier-cad.md). For MAXWELL,
+nothing written allows the sharing yet, so the check shows a warning until
+someone gets written permission.
+
+Adding a brand, a family or a part follows
+[`docs/adding-components.md`](../docs/adding-components.md).
 
 ## Brand is not supplier
 
@@ -31,7 +36,8 @@ For a standard, the brand is the standards body: `modules/din/`.
 
 ```
 modules/hiwin/                      the brand
-├── okh.toml                        [brand] with cad-terms and redistribute
+├── okh.toml                        [brand] with cad-terms and redistribute,
+│                                   and a [[terms-review]] per kind of file
 └── modules/hgr-rail/               the family -- THIS is the module
     ├── okh.toml                    [brand], and [[provides-interface]] where
     │                               the family has a real mechanical interface
@@ -39,7 +45,9 @@ modules/hiwin/                      the brand
     ├── vendor-index.csv            provenance: address, checksum, date, per file
     ├── cad/
     │   ├── parts/HGR20R500.FCStd   the document a role links
-    │   └── original/HGR20R500.step the untouched download
+    │   ├── original/HGR20R500.step the untouched download
+    │   └── own/HGR20R800.FCStd     our own model, drawn from the datasheet,
+    │       own/HGR20R800.checks.csv  and the record of how it was drawn
     └── docs/datasheets/            catalogues and datasheets
 ```
 

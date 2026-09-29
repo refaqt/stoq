@@ -27,6 +27,7 @@ in [ADR-004](../doqs/docs/decisions/2026-09-18_parts-library.md).
 | `docs/mistakes/` | Something that went wrong. Read before starting work. |
 | `LICENSE`, `LICENSES/`, `TRADEMARKS.md` | Who may use what. `LICENSE` is the only full list. |
 | `doqs/` | Submodule: the validators, schemas and templates. |
+| [`refaqt/stoq-private`](https://github.com/refaqt/stoq-private) | Not a submodule. A separate private repository with the same folder layout. It holds our copy of every supplier file, and the saved terms and permissions. |
 | `.agents/` | Submodule: shared agent rules and skills. |
 | `doqs.sh`, `doqs.bat`, `syson.sh`, `syson.bat` | Launchers doqs installs. Never edit them here. |
 
@@ -61,6 +62,8 @@ or every build record that points here breaks.
 
 **Store the link, not the file.** Part numbers, dimensions and specifications
 are facts we compile, and they are the bulk of the value. A supplier's own CAD
-file or datasheet is committed only where that brand's terms allow it.
-Everything else is recorded as `fetch-only`: the address, the checksum and the
-date are committed, and each person downloads the file from the brand.
+file or datasheet is committed only where the brand's newest licence review
+says `public`. Everything else is recorded as `fetch-only` or `private`: the
+address, the checksum and the date are committed, and the file stays in
+`stoq-private`. Models we draw ourselves from a datasheet live in `cad/own/`
+and are ours. The method is [`adding-components.md`](adding-components.md).

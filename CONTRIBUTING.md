@@ -20,16 +20,24 @@ on Windows, and `python doqs/doqs.py check` works without either launcher.
 
 ## Recipes
 
+**Adding any supplier file — a CAD file, a datasheet, a manual — follows
+[`docs/adding-components.md`](docs/adding-components.md).** That page decides
+whether a file may be committed at all. The recipes below are the short form.
+
 ### Add a part to an existing family
 
 1. A row in `bom/parts.csv`. Part number, description, the figures that matter
    for choosing it, mass, terms, revision, `status = "active"`.
-2. If someone needs the geometry now: download the STEP to
-   `cad/original/<pn>.step`, build `cad/parts/<pn>.FCStd` from it, and fill the
-   `cad` column. If not, leave it empty. The table is the complete catalogue;
-   the files are a cache that fills as people use parts.
-3. A row in `vendor-index.csv` with the address, the checksum and the date.
-4. `bash doqs.sh check`.
+2. Keep every original file in `stoq-private`, at the same path.
+3. If someone needs the geometry now, and the brand's newest `cad` decision is
+   `public`: put the STEP in `cad/original/<pn>.step`, build
+   `cad/parts/<pn>.FCStd` from it, and fill the `cad` column. If the decision is
+   not `public`, keep the files out of git, or draw our own model in `cad/own/`
+   instead. If nobody needs the geometry yet, leave the column empty. The table
+   is the complete catalogue; the files are a cache that fills as people use
+   parts.
+4. A row in `vendor-index.csv` with the address, the checksum and the date.
+5. `bash doqs.sh check`.
 
 ### Add a family
 
@@ -46,8 +54,10 @@ on Windows, and `python doqs/doqs.py check` works without either launcher.
 1. `modules/<brand>/okh.toml`, from
    [`doqs/templates/parts-library/brand-okh.toml`](doqs/templates/parts-library/brand-okh.toml).
    It needs `[brand]`, including `cad-terms`.
-2. **Read those terms** and set `redistribute`. Recording the address means the
-   decision can be checked later instead of argued again.
+2. **Read those terms**, save a dated copy in `stoq-private/evidence/<brand>/`,
+   and add one `[[terms-review]]` for `cad` and one for `documentation`. Set
+   `redistribute` to match the `cad` one. A named person approves both. See
+   [`docs/adding-components.md`](docs/adding-components.md), steps 3 to 5.
 3. Then add a family.
 
 ### Retire a part
@@ -66,7 +76,8 @@ pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
 
 Lines starting with `#` are comments and are skipped.
 
-`terms` is `fetch-only` or `redistributable`. `status` is `active` or `eol`.
+`terms` is `redistributable`, `fetch-only`, `private` or `own-model`. `status`
+is `active` or `eol`.
 
 **No price and no distributor.** A parts library is technical. What a part costs
 and who sells it are answered by a different system, and both change far faster
@@ -90,11 +101,17 @@ value here.
   date are committed; the file is not. Each person downloads it from the brand
   under the brand's own terms. This needs no legal opinion and works in a public
   repository.
-- **`redistributable`** only where that brand's terms allow it, with `cad-terms`
-  on the brand recording what you read.
+- **`redistributable`** only where the brand's newest `[[terms-review]]` for
+  that kind of file says `public`.
+- **`private`** like `fetch-only`, but the file has no public address. The only
+  copy is in `stoq-private`.
+- **`own-model`** a model we drew ourselves from the datasheet, in `cad/own/`.
+  It is ours, so it is always committed.
 
-A fetch-only file is listed in `.gitignore` by its exact path, so a fresh clone
-stays green. Validation warns rather than fails when the file is absent.
+A `fetch-only` or `private` file is listed in `.gitignore` by its exact path, so
+a fresh clone stays green. Validation warns rather than fails when the file is
+absent, and fails when git tracks it. `bash doqs.sh restore-private --from
+../stoq-private` copies these files into place.
 
 Two things to check with a lawyer before committing any brand's files: the
 download terms of your main suppliers, and whether the EU database right affects

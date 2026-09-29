@@ -3,8 +3,10 @@ __pycache__/
 *.pyc
 .venv/
 
-# Supplier files we may not redistribute. Only their row in vendor-index.csv is
-# committed; the file itself is fetched from the brand under the brand's terms.
+# Supplier files we may not redistribute (`fetch-only` and `private`). Only
+# their row in vendor-index.csv is committed. The file itself is fetched from
+# the brand, or copied from stoq-private with `bash doqs.sh restore-private`.
+# `bash doqs.sh check` fails if one of these files is tracked.
 # Validation warns rather than fails when one is absent, so CI stays green on a
 # fresh clone.
 #

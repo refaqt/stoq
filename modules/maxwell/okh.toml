@@ -20,3 +20,25 @@ cad-terms = "https://www.maxwelldg.com"
 # clones the machine repository. See
 # docs/decisions/2026-09-21_committing-supplier-cad.md.
 redistribute = true
+
+# The 2026-09-21 decision, recorded in the form the component method asks for.
+# See docs/adding-components.md. The files came with a quotation and the brand
+# publishes no terms, so nothing written allows sharing them: basis = "none".
+# The check shows this as a warning until someone gets written permission
+# (then add a new entry with basis = "permission") or decides to stop sharing
+# (then add one with decision = "internal"). Never edit these.
+[[terms-review]]
+kind = "cad"
+decision = "public"
+basis = "none"
+source = "https://www.maxwelldg.com"
+reviewer = "Niels Bosmans"
+reviewed = 2026-09-21
+
+[[terms-review]]
+kind = "documentation"
+decision = "public"
+basis = "none"
+source = "https://www.maxwelldg.com"
+reviewer = "Niels Bosmans"
+reviewed = 2026-09-21

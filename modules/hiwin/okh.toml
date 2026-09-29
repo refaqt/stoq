@@ -17,3 +17,23 @@ cad-terms = "https://www.hiwin.de/en/agb"
 # clones the machine repository. This is a reading of the terms above, not a
 # legal opinion; see docs/decisions/2026-09-21_committing-supplier-cad.md.
 redistribute = true
+
+# The 2026-09-21 decision, recorded in the form the component method asks for.
+# See docs/adding-components.md. No dated copy of the terms page was saved at
+# the time, so `evidence` is empty. Save one in stoq-private and add a new
+# entry that names it; never edit these.
+[[terms-review]]
+kind = "cad"
+decision = "public"
+basis = "terms"
+source = "https://www.hiwin.de/en/agb"
+reviewer = "Niels Bosmans"
+reviewed = 2026-09-21
+
+[[terms-review]]
+kind = "documentation"
+decision = "public"
+basis = "terms"
+source = "https://www.hiwin.de/en/agb"
+reviewer = "Niels Bosmans"
+reviewed = 2026-09-21
