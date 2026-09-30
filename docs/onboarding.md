@@ -48,18 +48,31 @@ Write this file in B2 English. Follow `.agents/rules/communication.md`.
 `git status` showing `doqs` and `.agents` as modified after the helper is
 normal. Leave them uncommitted unless you mean to set a new pin.
 
+5. If you work with supplier files that we may not share, clone the private
+   library next to this one and copy its files into place:
+
+   ```bash
+   git clone https://github.com/refaqt/stoq-private ../stoq-private
+   bash doqs.sh restore-private --from ../stoq-private
+   ```
+
+   You need read access to `refaqt/stoq-private`. The copied files are listed in
+   `.gitignore`, and the check fails if one is committed by mistake.
+
 ## Everyday commands
 
 | Command | When |
 | --- | --- |
 | `bash doqs.sh check` | Before every commit. Runs every gate. |
 | `bash doqs.sh generate` | After adding a content folder, so the licence files follow. |
+| `bash doqs.sh restore-private --from ../stoq-private` | To open models whose supplier files we may not share. |
 | `bash doqs.sh list` | When you forget a command. |
 
 ## Where to read next
 
 | Doc | Use |
 | --- | --- |
+| [`adding-components.md`](adding-components.md) | The method for every supplier file: licence check, decision, route |
 | [`CONTRIBUTING.md`](../CONTRIBUTING.md) | Adding a brand, a family, a part; retiring a part |
 | [`docs/architecture.md`](architecture.md) | Repository map and the brand/family/part grammar |
 | [`modules/README.md`](../modules/README.md) | The folder layout of a family, file by file |
