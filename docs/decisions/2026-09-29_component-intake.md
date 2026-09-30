@@ -3,7 +3,8 @@
 - **Date:** 2026-09-29
 - **Status:** Accepted
 - **Builds on:** [ADR-001](2026-09-21_committing-supplier-cad.md), and doqs
-  [ADR-008](../../doqs/docs/decisions/2026-09-29_component-intake.md)
+  [ADR-009](../../doqs/docs/decisions/2026-09-29_component-intake.md), which works
+  with doqs [ADR-008, a private parts library](../../doqs/docs/decisions/2026-09-29_private-parts-library.md)
 
 ## Context
 
@@ -22,8 +23,8 @@ Three needs were not met:
 
 Every supplier file follows [`docs/adding-components.md`](../adding-components.md):
 
-1. Record the facts in STOQ, and keep every original in the private repository
-   `refaqt/stoq-private`, at the same path.
+1. Record the facts in STOQ, and keep every original in the private parts
+   library `refaqt/stoq-private`, at the same path, with `terms = "internal"`.
 2. Save a dated copy of the terms.
 3. Decide for the CAD files and for the documentation separately: `public`,
    `customers` or `internal`. An agent may propose. A named person approves.

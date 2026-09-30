@@ -55,9 +55,19 @@ stoq-private/modules/thk/modules/shs-rail/cad/original/SHS20R300.step
 stoq-private/modules/thk/modules/shs-rail/docs/datasheets/shs-series.pdf
 ```
 
+`stoq-private` is a private parts library with the same layout as STOQ. So the
+part gets the same brand and family folders there, with its own rows:
+
+- A row in the family's `bom/parts.csv` and in `vendor-index.csv`, with
+  `terms = "internal"`. The checksum is the same as in STOQ.
+- The supplier's current licence, copied into the brand or family folder as
+  `LICENSE`, or next to one file as `<file>.license`. The `license` field of the
+  brand's `okh.toml` names it, for example `LicenseRef-HIWIN-AGB`.
+
 Do this even when the files may be published. A brand can remove a download at
 any time. Never overwrite a file in `stoq-private`: a changed file is a new row
-with a new checksum.
+with a new checksum. Read the rules in the `AGENTS.md` of `stoq-private` before
+you add anything there.
 
 ### 3. Save the terms
 
@@ -97,7 +107,7 @@ reviewed = 2026-09-29
 | `decision` | Means |
 | --- | --- |
 | `public` | Question 1 is yes. We may commit the files to STOQ. |
-| `customers` | Question 2 is yes, question 1 is no. Files stay in `stoq-private`, and go to customers from there. |
+| `customers` | Question 2 is yes, question 1 is no. Files stay in `stoq-private`. A named person hands them to a customer, for the machines that customer bought. |
 | `internal` | Only question 3 is yes. Files stay in `stoq-private`, for our own use. |
 
 Set `redistribute` in `[brand]` to `true` only when the newest `cad` decision is
