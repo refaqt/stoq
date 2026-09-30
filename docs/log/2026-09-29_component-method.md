@@ -30,7 +30,6 @@ See [ADR-002](../decisions/2026-09-29_component-intake.md).
 - Save dated copies of the HIWIN and MAXWELL terms in `stoq-private`, and add
   reviews that name them.
 - Decide what to do about MAXWELL: ask for written permission, or stop sharing.
-- Move the `doqs` pin to doqs `main` once its pull request is merged.
 - A FreeCAD script that fills in the pass or fail results of an own model's
   check list.
 
