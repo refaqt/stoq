@@ -13,10 +13,9 @@ function = "Profile rail linear guideways from HIWIN."
 name = "HIWIN GmbH"
 website = "https://www.hiwin.de"
 cad-terms = "https://www.hiwin.de/en/agb"
-# Set true on 2026-09-21 so the X-axis assembly keeps resolving for anyone who
-# clones the machine repository. This is a reading of the terms above, not a
-# legal opinion; see docs/decisions/2026-09-21_committing-supplier-cad.md.
-redistribute = true
+# Was true from 2026-09-21. Set false on 2026-10-02: the HIWIN terms do not
+# allow sharing. See docs/decisions/2026-10-02_hiwin-stop-sharing.md.
+redistribute = false
 
 # The 2026-09-21 decision, recorded in the form the component method asks for.
 # See docs/adding-components.md. No dated copy of the terms page was saved at
@@ -37,3 +36,25 @@ basis = "terms"
 source = "https://www.hiwin.de/en/agb"
 reviewer = "Niels Bosmans"
 reviewed = 2026-09-21
+
+# 2026-10-02: the terms were read and saved. Clause 2.4 of the HIWIN terms
+# says drawings and other documents "may not be made accessible to third
+# parties". The catalogue says reproduction needs HIWIN's permission. These
+# entries replace the two above; the newest entry for each kind counts.
+[[terms-review]]
+kind = "cad"
+decision = "internal"
+basis = "terms"
+source = "https://www.hiwin.de/en/agb"
+evidence = "evidence/hiwin/2026-10-02_agb.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-02
+
+[[terms-review]]
+kind = "documentation"
+decision = "internal"
+basis = "terms"
+source = "https://www.hiwin.de/en/agb"
+evidence = "evidence/hiwin/2026-10-02_agb.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-02

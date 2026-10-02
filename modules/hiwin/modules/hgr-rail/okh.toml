@@ -10,4 +10,4 @@ function = "HG series profile rail, fastened from above, cut to the length order
 name = "HIWIN GmbH"
 website = "https://www.hiwin.de"
 cad-terms = "https://www.hiwin.de/en/agb"
-redistribute = true
+redistribute = false

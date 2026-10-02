@@ -1,0 +1,161 @@
+{
+  "document": "HGR15R418H",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 27141.4,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        209.0,
+        7.4443
+      ],
+      "counts": {
+        "edges": 54,
+        "faces": 27,
+        "shells": 1,
+        "solids": 1,
+        "verts": 36
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 91331.1
+    },
+    "Counterbore": {
+      "area": 25760.2,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        209.746,
+        7.49224
+      ],
+      "counts": {
+        "edges": 18,
+        "faces": 9,
+        "shells": 1,
+        "solids": 1,
+        "verts": 12
+      },
+      "label": "Counterbore",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 93661.6
+    },
+    "Hole": {
+      "area": 25710.2,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        209.458,
+        7.5
+      ],
+      "counts": {
+        "edges": 15,
+        "faces": 7,
+        "shells": 1,
+        "solids": 1,
+        "verts": 10
+      },
+      "label": "Hole",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 93811.4
+    },
+    "Part": {
+      "area": 27141.4,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        209.0,
+        7.4443
+      ],
+      "counts": {
+        "edges": 54,
+        "faces": 27,
+        "shells": 1,
+        "solids": 1,
+        "verts": 36
+      },
+      "label": "HGR15R418H",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 91331.1
+    },
+    "Rail": {
+      "area": 25530.0,
+      "bbox": [
+        -7.5,
+        0.0,
+        0.0,
+        7.5,
+        418.0,
+        15.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        209.0,
+        7.5
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Rail",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 94050.0
+    }
+  },
+  "params": {
+    "D_cb": 7.5,
+    "E_min": 6.0,
+    "HR": 15.0,
+    "Length": 418.0,
+    "Pitch": 60.0,
+    "WR": 15.0,
+    "d_hole": 4.5,
+    "h_cb": 5.3
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "HGR15R418H.FCStd": "22fe5ce3a507b10f292102404fe92dcb1208440562f56513cf73e67db3505b35"
+  }
+}

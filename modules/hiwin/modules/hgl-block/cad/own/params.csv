@@ -1,0 +1,54 @@
+# Parameters for our own HGL15CA block model. Rebuild after a change:
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" build_model.py
+# Source: linear guideways catalogue GW-13-1-EN-2606-K, page 41 (table 3.7 and
+# figure), page 43 (rail) and page 47 (E2 unit). See HGL15CAZBC+E2.checks.csv.
+#
+# Two kinds of value:
+# - sized: printed in a catalogue table. These are exact.
+# - est_*: the figure on page 41 shows the feature but gives no size. The
+#   figure is drawn for size 25 (about 1.40 pt per mm), so the value is read
+#   from the figure and scaled by 0.70 to size 15. Replace each one with a
+#   measurement of the real part or a value from HIWIN when you have it.
+#
+# E2_units is 0: the catalogue shows a long-term lubrication unit on one end
+# for "+E2", but the HIWIN CAD file for this part number has none. Not
+# confirmed; ask HIWIN. Set 1 to add the unit from page 47 at the nipple end.
+alias,value,unit,note
+H_inst,24,mm,H: rail bottom to block top
+H1_gap,4.3,mm,H1: rail bottom to block bottom
+N_ref,9.5,mm,N: rail side to the reference edge of the block
+W_blk,34,mm,W: block width over the reference edge
+B_holes,26,mm,B: hole spacing across
+B1_edge,4.0,mm,B1: reference edge to hole centre
+C_holes,26,mm,C: hole spacing along
+L1_body,39.4,mm,L1: steel body length (end caps make up the rest of L)
+L_blk,61.4,mm,L: block length over the end seals
+K1_port,10.0,mm,K1: hole centre to the top lubrication port on the end cap
+K2_port,4.85,mm,K2: side lubrication port centre to the steel body
+G_nipple,5.3,mm,G: how far the grease nipple sticks out from the end face
+l_thread,4,mm,l: thread depth of the M4 holes
+T_ref,6.0,mm,T: height of the reference edge band from the block top
+H2_nipple,3.95,mm,H2: block top to the grease nipple axis
+H3_port,3.7,mm,H3: block top to the side lubrication port axis
+M_tap,3.3,mm,tap drill for M4 (ISO 2306); the thread is not modelled
+WR,15,mm,WR: rail width (page 43)
+HR,15,mm,HR: rail height (page 43)
+est_ref_relief,0.35,mm,set-back of the reference side below the T band (figure)
+est_chamfer_top_ref,1.7,mm,top chamfer on the reference side (figure)
+est_chamfer_top_far,1.35,mm,top chamfer on the other side (figure)
+est_chamfer_bot_x,1.35,mm,bottom outer chamfer width (figure)
+est_chamfer_bot_z,1.05,mm,bottom outer chamfer height (figure)
+est_cap_inset,0.3,mm,end cap side face inside the body side (figure)
+est_cap_drop,0.7,mm,end cap top below the block top (figure)
+est_cap_chamfer,1.05,mm,end cap top and bottom chamfer (figure)
+est_nipple_dia,4.9,mm,grease nipple envelope diameter (hex across corners; figure)
+est_screw_x,10.2,mm,end seal screw head centre from the rail centre (figure)
+est_screw_z,6.1,mm,end seal screw head centre above the rail bottom: H1 plus 1.8 from the figure
+est_screw_dia,3.5,mm,end seal screw head diameter (figure)
+est_screw_proud,0.5,mm,how far the screw head sticks out from the end seal (figure)
+est_port_dia,3.1,mm,lubrication port diameter on the end caps (figure)
+est_port_depth,0.5,mm,lubrication port recess depth (figure)
+E2_units,0,count,0 = no E2 unit; 1 = one E2 unit (see the note above)
+Lss_E2,75.4,mm,Lss: block length with one E2 unit (page 47)
+W_E2,32.4,mm,W: E2 unit width (page 47)
+H_E2,19.5,mm,H: E2 unit height (page 47)

@@ -1,0 +1,13 @@
+# Parameters for our own HGR15R rail model. Change Length and rebuild:
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" build_model.py
+# Every value except Length comes from the linear guideways catalogue
+# GW-13-1-EN-2606-K, table 3.9 on page 43. See HGR15R418H.checks.csv.
+alias,value,unit,note
+Length,418,mm,L: rail length. The holes follow it.
+WR,15,mm,WR: rail width
+HR,15,mm,HR: rail height
+D_cb,7.5,mm,D: counterbore diameter
+h_cb,5.3,mm,h: counterbore depth
+d_hole,4.5,mm,d: through hole diameter
+Pitch,60,mm,P: hole pitch
+E_min,6,mm,E1/2 min: smallest end distance

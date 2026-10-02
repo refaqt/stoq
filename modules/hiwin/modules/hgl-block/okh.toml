@@ -10,4 +10,4 @@ function = "HG series low square block, fastened from above, running on an HGR r
 name = "HIWIN GmbH"
 website = "https://www.hiwin.de"
 cad-terms = "https://www.hiwin.de/en/agb"
-redistribute = true
+redistribute = false

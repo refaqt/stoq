@@ -1,0 +1,723 @@
+{
+  "document": "HGL15CAZBC_E2",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 8956.98,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.197726,
+        30.5886,
+        15.452
+      ],
+      "counts": {
+        "edges": 131,
+        "faces": 62,
+        "shells": 1,
+        "solids": 1,
+        "verts": 86
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 29923.9
+    },
+    "EndCapFar": {
+      "area": 7665.35,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.148657,
+        30.7,
+        14.0348
+      ],
+      "counts": {
+        "edges": 74,
+        "faces": 28,
+        "shells": 1,
+        "solids": 1,
+        "verts": 48
+      },
+      "label": "EndCapFar",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 39818.9
+    },
+    "EndCapFarProfile": {
+      "area": 0.0,
+      "bbox": [
+        -16.35,
+        50.4,
+        4.3,
+        16.7,
+        50.4,
+        23.3
+      ],
+      "closed": true,
+      "com": [
+        0.175,
+        50.4,
+        13.8
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "EndCapFarProfile",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "EndCapNipple": {
+      "area": 6547.31,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        50.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.143152,
+        25.4335,
+        14.0839
+      ],
+      "counts": {
+        "edges": 52,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 34
+      },
+      "label": "EndCapNipple",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 32935.7
+    },
+    "EndCapNippleProfile": {
+      "area": 0.0,
+      "bbox": [
+        -16.35,
+        0.0,
+        4.3,
+        16.7,
+        0.0,
+        23.3
+      ],
+      "closed": true,
+      "com": [
+        0.175,
+        0.0,
+        13.8
+      ],
+      "counts": {
+        "edges": 8,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 8
+      },
+      "label": "EndCapNippleProfile",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "GreaseNipple": {
+      "area": 8739.9,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.196891,
+        30.5891,
+        15.4921
+      ],
+      "counts": {
+        "edges": 89,
+        "faces": 34,
+        "shells": 1,
+        "solids": 1,
+        "verts": 58
+      },
+      "label": "GreaseNipple",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 30064.1
+    },
+    "Part": {
+      "area": 8956.98,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.197726,
+        30.5886,
+        15.452
+      ],
+      "counts": {
+        "edges": 131,
+        "faces": 62,
+        "shells": 1,
+        "solids": 1,
+        "verts": 86
+      },
+      "label": "HGL15CAZBC_E2",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 29923.9
+    },
+    "RailChannel": {
+      "area": 8658.31,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.197548,
+        30.7,
+        15.4769
+      ],
+      "counts": {
+        "edges": 86,
+        "faces": 32,
+        "shells": 1,
+        "solids": 1,
+        "verts": 56
+      },
+      "label": "RailChannel",
+      "type": "PartDesign::SubtractiveBox",
+      "valid": true,
+      "volume": 29964.2
+    },
+    "SealScrewFar1": {
+      "area": 8750.89,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.193565,
+        30.5892,
+        15.4891
+      ],
+      "counts": {
+        "edges": 95,
+        "faces": 38,
+        "shells": 1,
+        "solids": 1,
+        "verts": 62
+      },
+      "label": "SealScrewFar1",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 30073.8
+    },
+    "SealScrewFar2": {
+      "area": 8761.89,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.196766,
+        30.5892,
+        15.4861
+      ],
+      "counts": {
+        "edges": 101,
+        "faces": 42,
+        "shells": 1,
+        "solids": 1,
+        "verts": 66
+      },
+      "label": "SealScrewFar2",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 30083.4
+    },
+    "SealScrewNipple1": {
+      "area": 8745.4,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.195228,
+        30.5842,
+        15.4906
+      ],
+      "counts": {
+        "edges": 92,
+        "faces": 36,
+        "shells": 1,
+        "solids": 1,
+        "verts": 60
+      },
+      "label": "SealScrewNipple1",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 30069.0
+    },
+    "SealScrewNipple2": {
+      "area": 8756.39,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.195166,
+        30.5842,
+        15.4876
+      ],
+      "counts": {
+        "edges": 98,
+        "faces": 40,
+        "shells": 1,
+        "solids": 1,
+        "verts": 64
+      },
+      "label": "SealScrewNipple2",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 30078.6
+    },
+    "SidePortFar1": {
+      "area": 8947.24,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.19772,
+        30.5948,
+        15.4532
+      ],
+      "counts": {
+        "edges": 125,
+        "faces": 58,
+        "shells": 1,
+        "solids": 1,
+        "verts": 82
+      },
+      "label": "SidePortFar1",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29931.4
+    },
+    "SidePortFar2": {
+      "area": 8956.98,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.197726,
+        30.5886,
+        15.452
+      ],
+      "counts": {
+        "edges": 131,
+        "faces": 62,
+        "shells": 1,
+        "solids": 1,
+        "verts": 86
+      },
+      "label": "SidePortFar2",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29923.9
+    },
+    "SidePortRef1": {
+      "area": 8942.37,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.199769,
+        30.5917,
+        15.4538
+      ],
+      "counts": {
+        "edges": 122,
+        "faces": 56,
+        "shells": 1,
+        "solids": 1,
+        "verts": 80
+      },
+      "label": "SidePortRef1",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29935.2
+    },
+    "SidePortRef2": {
+      "area": 8952.11,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.199775,
+        30.5917,
+        15.4526
+      ],
+      "counts": {
+        "edges": 128,
+        "faces": 60,
+        "shells": 1,
+        "solids": 1,
+        "verts": 84
+      },
+      "label": "SidePortRef2",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29927.7
+    },
+    "SteelBody": {
+      "area": 5429.28,
+      "bbox": [
+        -17.0,
+        11.0,
+        4.3,
+        17.0,
+        50.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.134738,
+        30.7,
+        14.1589
+      ],
+      "counts": {
+        "edges": 30,
+        "faces": 12,
+        "shells": 1,
+        "solids": 1,
+        "verts": 20
+      },
+      "label": "SteelBody",
+      "type": "PartDesign::Pad",
+      "valid": true,
+      "volume": 26052.5
+    },
+    "SteelBodyProfile": {
+      "area": 0.0,
+      "bbox": [
+        -17.0,
+        11.0,
+        4.3,
+        17.0,
+        11.0,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0792459,
+        11.0,
+        14.1548
+      ],
+      "counts": {
+        "edges": 10,
+        "faces": 0,
+        "shells": 0,
+        "solids": 0,
+        "verts": 10
+      },
+      "label": "SteelBodyProfile",
+      "type": "Sketcher::SketchObject",
+      "valid": true,
+      "volume": 0.0
+    },
+    "Thread1": {
+      "area": 8803.36,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.182189,
+        30.5743,
+        15.4787
+      ],
+      "counts": {
+        "edges": 104,
+        "faces": 44,
+        "shells": 1,
+        "solids": 1,
+        "verts": 68
+      },
+      "label": "Thread1",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 30049.2
+    },
+    "Thread2": {
+      "area": 8844.83,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.167579,
+        30.589,
+        15.4712
+      ],
+      "counts": {
+        "edges": 107,
+        "faces": 46,
+        "shells": 1,
+        "solids": 1,
+        "verts": 70
+      },
+      "label": "Thread2",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 30015.0
+    },
+    "Thread3": {
+      "area": 8886.3,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.182604,
+        30.574,
+        15.4638
+      ],
+      "counts": {
+        "edges": 110,
+        "faces": 48,
+        "shells": 1,
+        "solids": 1,
+        "verts": 72
+      },
+      "label": "Thread3",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29980.8
+    },
+    "Thread4": {
+      "area": 8927.77,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.197665,
+        30.5887,
+        15.4563
+      ],
+      "counts": {
+        "edges": 113,
+        "faces": 50,
+        "shells": 1,
+        "solids": 1,
+        "verts": 74
+      },
+      "label": "Thread4",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29946.5
+    },
+    "TopPort1": {
+      "area": 8932.63,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.19769,
+        30.5916,
+        15.4554
+      ],
+      "counts": {
+        "edges": 116,
+        "faces": 52,
+        "shells": 1,
+        "solids": 1,
+        "verts": 76
+      },
+      "label": "TopPort1",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29942.8
+    },
+    "TopPort2": {
+      "area": 8937.5,
+      "bbox": [
+        -17.0,
+        -5.3,
+        4.3,
+        17.0,
+        61.9,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.197715,
+        30.5887,
+        15.4544
+      ],
+      "counts": {
+        "edges": 119,
+        "faces": 54,
+        "shells": 1,
+        "solids": 1,
+        "verts": 78
+      },
+      "label": "TopPort2",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 29939.0
+    }
+  },
+  "params": {
+    "B1_edge": 4.0,
+    "B_holes": 26.0,
+    "C_holes": 26.0,
+    "E2_units": 0.0,
+    "G_nipple": 5.3,
+    "H1_gap": 4.3,
+    "H2_nipple": 3.95,
+    "H3_port": 3.7,
+    "HR": 15.0,
+    "H_E2": 19.5,
+    "H_inst": 24.0,
+    "K1_port": 10.0,
+    "K2_port": 4.85,
+    "L1_body": 39.4,
+    "L_blk": 61.4,
+    "Lss_E2": 75.4,
+    "M_tap": 3.3,
+    "N_ref": 9.5,
+    "T_ref": 6.0,
+    "WR": 15.0,
+    "W_E2": 32.4,
+    "W_blk": 34.0,
+    "est_cap_chamfer": 1.05,
+    "est_cap_drop": 0.7,
+    "est_cap_inset": 0.3,
+    "est_chamfer_bot_x": 1.35,
+    "est_chamfer_bot_z": 1.05,
+    "est_chamfer_top_far": 1.35,
+    "est_chamfer_top_ref": 1.7,
+    "est_nipple_dia": 4.9,
+    "est_port_depth": 0.5,
+    "est_port_dia": 3.1,
+    "est_ref_relief": 0.35,
+    "est_screw_dia": 3.5,
+    "est_screw_proud": 0.5,
+    "est_screw_x": 10.2,
+    "est_screw_z": 6.1,
+    "l_thread": 4.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "HGL15CAZBC+E2.FCStd": "af6dbaf392b6e74843c842bebb89c8dd16f3e9fd0a9e20b46c8d760bcc76a9c7"
+  }
+}

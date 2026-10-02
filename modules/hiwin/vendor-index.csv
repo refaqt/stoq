@@ -1,5 +1,10 @@
 # Brand-level provenance: the catalogue covers the whole HG series, so it sits
 # here rather than in one family. The retrieval date is the day it was recorded
 # into this library; the document's own edition is GW-13-1-EN-2606-K.
+#
+# 2026-10-02: the HIWIN terms do not allow sharing the catalogue, so the row is
+# fetch-only. The address now points at the PDF itself on the HIWIN download
+# page (it was the download page); the file there has the same checksum.
+# Our own copy is in stoq-private at the same path.
 supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
-hiwin,GW-13-1-EN-2606-K,docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,7798960,b2ccae74dedaaec76019c9affff38b73546556070fb188f72533475261b3c570,https://www.hiwin.de/en/service/downloads,redistributable,2026-09-21T00:00:00Z
+hiwin,GW-13-1-EN-2606-K,docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,7798960,b2ccae74dedaaec76019c9affff38b73546556070fb188f72533475261b3c570,https://www.hiwin.de/medias/sys_master/hiwinDocumentMedia/h0d/h5a/14755945709598/HIWIN%20CATALOGUE%20LINEAR%20GUIDEWAYS/HIWIN-CATALOGUE-LINEAR-GUIDEWAYS.PDF?attachment=true,fetch-only,2026-09-21T00:00:00Z

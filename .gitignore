@@ -15,6 +15,16 @@ __pycache__/
 # modules/thk/modules/shs-rail/cad/parts/SHS20R300.FCStd
 # modules/thk/modules/shs-rail/cad/original/SHS20R300.step
 
+# HIWIN: the terms do not allow sharing (2026-10-02). Our copies are in
+# stoq-private at the same paths. The files stay in the history before that
+# date; history is never rewritten.
+modules/hiwin/docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf
+modules/hiwin/modules/hgl-block/cad/original/HGL15CA2R760ZBC2-ZZ+E2.step
+modules/hiwin/modules/hgl-block/cad/original/HGL15CAZBC+E2.step
+modules/hiwin/modules/hgl-block/cad/parts/HGL15CAZBC+E2.FCStd
+modules/hiwin/modules/hgr-rail/cad/original/HGR15R418H.step
+modules/hiwin/modules/hgr-rail/cad/parts/HGR15R418H.FCStd
+
 # FreeCAD rotates a backup beside every document it saves. It is a copy of the
 # file next to it, so it never belongs in the history.
 *.FCBak
