@@ -1,0 +1,15 @@
+# Check list for our own model. Every value comes from the HIWIN linear guideways
+# catalogue GW-13-1-EN-2606-K (public address in ../../vendor-index.csv).
+# The catalogue is not committed here: restore it from stoq-private or download it.
+# `result` is written by a separate comparison with the brand model: only
+# pass, fail or not-confirmed, never the brand value.
+dimension,value_mm,source,page,result,checked_utc
+rail width WR,15,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z
+rail height HR,15.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z
+counterbore diameter D,7.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z
+counterbore depth h,5.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z
+through hole diameter d,4.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z
+hole pitch P,60,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z
+end distance E1 = E2 at L = 418 (formula F 3.2; symmetric; most holes with E at least 6),29,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,44,pass,2026-10-02T00:00:00Z
+number of holes at L = 418 (count; not mm),7,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,44,pass,2026-10-02T00:00:00Z
+rail length L,418,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,43,pass,2026-10-02T00:00:00Z

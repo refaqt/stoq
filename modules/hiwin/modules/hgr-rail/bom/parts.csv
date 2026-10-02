@@ -4,5 +4,9 @@
 #
 # Mass is the catalogue figure for the series (1.45 kg/m for HGR15R) times the
 # ordered length.
+#
+# 2026-10-02: cad points at our own model, drawn from the catalogue only. Its
+# length is a value in the Params sheet; the holes follow the length. The
+# HIWIN STEP file and the document built from it are kept in stoq-private.
 pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
-HGR15R418H,HGR15 profile rail 418 mm accuracy class H,rail width 15 mm; rail height 15 mm; hole pitch 60 mm; mounting M4 x 20 from above; accuracy class H,606,cad/parts/HGR15R418H.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Configured and downloaded as HGR15R418H.stp. Rail for the AQTUATOR X axis.
+HGR15R418H,HGR15 profile rail 418 mm accuracy class H,rail width 15 mm; rail height 15 mm; hole pitch 60 mm; mounting M4 x 20 from above; accuracy class H,606,cad/own/HGR15R418H.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,own-model,A,active,Configured and downloaded as HGR15R418H.stp. Own model: change Length in the Params sheet for another rail length. Rail for the AQTUATOR X axis.

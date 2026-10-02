@@ -1,0 +1,18 @@
+# Check list for our own model. Every value comes from the HIWIN linear guideways
+# catalogue GW-13-1-EN-2606-K (public address in ../../vendor-index.csv).
+# The catalogue is not committed here: restore it from stoq-private or download it.
+# `result` is written by a separate comparison with the brand model: only
+# pass, fail or not-confirmed, never the brand value.
+dimension,value_mm,source,page,result,checked_utc
+installation height H (rail bottom to block top),24,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+rail bottom to block bottom H1,4.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+rail side to block side N,9.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+block width W,34,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+hole spacing across B,26,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+block side to hole centre B1,4.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+hole spacing along C,26,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+block length L without E2 unit,61.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+thread depth l (M4),4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+block length with one E2 unit Lss,75.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,47,not-confirmed,2026-10-02T00:00:00Z
+E2 unit width W,32.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,47,not-confirmed,2026-10-02T00:00:00Z
+E2 unit height H,19.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,47,not-confirmed,2026-10-02T00:00:00Z
