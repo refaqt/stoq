@@ -1,0 +1,251 @@
+{
+  "document": "HGL15CAZBC_E2",
+  "errors": [],
+  "objects": {
+    "Block": {
+      "area": 7933.96,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        30.7,
+        14.15
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Block",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 41125.7
+    },
+    "Body": {
+      "area": 9092.8,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        30.7,
+        15.5399
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 18,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Body",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 31134.2
+    },
+    "Part": {
+      "area": 9092.8,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        30.7,
+        15.5399
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 18,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "HGL15CAZBC_E2",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 31134.2
+    },
+    "RailChannel": {
+      "area": 8926.92,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        30.7,
+        15.5681
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "RailChannel",
+      "type": "PartDesign::SubtractiveBox",
+      "valid": true,
+      "volume": 31271.0
+    },
+    "Thread1": {
+      "area": 8968.39,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -0.0142382,
+        30.6858,
+        15.5611
+      ],
+      "counts": {
+        "edges": 27,
+        "faces": 12,
+        "shells": 1,
+        "solids": 1,
+        "verts": 18
+      },
+      "label": "Thread1",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 31236.8
+    },
+    "Thread2": {
+      "area": 9009.86,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -0.0285076,
+        30.7,
+        15.554
+      ],
+      "counts": {
+        "edges": 30,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 20
+      },
+      "label": "Thread2",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 31202.6
+    },
+    "Thread3": {
+      "area": 9051.33,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        -0.0142694,
+        30.6857,
+        15.5469
+      ],
+      "counts": {
+        "edges": 33,
+        "faces": 16,
+        "shells": 1,
+        "solids": 1,
+        "verts": 22
+      },
+      "label": "Thread3",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 31168.4
+    },
+    "Thread4": {
+      "area": 9092.8,
+      "bbox": [
+        -17.0,
+        0.0,
+        4.3,
+        17.0,
+        61.4,
+        24.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        30.7,
+        15.5399
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 18,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Thread4",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 31134.2
+    }
+  },
+  "params": {
+    "B_holes": 26.0,
+    "C_holes": 26.0,
+    "E2_units": 0.0,
+    "H1_gap": 4.3,
+    "HR": 15.0,
+    "H_E2": 19.5,
+    "H_inst": 24.0,
+    "L_blk": 61.4,
+    "Lss_E2": 75.4,
+    "M_tap": 3.3,
+    "WR": 15.0,
+    "W_E2": 32.4,
+    "W_blk": 34.0,
+    "l_thread": 4.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "HGL15CAZBC+E2.FCStd": "7040e89da7eb67b1b149d32d248ffec59485439088030f846ed11348c1cb3afc"
+  }
+}

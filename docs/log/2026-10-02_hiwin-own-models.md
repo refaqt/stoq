@@ -15,9 +15,15 @@ fit with at least 6 mm at each end, and the same distance at both ends. A
 418 mm rail gets 7 holes, 29 mm from each end.
 
 A separate step compared each dimension with the HIWIN files. The rail passes
-all 9 checks. The block passes 6 of 12. The other 6 could not be confirmed:
-the HIWIN block file has no rail to measure the heights from, and no separate
-E2 lubrication unit. Nothing failed.
+all 9 checks. The block passes 9 of 12. The three E2 rows are not confirmed:
+the catalogue shows an E2 lubrication unit on one end, but the HIWIN file for
+this part number has none. So the E2 unit is a parameter in our model, off by
+default, until HIWIN confirms which is right.
+
+The first version of the models was wrong: the block had the E2 unit on one
+end and both models used other axes than the HIWIN models. They were rebuilt
+the same day from build scripts, with the HIWIN axes and a symmetric block.
+See the [mistake note](../mistakes/2026-10-02_hiwin-own-models-not-checked.md).
 
 ## Why it matters
 
@@ -27,8 +33,8 @@ model works for any length, so a new machine does not need a new download.
 ## Next Steps
 
 - Point the AQTUATOR X axis at the new models in `cad/own/`.
-- Confirm the E2 unit length with HIWIN. The catalogue gives 75.4 mm for the
-  block with one E2 unit; the HIWIN file shows no separate unit.
+- Ask HIWIN whether the HGL15CAZBC+E2 block has an E2 unit on one end, as the
+  catalogue shows, or none, as their CAD file shows.
 - Optional: ask HIWIN for written permission to share the files.
 
 ## Related

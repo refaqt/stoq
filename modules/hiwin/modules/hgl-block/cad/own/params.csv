@@ -1,0 +1,25 @@
+# Parameters for our own HGL15CA block model. Rebuild after a change:
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" build_model.py
+# Values come from the linear guideways catalogue GW-13-1-EN-2606-K: table 3.7
+# on page 41, table 3.9 on page 43 (rail) and table 3.13 on page 47 (E2 unit).
+# See HGL15CAZBC+E2.checks.csv.
+#
+# E2_units is 0: the catalogue shows a long-term lubrication unit on one end
+# for "+E2", but the HIWIN CAD file for this part number has none and is
+# symmetric. Which is right is not confirmed; ask HIWIN. Set 1 to show the
+# unit from the catalogue on the grease nipple end (Y below 0).
+alias,value,unit,note
+H_inst,24,mm,H: rail bottom to block top
+H1_gap,4.3,mm,H1: rail bottom to block bottom
+W_blk,34,mm,W: block width
+B_holes,26,mm,B: hole spacing across
+C_holes,26,mm,C: hole spacing along
+L_blk,61.4,mm,L: block length over the end seals
+l_thread,4,mm,l: thread depth of the M4 holes
+M_tap,3.3,mm,tap drill for M4 (ISO 2306); the thread is not modelled
+WR,15,mm,WR: rail width (page 43)
+HR,15,mm,HR: rail height (page 43)
+E2_units,0,count,0 = no E2 unit; 1 = one E2 unit (see the note above)
+Lss_E2,75.4,mm,Lss: block length with one E2 unit (page 47)
+W_E2,32.4,mm,W: E2 unit width (page 47)
+H_E2,19.5,mm,H: E2 unit height (page 47)

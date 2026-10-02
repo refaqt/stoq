@@ -3,10 +3,13 @@
 # The catalogue is not committed here: restore it from stoq-private or download it.
 # `result` is written by a separate comparison with the brand model: only
 # pass, fail or not-confirmed, never the brand value.
+#
+# The three E2 rows are not confirmed: the HIWIN CAD file for this part has no
+# E2 unit. The model has them as a parameter (E2_units), off by default.
 dimension,value_mm,source,page,result,checked_utc
-installation height H (rail bottom to block top),24,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
-rail bottom to block bottom H1,4.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
-rail side to block side N,9.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+installation height H (rail bottom to block top),24,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+rail bottom to block bottom H1,4.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+rail side to block side N,9.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 block width W,34,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 hole spacing across B,26,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 block side to hole centre B1,4.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
