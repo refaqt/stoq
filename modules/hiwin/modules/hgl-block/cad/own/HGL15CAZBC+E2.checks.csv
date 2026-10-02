@@ -1,21 +1,55 @@
 # Check list for our own model. Every value comes from the HIWIN linear guideways
 # catalogue GW-13-1-EN-2606-K (public address in ../../vendor-index.csv).
 # The catalogue is not committed here: restore it from stoq-private or download it.
+# Rows marked "estimated" are read from the figure on page 41, which is drawn
+# for size 25, and scaled to size 15. They are not catalogue values.
 # `result` is written by a separate comparison with the brand model: only
-# pass, fail or not-confirmed, never the brand value.
+# pass, fail or not-confirmed, never the brand value. A failed estimate is
+# replaced by a measurement of the real part or a value from HIWIN, never by
+# the brand model's value.
+#
+# Comparison of 2026-10-02: 16 rows pass. The grease nipple length G and 12 of
+# the 13 estimates failed against the brand model. G was read again: the
+# figure clearly measures from the end seal face to the nipple tip, so the
+# catalogue and the brand model differ. The estimates come from a figure that
+# is not to scale for size 15. All of these are set to not-confirmed until the
+# real part is measured or HIWIN answers. Until then, the nipple, the screw
+# heads, the chamfers, the end caps and the ports are placeholders. The brand
+# model also has a plug on the far end face, which is not modelled yet.
 #
 # The three E2 rows are not confirmed: the HIWIN CAD file for this part has no
 # E2 unit. The model has them as a parameter (E2_units), off by default.
 dimension,value_mm,source,page,result,checked_utc
 installation height H (rail bottom to block top),24,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 rail bottom to block bottom H1,4.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
-rail side to block side N,9.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
-block width W,34,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+rail side to reference edge N,9.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+block width W over the reference edge,34,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 hole spacing across B,26,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
-block side to hole centre B1,4.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+reference edge to hole centre B1,4.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 hole spacing along C,26,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
-block length L without E2 unit,61.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+block length L over the end seals,61.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+steel body length L1,39.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
 thread depth l (M4),4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+reference edge band height T from the top,6.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+grease nipple length G beyond the end face,5.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+block top to grease nipple axis H2,3.95,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+hole centre to top lubrication port K1,10.0,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+side lubrication port to steel body K2,4.85,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+block top to side lubrication port axis H3,3.7,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+reference side set-back below the band (estimated from the figure (drawn for size 25; scaled)),0.35,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,pass,2026-10-02T00:00:00Z
+top chamfer on the reference side (estimated from the figure (drawn for size 25; scaled)),1.7,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+top chamfer on the other side (estimated from the figure (drawn for size 25; scaled)),1.35,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+bottom outer chamfer width (estimated from the figure (drawn for size 25; scaled)),1.35,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+bottom outer chamfer height (estimated from the figure (drawn for size 25; scaled)),1.05,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end cap side inside the body side (estimated from the figure (drawn for size 25; scaled)),0.3,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end cap top below the block top (estimated from the figure (drawn for size 25; scaled)),0.7,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end cap top and bottom chamfer (estimated from the figure (drawn for size 25; scaled)),1.05,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+grease nipple envelope diameter (estimated from the figure (drawn for size 25; scaled)),4.9,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end seal screw head centre from the rail centre (estimated from the figure (drawn for size 25; scaled)),10.2,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end seal screw head centre above the rail bottom (estimated from the figure (drawn for size 25; scaled)),6.1,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end seal screw head diameter (estimated from the figure (drawn for size 25; scaled)),3.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+end seal screw head height beyond the end seal (estimated from the figure (drawn for size 25; scaled)),0.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
+lubrication port diameter on the end caps (estimated from the figure (drawn for size 25; scaled)),3.1,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,41,not-confirmed,2026-10-02T00:00:00Z
 block length with one E2 unit Lss,75.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,47,not-confirmed,2026-10-02T00:00:00Z
 E2 unit width W,32.4,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,47,not-confirmed,2026-10-02T00:00:00Z
 E2 unit height H,19.5,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,47,not-confirmed,2026-10-02T00:00:00Z

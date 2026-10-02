@@ -17,6 +17,11 @@ catalogue, but they did not match the real part:
   folder, where the builder could read the HIWIN values.
 - The HIWIN files were taken out of git but left in the person's folder, and
   the report did not say so.
+- The second version still left out seven dimensions that the catalogue table
+  gives (T, L1, G, H2, H3, K1, K2), and every feature the figure shows without
+  a size: the reference edge, the end caps, the chamfers, the grease nipple,
+  the seal screw heads and the lubrication ports. Several of these stick out
+  of the block and can cause collisions in an assembly.
 
 ## Why it went wrong
 
@@ -26,6 +31,11 @@ catalogue, but they did not match the real part:
 - Placement and axes were chosen freely. Nothing says an own model must sit
   where the brand model sits.
 - A "pass" was accepted without asking how it was measured.
+- The builder modelled the table values it understood and silently dropped
+  the rest. Nothing asked for a list of every labelled dimension and every
+  drawn feature.
+- The catalogue figure is drawn for one size (here size 25) and used for all
+  sizes. It cannot simply be measured for size 15.
 - The doqs build-script method was not used, and the doqs CAD check skips a
   parts library completely, so nothing asked for it. The doqs template's
   headless rebuild also does nothing in FreeCAD 1.1, because FreeCAD does not
@@ -44,6 +54,13 @@ catalogue, but they did not match the real part:
 - The comparison works in its own folder, measures exactly what the catalogue
   defines, and says how it measured each "pass". Read that before you accept it.
 - When files leave git, say whether they are still on disk.
+- Before modelling, list every labelled dimension in the drawing and every
+  drawn feature. Model each one, or write down why it is left out. Anything
+  that sticks out of the main shape (nipples, screw heads, plugs, reference
+  edges) is never left out.
+- When the figure shows a feature without a size, check which size the figure
+  is drawn for, estimate from it, mark the value as an estimate, and ask for a
+  measurement of the real part.
 
 ## Related
 
