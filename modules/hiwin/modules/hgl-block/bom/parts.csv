@@ -9,5 +9,9 @@
 #
 # 2026-10-02: cad points at our own model, drawn from the catalogue only. The
 # HIWIN STEP files and the document built from them are kept in stoq-private.
+#
+# 2026-10-06: cad points at the HIWIN document again, because we share the
+# HIWIN files until HIWIN objects. Our own model stays in cad/own/ as a
+# fallback.
 pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
-HGL15CAZBC+E2,HGL15CA low square block ZB preload class C with E2 lubrication unit,block width 34 mm; block height 19.7 mm; installation height 24 mm; block length 61.4 mm (75.4 mm with one E2 unit); 4 x M4 x 4 mounting threads; Cdyn 14700 N; C0 23470 N,140,cad/own/HGL15CAZBC+E2.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,own-model,A,active,Catalogue mass is the bare HGL15CA block without the E2 unit. Downloaded as HGL15CAZBC_E2_FILE_2.stp. Two per rail on the AQTUATOR X axis. Own model: every catalogue dimension, the reference edge on -X and the HIWIN axes. Nipple; screw heads; chamfers; end caps and ports are placeholders until the real part is measured. The E2 unit is off by default: the catalogue shows it on one end but the HIWIN CAD file has none; not confirmed.
+HGL15CAZBC+E2,HGL15CA low square block ZB preload class C with E2 lubrication unit,block width 34 mm; block height 19.7 mm; installation height 24 mm; block length 61.4 mm (75.4 mm with one E2 unit); 4 x M4 x 4 mounting threads; Cdyn 14700 N; C0 23470 N,140,cad/parts/HGL15CAZBC+E2.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Catalogue mass is the bare HGL15CA block without the E2 unit. Downloaded as HGL15CAZBC_E2_FILE_2.stp. Two per rail on the AQTUATOR X axis. Our own model in cad/own/ is the fallback if HIWIN objects: every catalogue dimension, the reference edge on -X and the HIWIN axes. Nipple; screw heads; chamfers; end caps and ports are placeholders until the real part is measured. The E2 unit is off by default: the catalogue shows it on one end but the HIWIN CAD file has none; not confirmed.

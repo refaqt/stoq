@@ -11,13 +11,12 @@ checks expect. The full specification is
 | [`hiwin/`](hiwin/) | `hgr-rail`, `hgl-block` | Profile rail linear guideways |
 | [`maxwell/`](maxwell/) | `mk2-mover`, `mk2-stator`, `wjm-forcer` | Iron core linear motors |
 
-HIWIN files are no longer shared: the HIWIN terms do not allow it. The rail
-and the block have our own models in `cad/own/`, drawn from the catalogue. See
-[ADR-003](../docs/decisions/2026-10-02_hiwin-stop-sharing.md). MAXWELL files
-are still shared, under
-[ADR-001](../docs/decisions/2026-09-21_committing-supplier-cad.md), but nothing
-written allows it yet, so the check shows a warning until someone gets written
-permission. A new brand starts from `fetch-only`.
+Both brands are shared, so a machine that links one of these models keeps
+working for anyone who clones it. We share brand files until the brand objects.
+See [ADR-004](../docs/decisions/2026-10-06_share-supplier-files-until-asked.md).
+Nothing written allows the sharing for either brand, so the check shows a
+warning for both. The HIWIN rail and block also have our own models in
+`cad/own/`, drawn from the catalogue. They are the fallback if HIWIN objects.
 
 Adding a brand, a family or a part follows
 [`docs/adding-components.md`](../docs/adding-components.md).

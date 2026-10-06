@@ -6,5 +6,7 @@
 # fetch-only. The address now points at the PDF itself on the HIWIN download
 # page (it was the download page); the file there has the same checksum.
 # Our own copy is in stoq-private at the same path.
+# 2026-10-06: shared again until HIWIN objects, so the row is redistributable
+# and the file is back in git.
 supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
-hiwin,GW-13-1-EN-2606-K,docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,7798960,b2ccae74dedaaec76019c9affff38b73546556070fb188f72533475261b3c570,https://www.hiwin.de/medias/sys_master/hiwinDocumentMedia/h0d/h5a/14755945709598/HIWIN%20CATALOGUE%20LINEAR%20GUIDEWAYS/HIWIN-CATALOGUE-LINEAR-GUIDEWAYS.PDF?attachment=true,fetch-only,2026-09-21T00:00:00Z
+hiwin,GW-13-1-EN-2606-K,docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,7798960,b2ccae74dedaaec76019c9affff38b73546556070fb188f72533475261b3c570,https://www.hiwin.de/medias/sys_master/hiwinDocumentMedia/h0d/h5a/14755945709598/HIWIN%20CATALOGUE%20LINEAR%20GUIDEWAYS/HIWIN-CATALOGUE-LINEAR-GUIDEWAYS.PDF?attachment=true,redistributable,2026-09-21T00:00:00Z

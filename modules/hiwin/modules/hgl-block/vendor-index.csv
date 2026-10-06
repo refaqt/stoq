@@ -7,6 +7,8 @@
 # from the HIWIN configurator, which needs a customer login, so there is no
 # public address and the rows are private. Our own copy is in stoq-private at
 # the same path. The address column still names the configurator.
+# 2026-10-06: shared again until HIWIN objects, so the rows are
+# redistributable and the files are back in git.
 supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
-hiwin,HGL15CAZBC+E2,cad/original/HGL15CAZBC+E2.step,515207,9721bcc22dff6999388d692f06e78733a83ab813641a4da08661b642b6f51c8a,https://www.hiwin.de/en/tools/produktkonfiguratoren,private,2026-06-25T11:29:56Z
-hiwin,HGL15CA2R760ZBC2-ZZ+E2,cad/original/HGL15CA2R760ZBC2-ZZ+E2.step,4652838,2499243da907f759021d915c33803cc77b116035dbaf063a64b5ae2d27dd443c,https://www.hiwin.de/en/tools/produktkonfiguratoren,private,2026-06-25T10:14:15Z
+hiwin,HGL15CAZBC+E2,cad/original/HGL15CAZBC+E2.step,515207,9721bcc22dff6999388d692f06e78733a83ab813641a4da08661b642b6f51c8a,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-06-25T11:29:56Z
+hiwin,HGL15CA2R760ZBC2-ZZ+E2,cad/original/HGL15CA2R760ZBC2-ZZ+E2.step,4652838,2499243da907f759021d915c33803cc77b116035dbaf063a64b5ae2d27dd443c,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-06-25T10:14:15Z

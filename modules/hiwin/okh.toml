@@ -15,7 +15,9 @@ website = "https://www.hiwin.de"
 cad-terms = "https://www.hiwin.de/en/agb"
 # Was true from 2026-09-21. Set false on 2026-10-02: the HIWIN terms do not
 # allow sharing. See docs/decisions/2026-10-02_hiwin-stop-sharing.md.
-redistribute = false
+# Set true again on 2026-10-06: we share the files until HIWIN objects. See
+# docs/decisions/2026-10-06_share-supplier-files-until-asked.md.
+redistribute = true
 
 # The 2026-09-21 decision, recorded in the form the component method asks for.
 # See docs/adding-components.md. No dated copy of the terms page was saved at
@@ -58,3 +60,26 @@ source = "https://www.hiwin.de/en/agb"
 evidence = "evidence/hiwin/2026-10-02_agb.pdf"
 reviewer = "Niels Bosmans"
 reviewed = 2026-10-02
+
+# 2026-10-06: share the files again, until HIWIN asks us to stop. The terms
+# have not changed: nothing written allows sharing, so basis = "none" and the
+# check shows a warning. If HIWIN objects, add an `internal` entry again and
+# move the files back to stoq-private. See
+# docs/decisions/2026-10-06_share-supplier-files-until-asked.md.
+[[terms-review]]
+kind = "cad"
+decision = "public"
+basis = "none"
+source = "https://www.hiwin.de/en/agb"
+evidence = "evidence/hiwin/2026-10-02_agb.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-06
+
+[[terms-review]]
+kind = "documentation"
+decision = "public"
+basis = "none"
+source = "https://www.hiwin.de/en/agb"
+evidence = "evidence/hiwin/2026-10-02_agb.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-06
