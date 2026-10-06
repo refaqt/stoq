@@ -9,5 +9,9 @@
 # length is a value in cad/own/params.csv; the holes follow the length. Rebuild
 # with cad/own/build_model.py. The HIWIN STEP file and the document built from
 # it are kept in stoq-private.
+#
+# 2026-10-06: cad points at the HIWIN document again, because we share the
+# HIWIN files until HIWIN objects. Our own model stays in cad/own/ as a
+# fallback, and for rail lengths we have no HIWIN file for.
 pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
-HGR15R418H,HGR15 profile rail 418 mm accuracy class H,rail width 15 mm; rail height 15 mm; hole pitch 60 mm; mounting M4 x 20 from above; accuracy class H,606,cad/own/HGR15R418H.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,own-model,A,active,Configured and downloaded as HGR15R418H.stp. Own model: change Length in cad/own/params.csv and rebuild for another rail length. Rail for the AQTUATOR X axis.
+HGR15R418H,HGR15 profile rail 418 mm accuracy class H,rail width 15 mm; rail height 15 mm; hole pitch 60 mm; mounting M4 x 20 from above; accuracy class H,606,cad/parts/HGR15R418H.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Configured and downloaded as HGR15R418H.stp. Our own model in cad/own/: change Length in cad/own/params.csv and rebuild for another rail length. Rail for the AQTUATOR X axis.

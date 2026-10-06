@@ -86,7 +86,9 @@ brand often allows one and not the other.
 3. May we **keep** a copy for ourselves?
 4. May we make **derived files**, such as a FreeCAD document built from their STEP?
 
-If the terms do not clearly say yes, the answer is no.
+If the terms do not clearly say yes, the answer is no. That answer records
+what the terms say. Niels Bosmans may still decide to share the files: see
+[Route D](#route-d--share-until-the-brand-objects).
 
 ### 5. Record the decision
 
@@ -167,6 +169,25 @@ Follow these rules. They keep the model clean.
 In `bom/parts.csv`, the row gets `terms = "own-model"` and `cad` points to
 `cad/own/<pn>.FCStd`. Run `bash doqs.sh generate` once, so `cad/own/` gets its
 licence file.
+
+#### Route D — Share until the brand objects
+
+This is the default for brand CAD files and documents since 2026-10-06. See
+[ADR-004](decisions/2026-10-06_share-supplier-files-until-asked.md). Most
+brands share these files freely, and a design with the brand's own model
+shows their product well. Simplified models of our own look basic.
+
+- Still do steps 1 to 4: record the facts, keep a private copy, save the
+  terms, and answer the four questions honestly.
+- Record the decision as `public` with `basis = "none"`, unless the terms or a
+  written permission allow sharing. Then use `terms` or `permission`, as in
+  Route A. The check shows a warning for `basis = "none"`. That is expected.
+- Commit the files to STOQ with `terms = "redistributable"`.
+- Do not use this route for a file that came under a confidentiality agreement
+  (NDA). Those files stay `internal`.
+- If the brand objects, stop sharing that same week. Add an `internal` entry,
+  follow step 7, and use Route C if the machine still needs the geometry.
+  Save the brand's message in `stoq-private/evidence/<brand>/`.
 
 ### 7. Keep non-public files out of git
 

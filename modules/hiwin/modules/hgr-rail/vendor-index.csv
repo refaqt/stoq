@@ -4,5 +4,7 @@
 # from the HIWIN configurator, which needs a customer login, so there is no
 # public address and the rows are private. Our own copy is in stoq-private at
 # the same path. The address column still names the configurator.
+# 2026-10-06: shared again until HIWIN objects, so the rows are
+# redistributable and the files are back in git.
 supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
-hiwin,HGR15R418H,cad/original/HGR15R418H.step,294456,3ef4691679403807aa0df066049f1dd87685a9dd53868bf3a54812317d371773,https://www.hiwin.de/en/tools/produktkonfiguratoren,private,2026-08-18T12:32:40Z
+hiwin,HGR15R418H,cad/original/HGR15R418H.step,294456,3ef4691679403807aa0df066049f1dd87685a9dd53868bf3a54812317d371773,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-08-18T12:32:40Z
