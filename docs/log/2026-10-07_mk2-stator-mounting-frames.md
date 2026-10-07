@@ -35,8 +35,11 @@ be placed by hand or on supplier faces, which break when the model changes.
   the STEP shape. The STEP hole pattern sits 0.78 mm off the centre of the envelope, towards the N
   end. The catalogue gives 30.6 mm from the end to the first hole, which matches.
 - The hole rows are at z = ±37 mm (74 mm apart in the catalogue). The frame is at z = 0.
-- The frames were added with `freecadcmd`. These files have never had colour data
-  (no `GuiDocument.xml`), so nothing was lost by working without the window.
+- The frames were added with `freecadcmd`. These files had no view data (no `GuiDocument.xml`),
+  so nothing was lost by working without the window.
+- Found later the same day: without view data, the FreeCAD window opens these files with every
+  object hidden, so a stator in an assembly was invisible. Both files were saved once from the
+  window, with the part, the shape and the frame switched on. They now have view data.
 - `bash doqs.sh check` passes.
 
 </details>
