@@ -1,5 +1,5 @@
 # Parameters for our own HGL15CA block model. Rebuild after a change:
-#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" build_model.py
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" HGL15CAZBC+E2.build.py
 # Source: linear guideways catalogue GW-13-1-EN-2606-K, page 41 (table 3.7 and
 # figure), page 43 (rail) and page 47 (E2 unit). See HGL15CAZBC+E2.checks.csv.
 #

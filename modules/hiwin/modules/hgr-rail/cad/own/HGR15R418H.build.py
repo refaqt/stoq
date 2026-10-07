@@ -2,9 +2,9 @@
 
 Every dimension comes from the linear guideways catalogue GW-13-1-EN-2606-K:
 table 3.9 on page 43 and formula F 3.2 on page 44. The brand's CAD file was
-not used. Change `Length` in `params.csv`, then rebuild headless:
+not used. Change `Length` in `HGR15R418H.params.csv`, then rebuild headless:
 
-    "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" build_model.py
+    "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" HGR15R418H.build.py
 
 The number of holes follows the length: as many as fit with at least E_min at
 each end, and the same end distance at both ends (catalogue notes 2 and 3).
@@ -33,7 +33,13 @@ def _doqs_scripts(start):
 
 sys.path.insert(0, str(_doqs_scripts(_HERE)))
 
-from cad_build import body, run  # noqa: E402
+from cad_build import body, main  # noqa: E402
+
+#: The axes and origin of this model. They are the same as in the brand's
+#: model, so ours can replace it in an assembly.
+AXES = (
+    "Y along the rail, from 0 to Length; Z up, rail bottom at Z = 0; X across, rail centred on X = 0. The same as the HIWIN model."
+)
 
 DERIVED = [
     ("n_holes", "=floor((Length - 2 * E_min) / Pitch) + 1",
@@ -72,7 +78,7 @@ def _params_sheet(doc, params):
         sheet.setAlias(f"B{row}", alias)
         row += 1
     sheet.set(f"A{row + 1}", "Source: linear guideways catalogue GW-13-1-EN-2606-K, page 43 and 44. "
-              "Change values in params.csv and rebuild.")
+              "Change values in HGR15R418H.params.csv and rebuild.")
     return sheet
 
 
@@ -113,6 +119,6 @@ def build(doc, params):
     pattern.Visibility = True
 
 
-# FreeCADCmd 1.1 runs a script under its file name, not "__main__".
-if __name__ in ("__main__", "build_model"):
-    run(build, cad_dir=_HERE)
+# Keep this line as it is. FreeCADCmd 1.1 sets __name__ to the file name,
+# so a test on "__main__" would skip the build without a word.
+main(build, globals(), cad_dir=_HERE)

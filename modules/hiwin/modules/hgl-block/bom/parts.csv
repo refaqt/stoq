@@ -4,8 +4,8 @@
 # One further HIWIN download is recorded in vendor-index.csv without a row
 # here: HGL15CA2R760ZBC2-ZZ+E2, an assembled guideway of two 760 mm rails with
 # two blocks each. An assembled guideway is neither a block nor a rail, so it
-# gets no row in either family; the file is kept because it is the only record
-# of that configuration.
+# gets no row in either family. Its row there is private: the record is kept,
+# the file is not in git.
 #
 # 2026-10-02: cad points at our own model, drawn from the catalogue only. The
 # HIWIN STEP files and the document built from them are kept in stoq-private.
