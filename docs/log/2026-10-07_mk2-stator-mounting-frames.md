@@ -20,8 +20,9 @@ be placed by hand or on supplier faces, which break when the model changes.
 ## Next Steps
 
 - Give the MK2-300 stator a FreeCAD part with the same frame when it is first used.
-- The parts table says "one 120 mm hole pitch" for the MK2-120 and "two 120 mm hole pitches" for
-  the MK2-180. The STEP files have 60 mm between holes. Check the table against the data sheet.
+- Done later the same day: the parts table said the holes are 120 mm apart. That came from an
+  error in the data sheet drawing. Niels confirmed the holes are 60 mm apart, as in the STEP files,
+  and the table now says so.
 
 <details>
 <summary>Technical notes</summary>
