@@ -1,5 +1,5 @@
 # Parameters for our own HGR15R rail model. Change Length and rebuild:
-#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" build_model.py
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" HGR15R418H.build.py
 # Every value except Length comes from the linear guideways catalogue
 # GW-13-1-EN-2606-K, table 3.9 on page 43. See HGR15R418H.checks.csv.
 alias,value,unit,note

@@ -675,6 +675,188 @@
       "volume": 29939.0
     }
   },
+  "parametric": {
+    "audited": 22,
+    "objects": {
+      "EndCapFar": {
+        "label": "EndCapFar",
+        "type": "PartDesign::Pad",
+        "unlinked": [
+          "Length is a typed number: 11"
+        ]
+      },
+      "EndCapFarProfile": {
+        "dof": 32,
+        "label": "EndCapFarProfile",
+        "type": "Sketcher::SketchObject",
+        "unlinked": [
+          "32 degrees of freedom left. Add relations (equal, symmetric, coincident) and linked dimensions until nothing can move",
+          "Placement is typed: (0, 50.4, 0) mm, 90 deg"
+        ]
+      },
+      "EndCapNipple": {
+        "label": "EndCapNipple",
+        "type": "PartDesign::Pad",
+        "unlinked": [
+          "Length is a typed number: 11"
+        ]
+      },
+      "EndCapNippleProfile": {
+        "dof": 32,
+        "label": "EndCapNippleProfile",
+        "type": "Sketcher::SketchObject",
+        "unlinked": [
+          "32 degrees of freedom left. Add relations (equal, symmetric, coincident) and linked dimensions until nothing can move",
+          "Placement is typed: (0, 0, 0) mm, 90 deg"
+        ]
+      },
+      "GreaseNipple": {
+        "label": "GreaseNipple",
+        "type": "PartDesign::AdditiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 2.45",
+          "Height is a typed number: 5.3"
+        ]
+      },
+      "RailChannel": {
+        "label": "RailChannel",
+        "type": "PartDesign::SubtractiveBox",
+        "unlinked": [
+          "Length is a typed number: 15",
+          "Width is a typed number: 101.4",
+          "Height is a typed number: 15"
+        ]
+      },
+      "SealScrewFar1": {
+        "label": "SealScrewFar1",
+        "type": "PartDesign::AdditiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.75",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SealScrewFar2": {
+        "label": "SealScrewFar2",
+        "type": "PartDesign::AdditiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.75",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SealScrewNipple1": {
+        "label": "SealScrewNipple1",
+        "type": "PartDesign::AdditiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.75",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SealScrewNipple2": {
+        "label": "SealScrewNipple2",
+        "type": "PartDesign::AdditiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.75",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SidePortFar1": {
+        "label": "SidePortFar1",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.55",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SidePortFar2": {
+        "label": "SidePortFar2",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.55",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SidePortRef1": {
+        "label": "SidePortRef1",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.55",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SidePortRef2": {
+        "label": "SidePortRef2",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.55",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "SteelBody": {
+        "label": "SteelBody",
+        "type": "PartDesign::Pad",
+        "unlinked": [
+          "Length is a typed number: 39.4"
+        ]
+      },
+      "SteelBodyProfile": {
+        "dof": 40,
+        "label": "SteelBodyProfile",
+        "type": "Sketcher::SketchObject",
+        "unlinked": [
+          "40 degrees of freedom left. Add relations (equal, symmetric, coincident) and linked dimensions until nothing can move",
+          "Placement is typed: (0, 11, 0) mm, 90 deg"
+        ]
+      },
+      "Thread1": {
+        "label": "Thread1",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.65",
+          "Height is a typed number: 4"
+        ]
+      },
+      "Thread2": {
+        "label": "Thread2",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.65",
+          "Height is a typed number: 4"
+        ]
+      },
+      "Thread3": {
+        "label": "Thread3",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.65",
+          "Height is a typed number: 4"
+        ]
+      },
+      "Thread4": {
+        "label": "Thread4",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.65",
+          "Height is a typed number: 4"
+        ]
+      },
+      "TopPort1": {
+        "label": "TopPort1",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.55",
+          "Height is a typed number: 0.5"
+        ]
+      },
+      "TopPort2": {
+        "label": "TopPort2",
+        "type": "PartDesign::SubtractiveCylinder",
+        "unlinked": [
+          "Radius is a typed number: 1.55",
+          "Height is a typed number: 0.5"
+        ]
+      }
+    }
+  },
   "params": {
     "B1_edge": 4.0,
     "B_holes": 26.0,
@@ -718,6 +900,6 @@
   "saved": true,
   "schema": 1,
   "sources": {
-    "HGL15CAZBC+E2.FCStd": "af6dbaf392b6e74843c842bebb89c8dd16f3e9fd0a9e20b46c8d760bcc76a9c7"
+    "HGL15CAZBC+E2.FCStd": "37c2e773e4a3dcb8018d03c95e284c398158ce71c30de739afb5bf64813a83c9"
   }
 }

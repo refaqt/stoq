@@ -143,6 +143,18 @@
       "volume": 94050.0
     }
   },
+  "parametric": {
+    "audited": 4,
+    "objects": {
+      "HolePattern": {
+        "label": "HolePattern",
+        "type": "PartDesign::LinearPattern",
+        "unlinked": [
+          "Placement is typed: (0, 29, 9.7) mm, 0 deg"
+        ]
+      }
+    }
+  },
   "params": {
     "D_cb": 7.5,
     "E_min": 6.0,
@@ -156,6 +168,6 @@
   "saved": true,
   "schema": 1,
   "sources": {
-    "HGR15R418H.FCStd": "22fe5ce3a507b10f292102404fe92dcb1208440562f56513cf73e67db3505b35"
+    "HGR15R418H.FCStd": "81f357a88ed2b831d6c76a5ff7a3e3de4903b1ffc2db2444ef109d0ea3e93fd6"
   }
 }

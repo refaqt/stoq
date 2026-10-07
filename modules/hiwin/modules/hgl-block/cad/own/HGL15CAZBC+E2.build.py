@@ -2,10 +2,10 @@
 
 Source: linear guideways catalogue GW-13-1-EN-2606-K, page 41 (table 3.7 and
 the figure), page 43 (rail) and page 47 (E2 unit). The brand's CAD file was
-not used. Values named est_* in params.csv are read from the figure, which is
+not used. Values named est_* in HGL15CAZBC+E2.params.csv are read from the figure, which is
 drawn for size 25, and scaled to size 15: they are estimates. Rebuild headless:
 
-    "C:\\Program Files\\FreeCAD 1.1\\bin\\freecadcmd.exe" build_model.py
+    "C:\\Program Files\\FreeCAD 1.1\\bin\\freecadcmd.exe" HGL15CAZBC+E2.build.py
 
 Axes, the same as our rail model and the HIWIN model:
 - Y runs along the rail. The end face of the grease nipple end is at Y = 0,
@@ -50,7 +50,13 @@ def _doqs_scripts(start):
 
 sys.path.insert(0, str(_doqs_scripts(_HERE)))
 
-from cad_build import body, run  # noqa: E402
+from cad_build import body, main  # noqa: E402
+
+#: The axes and origin of this model. They are the same as in the brand's
+#: model, so ours can replace it in an assembly.
+AXES = (
+    "Y along the rail, from the grease nipple end face (Y = 0) to the other end face (Y = L); Z up, rail bottom at Z = 0; X across, rail centre at X = 0, reference edge on -X. The same as the HIWIN model."
+)
 
 
 def _clear(doc):
@@ -75,7 +81,7 @@ def _params_sheet(doc, params):
         sheet.setAlias(f"B{row}", alias)
         row += 1
     sheet.set(f"A{row + 1}", "Source: linear guideways catalogue GW-13-1-EN-2606-K, pages 41, 43 "
-              "and 47. est_* values are estimates. Change values in params.csv and rebuild.")
+              "and 47. est_* values are estimates. Change values in HGL15CAZBC+E2.params.csv and rebuild.")
     return sheet
 
 
@@ -217,6 +223,6 @@ def build(doc, params):
     features[-1].Visibility = True
 
 
-# FreeCADCmd 1.1 runs a script under its file name, not "__main__".
-if __name__ in ("__main__", "build_model"):
-    run(build, cad_dir=_HERE)
+# Keep this line as it is. FreeCADCmd 1.1 sets __name__ to the file name,
+# so a test on "__main__" would skip the build without a word.
+main(build, globals(), cad_dir=_HERE)
