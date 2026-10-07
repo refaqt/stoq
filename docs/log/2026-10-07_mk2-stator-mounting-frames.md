@@ -20,8 +20,9 @@ be placed by hand or on supplier faces, which break when the model changes.
 ## Next Steps
 
 - Give the MK2-300 stator a FreeCAD part with the same frame when it is first used.
-- The parts table says "one 120 mm hole pitch" for the MK2-120 and "two 120 mm hole pitches" for
-  the MK2-180. The STEP files have 60 mm between holes. Check the table against the data sheet.
+- Done later the same day: the parts table said the holes are 120 mm apart. That came from an
+  error in the data sheet drawing. Niels confirmed the holes are 60 mm apart, as in the STEP files,
+  and the table now says so.
 
 <details>
 <summary>Technical notes</summary>
@@ -34,8 +35,11 @@ be placed by hand or on supplier faces, which break when the model changes.
   the STEP shape. The STEP hole pattern sits 0.78 mm off the centre of the envelope, towards the N
   end. The catalogue gives 30.6 mm from the end to the first hole, which matches.
 - The hole rows are at z = ±37 mm (74 mm apart in the catalogue). The frame is at z = 0.
-- The frames were added with `freecadcmd`. These files have never had colour data
-  (no `GuiDocument.xml`), so nothing was lost by working without the window.
+- The frames were added with `freecadcmd`. These files had no view data (no `GuiDocument.xml`),
+  so nothing was lost by working without the window.
+- Found later the same day: without view data, the FreeCAD window opens these files with every
+  object hidden, so a stator in an assembly was invisible. Both files were saved once from the
+  window, with the part, the shape and the frame switched on. They now have view data.
 - `bash doqs.sh check` passes.
 
 </details>
