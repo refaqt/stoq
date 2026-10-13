@@ -1,0 +1,17 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "HIWIN EGR Profile Rail"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/hiwin/modules/egr-rail"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "EG series profile rail, fastened from above, cut to the length ordered. The QE blocks run on it too."
+
+[brand]
+name = "HIWIN GmbH"
+website = "https://www.hiwin.de"
+cad-terms = "https://www.hiwin.de/en/agb"
+redistribute = true
+
+# Interfaces this family provides. `doqs add-interface` in a machine adds
+# the matching port def; declare the family's own here.

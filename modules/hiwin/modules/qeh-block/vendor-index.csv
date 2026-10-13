@@ -1,0 +1,4 @@
+# The retrieval date is the timestamp the HIWIN configurator wrote into the
+# STEP header, which is the moment the file was generated for us.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+hiwin,QEH15CAZAP+E2,cad/original/QEH15CAZAP+E2.step,458243,3b6d14535408759402ea392ca6c952b90578ed7035df1c769eff1229ca009918,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-10-13T07:11:53Z
