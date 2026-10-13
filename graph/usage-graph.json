@@ -1,4 +1,15 @@
 {
+  "modules/hiwin/modules/egr-rail": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/hiwin",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/hiwin/modules/hgl-block": {
     "current_version": "0.1.0",
     "trl": null,
@@ -11,6 +22,17 @@
     "used_by_builds": []
   },
   "modules/hiwin/modules/hgr-rail": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/hiwin",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/hiwin/modules/qeh-block": {
     "current_version": "0.1.0",
     "trl": null,
     "used_by": [

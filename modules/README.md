@@ -8,7 +8,7 @@ checks expect. The full specification is
 
 | Brand | Families | What they are |
 | --- | --- | --- |
-| [`hiwin/`](hiwin/) | `hgr-rail`, `hgl-block` | Profile rail linear guideways |
+| [`hiwin/`](hiwin/) | `hgr-rail`, `hgl-block`, `egr-rail`, `qeh-block` | Profile rail linear guideways (HG and EG/QE series) |
 | [`maxwell/`](maxwell/) | `mk2-mover`, `mk2-stator`, `wjm-forcer` | Iron core linear motors |
 
 Both brands are shared, so a machine that links one of these models keeps

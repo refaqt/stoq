@@ -1,0 +1,8 @@
+# EG series profile rail. The EG rail carries both the EG and the QE blocks.
+# Size is architectural -- an EGR15 and an EGR20 have different bolt patterns --
+# so another size is another family. Length is a number, so it is another row.
+#
+# Mass is the catalogue figure for the series (1.25 kg/m for EGR15R) times the
+# ordered length.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+EGR15R418H,EGR15 profile rail 418 mm accuracy class H,rail width 15 mm; rail height 12.5 mm; hole pitch 60 mm; mounting M3 x 16 from above; accuracy class H,523,cad/parts/EGR15R418H.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Configured and downloaded as EGR15R418H_FILE_2.stp. 7 holes at 60 mm pitch; 29 mm from each end to the first hole.

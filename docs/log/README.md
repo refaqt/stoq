@@ -11,3 +11,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-10-06 | [HIWIN files are shared again](2026-10-06_hiwin-shared-again.md) | mechanical engineering, legal | 0 |
 | 2026-10-07 | [Shared tooling updated, guideway file out of git](2026-10-07_tooling-update-and-guideway-file.md) | mechanical engineering | 0 |
 | 2026-10-12 | [The MK21 forcer has a FreeCAD part](2026-10-12_mk21-forcer-part.md) | mechanical engineering | 0 |
+| 2026-10-13 | [A HIWIN EG rail and QE block, with assembly frames](2026-10-13_hiwin-eg-rail-qe-block.md) | mechanical engineering, purchasing | 0 |
