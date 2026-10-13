@@ -7,7 +7,7 @@
 Two new HIWIN parts are in the library, each in a new family:
 
 - `egr-rail`: the EGR15R418H rail, 418 mm long. The EG rail carries both the EG and the QE blocks.
-- `qeh-block`: the QEH15CAZAP+E2 block, a quiet square block with the E2 lubrication unit.
+- `qeh-block`: the QEH15SAZAP+E2 block, a quiet square block with the E2 lubrication unit.
 
 Both have the HIWIN STEP file and a FreeCAD part with mounting frames:
 
@@ -30,9 +30,12 @@ turn its slide axis: see the technical notes.
 
 ## Next Steps
 
-- The block has 2 mounting holes, not the 4 in the catalogue. The E2 lifetime lubrication unit
-  takes the place of one hole row, and the block has less load capacity (Niels confirmed this).
-  Ask HIWIN for the load ratings of this block before a design is sized on them.
+- Corrected later the same day: the block is the QEH15SA, the light load block, which has 2
+  mounting holes by design. It was first recorded as the QEH15CA, because the HIWIN file had that
+  name. The load ratings are now the SA values from the catalogue. The HIWIN file was
+  downloaded again under the SA number (08:36 UTC). The shape is the same; only the names and the
+  header time differ, so the FreeCAD parts were not rebuilt. See the
+  [mistake entry](../mistakes/2026-10-13_hiwin-block-recorded-under-wrong-part-number.md).
 - The frames of the older HGR15 rail and HGL15 block have X across the rail, and the rail has no
   frame for the block. Give them the same frames as the new parts, if a machine needs both series.
 
@@ -40,7 +43,7 @@ turn its slide axis: see the technical notes.
 <summary>Technical notes</summary>
 
 - Files: `modules/hiwin/modules/egr-rail/cad/parts/EGR15R418H.FCStd` and
-  `modules/hiwin/modules/qeh-block/cad/parts/QEH15CAZAP+E2.FCStd`. Each holds an `App::Part`
+  `modules/hiwin/modules/qeh-block/cad/parts/QEH15SAZAP+E2.FCStd`. Each holds an `App::Part`
   labelled with the part number, the imported shape `HIWIN_<pn>` (one solid, HIWIN colours) and
   the frames as `Part::LocalCoordinateSystem`.
 - The shapes keep the HIWIN axes: width along X, length along Y, height along Z, rail bottom at
