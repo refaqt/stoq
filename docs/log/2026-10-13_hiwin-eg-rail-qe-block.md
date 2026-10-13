@@ -30,9 +30,9 @@ turn its slide axis: see the technical notes.
 
 ## Next Steps
 
-- The HIWIN file of the block shows only 2 of the 4 M4 mounting holes: one row at the centre of the
-  block body. The catalogue gives 4 holes at 26 × 26 mm. Check the real block before a carriage is
-  drilled to it.
+- The block has 2 mounting holes, not the 4 in the catalogue. The E2 lifetime lubrication unit
+  takes the place of one hole row, and the block has less load capacity (Niels confirmed this).
+  Ask HIWIN for the load ratings of this block before a design is sized on them.
 - The frames of the older HGR15 rail and HGL15 block have X across the rail, and the rail has no
   frame for the block. Give them the same frames as the new parts, if a machine needs both series.
 
