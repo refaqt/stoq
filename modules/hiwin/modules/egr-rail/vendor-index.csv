@@ -2,3 +2,4 @@
 # STEP header, which is the moment the file was generated for us.
 supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
 hiwin,EGR15R418H,cad/original/EGR15R418H.step,281074,9758967dfe03b1773efde00fccfc14f304ecf2076b3523c20fb2f484cd375c1f,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-10-13T07:15:50Z
+hiwin,EGR15U418H,cad/original/EGR15U418H.step,304186,17caa5d3072a4e86a078ca2625d8191fc7e12a7f8ed5724df06206f6a3eb6102,https://www.hiwin.de/en/tools/produktkonfiguratoren,redistributable,2026-10-13T08:02:29Z
