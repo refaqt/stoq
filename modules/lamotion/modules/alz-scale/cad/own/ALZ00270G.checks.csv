@@ -1,0 +1,19 @@
+# Check list for our own ALZ00270G scale model. The values come from the
+# LAMOTION ABS read head datasheet V1.44 (BiSS-C). Page numbers are the numbers
+# printed on the page; the PDF page is one more.
+#
+# The brand model used for the comparison is cad/original/AL32B050-30MUL+ALZ.step
+# in the abs-readhead family: the read head on a short piece of ALZ scale. The
+# comparison measured only the scale solids in it, in a headless FreeCAD run,
+# after our model was finished. It holds no full-length scale, so the length
+# is not-confirmed. Only pass, fail or not-confirmed is written, never the
+# brand value.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (scale length; part number ALZ00270G),270,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,14,,,"Not measurable: the brand file holds only a short piece of scale. The length is the one in the part number (ALZ + length in mm + G).",not-confirmed,2026-10-20T09:30:00Z
+envelope Y (adhesive backing plus tape),0.4,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,"Extent along Y of the bounding box of the tape and adhesive solids together, on both models",pass,2026-10-20T09:30:00Z
+envelope Z (tape width),8,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,4,,,"Extent along Z of the bounding box of the tape solid, on both models",pass,2026-10-20T09:30:00Z
+symmetry XY,-,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,"Bounding box of the tape and of the adhesive compared with their mirror image in the XY plane through the origin (Z = 0), on both models",pass,2026-10-20T09:30:00Z
+tape thickness,0.2,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,"Extent along Y of the tape solid, on both models",pass,2026-10-20T09:30:00Z
+adhesive backing width,7,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,4,,,"Extent along Z of the adhesive solid, on both models",pass,2026-10-20T09:30:00Z
+adhesive backing thickness,0.2,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,"Extent along Y of the adhesive solid, on both models",pass,2026-10-20T09:30:00Z
+gap from read head to scale top (frame IF_head of the scale to frame IF_scale of the head),0.8,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,"Distance along Y from the bottom face of the read head body to the top face of the tape in the brand head-and-scale model, compared with the offset of the head frame IF_scale",pass,2026-10-20T09:30:00Z

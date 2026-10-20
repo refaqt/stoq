@@ -1,0 +1,44 @@
+okhv = "OKH-LOSHv1.0"
+name = "LAMOTION"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/lamotion"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Optical linear encoders from LAMOTION: read heads, scales and their accessories."
+
+# The name on the part. LAMOTION is the brand of Dalian Banyan Tree Optics
+# (大连榕树光学有限公司). The files are public downloads on lamotion.cn.
+[brand]
+name = "Dalian Banyan Tree Optics Co., Ltd. (LAMOTION)"
+website = "https://www.lamotion.cn"
+# The brand publishes no terms for its downloads. The website footer says
+# "All Rights Reserved", so the company site is the only address to record.
+cad-terms = "https://www.lamotion.cn"
+# Set true on 2026-10-20: we share the files until LAMOTION objects. See
+# docs/decisions/2026-10-06_share-supplier-files-until-asked.md.
+redistribute = true
+
+# 2026-10-20. Nothing written allows sharing, so basis = "none" and the check
+# shows a warning. The datasheets say the opposite: page 2 of the ABS datasheet
+# V1.44 says that nobody may copy, translate or spread the document, in part or
+# in full, without written permission from the company. The website footer says
+# "All Rights Reserved". Niels Bosmans decided to share the files anyway, until
+# LAMOTION objects, as for HIWIN. If LAMOTION objects, add an `internal` entry
+# and move the files to stoq-private. Never edit these entries.
+[[terms-review]]
+kind = "cad"
+decision = "public"
+basis = "none"
+source = "https://www.lamotion.cn"
+evidence = "evidence/lamotion/2026-10-20_website-home-page.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-20
+
+[[terms-review]]
+kind = "documentation"
+decision = "public"
+basis = "none"
+source = "https://www.lamotion.cn"
+evidence = "evidence/lamotion/2026-10-20_abs-datasheet-copyright-page.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-20

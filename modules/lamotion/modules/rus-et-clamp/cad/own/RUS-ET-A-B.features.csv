@@ -1,0 +1,11 @@
+# Every feature of the RUS-ET A-B end clamps that the documents show. Page
+# numbers are the numbers printed on the page.
+feature,kind,outside_envelope,source,page,status,reason
+plate (32 x 15 mm),sized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,modelled,
+plate thickness (0.5 mm),sized,no,../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,14,modelled,
+notch in the adhesive backing (14 x 8 mm) open at the scale end,sized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,modelled,
+notch depth,drawn-unsized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,estimated,
+notch position across the width,drawn-unsized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,estimated,
+rounded corners in plan view,drawn-unsized,no,../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,14,estimated,
+clamp B as the mirror image of clamp A,drawn-unsized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,estimated,
+two lines and the brand name printed on the top,drawn-unsized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,left-out,Printing on the surface. It changes no size and brand text is a trademark.

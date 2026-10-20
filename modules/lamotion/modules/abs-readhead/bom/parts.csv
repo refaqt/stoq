@@ -1,0 +1,13 @@
+# ABS absolute read head. The ordering code is A L bits B resolution - cable M type exit
+# (datasheet page 12; page numbers are the numbers printed on the page).
+# Bits, resolution, cable length and type do not change the shape. The cable
+# exit does: L leaves the end of the head, R turns 90 degrees.
+#
+# AL32B050-30MUL: 32 bit, BiSS-C, 50 nm, 3 m cable with a 9-pin D-sub connector,
+# standard type, cable out of the end. The 3 m cable has the shortest delivery
+# time (page 12). 32 bit and 50 nm are the values on the head label in the
+# installation drawing (page 9).
+#
+# Mass: head 20 g plus cable 42.5 g/m x 3 m (page 4).
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+AL32B050-30MUL,ABS absolute read head 32 bit BiSS-C 50 nm with 3 m cable and D-sub connector,size 36 x 16.5 x 18.4 mm; for the ALZ 50 um scale; BiSS-C over RS485/422; supply 5 V +-10 % below 350 mA; top speed 15 m/s; 0.8 +-0.15 mm above the scale; 2 x M3 through holes 26 mm apart with the optical centre 12 mm from the cable-side hole; screws at least 8 mm into the head at 0.7 to 0.9 Nm; cable 4.6 mm with 45 mm bend radius,148,cad/parts/AL32B050-30MUL.FCStd,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,redistributable,A,active,The STEP file is the LAMOTION file 绝对值外形.STEP (absolute encoder outline) from ABS+AHBS_STEP.rar. It shows the head with a short cable stub out of the end (exit L) and no connector. AL32B050-30MUL+ALZ.step (绝对值直线栅尺组合.STEP) is the same head on a short piece of ALZ scale. It is kept for reference: the scale has its own row in the alz-scale family.

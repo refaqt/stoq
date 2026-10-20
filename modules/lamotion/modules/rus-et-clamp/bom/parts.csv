@@ -1,0 +1,13 @@
+# RUS-ET A-B end clamps. The datasheet writes the part number as "RUS-ET A-B"
+# (ABS datasheet page 10) and "RUS-ET-A/B" (RX2 grating rules page 14). It is one
+# order code for the pair: clamp A and clamp B are mirror images. A space and a
+# slash cannot be in a file name, so the row uses RUS-ET-A-B.
+#
+# Page numbers are the numbers printed on the page. The ABS datasheet gives the
+# plan sizes and no thickness. The RX2 grating rules show the same part with
+# its thickness, 0.5 mm.
+#
+# LAMOTION publishes no CAD file of the clamps, so cad is our own model. Mass
+# is not in either document and is left empty.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+RUS-ET-A-B,RUS-ET end clamp pair A and B for a stuck-on steel tape scale,two plates 32 x 15 x 0.5 mm; adhesive backing with a 14 x 8 mm notch for the end of the scale; A and B are mirror images,,cad/own/RUS-ET-A-B.FCStd,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,own-model,A,active,The thickness is from ../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf page 14. The model places clamp B at the far end of a 270 mm scale (ALZ00270G); change scale_len in the params file for another length.

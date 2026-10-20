@@ -1,0 +1,13 @@
+# ALZ absolute steel tape scale. Ordered by the piece, the code is ALZ, the
+# length in mm as 5 digits, then G (with adhesive backing) or E (without)
+# (datasheet page 14; page numbers are the numbers printed on the page).
+# Another length is another row: change Length in the params file of the own
+# model and rebuild.
+#
+# LAMOTION publishes no CAD file of the scale alone, so cad is our own model,
+# drawn from the datasheet.
+#
+# Mass is not in the datasheet. 3 g is the volume of the steel tape (270 x 8 x
+# 0.2 mm) times 7.9 g/cm3, an estimate.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+ALZ00270G,ALZ absolute steel tape scale 270 mm with adhesive backing,50 um absolute code; tape 8 x 0.2 mm; adhesive backing 7 x 0.2 mm; accuracy +-10 um/m; linearity +-2.5 um/m; thermal expansion 10.5 um/m/K; for the ABS and AHBS read heads,3,cad/own/ALZ00270G.FCStd,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,own-model,A,active,Held at both ends by the RUS-ET-A-B end clamps. Stick it on with the ALZ-ASST-ABS mounting tool (datasheet page 10).
