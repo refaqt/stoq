@@ -1,0 +1,14 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "LAMOTION RUS-ET End Clamp"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/lamotion/modules/rus-et-clamp"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "RUS-ET A-B end clamps: a pair of thin plates that hold the two ends of a stuck-on steel tape scale."
+
+[brand]
+name = "Dalian Banyan Tree Optics Co., Ltd. (LAMOTION)"
+website = "https://www.lamotion.cn"
+cad-terms = "https://www.lamotion.cn"
+redistribute = true

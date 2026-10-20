@@ -1,0 +1,12 @@
+# Parameters for our own ALZ scale model. Change Length and rebuild from the
+# library root:
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" modules/lamotion/modules/alz-scale/cad/own/ALZ00270G.build.py
+# Every value comes from the LAMOTION ABS read head datasheet V1.44 (BiSS-C).
+# Page numbers are the numbers printed on the page. Length is part of the part
+# number: ALZ00270G is a 270 mm scale with adhesive backing (page 14).
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+Length,270,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,14,,,Scale length. The part number holds it: ALZ + length in mm (5 digits) + G
+scale_w,8,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,4,,,Scale width (steel tape)
+scale_t,0.2,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,Scale thickness (steel tape)
+adh_w,7,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,4,,,Adhesive backing width
+adh_t,0.2,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,Adhesive backing thickness

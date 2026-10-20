@@ -1,0 +1,162 @@
+{
+  "document": "ALZ00270G",
+  "errors": [],
+  "objects": {
+    "Backing": {
+      "area": 3890.8,
+      "bbox": [
+        0.0,
+        0.0,
+        -3.5,
+        270.0,
+        0.2,
+        3.5
+      ],
+      "closed": true,
+      "com": [
+        135.0,
+        0.1,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Backing",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 378.0
+    },
+    "Body": {
+      "area": 3890.8,
+      "bbox": [
+        0.0,
+        0.0,
+        -3.5,
+        270.0,
+        0.2,
+        3.5
+      ],
+      "closed": true,
+      "com": [
+        135.0,
+        0.1,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Adhesive",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 378.0
+    },
+    "Body001": {
+      "area": 4431.2,
+      "bbox": [
+        0.0,
+        0.2,
+        -4.0,
+        270.0,
+        0.4,
+        4.0
+      ],
+      "closed": true,
+      "com": [
+        135.0,
+        0.3,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Scale",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 432.0
+    },
+    "Part": {
+      "area": 8322.0,
+      "bbox": [
+        0.0,
+        0.0,
+        -4.0,
+        270.0,
+        0.4,
+        4.0
+      ],
+      "closed": true,
+      "com": [
+        135.0,
+        0.206667,
+        0.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "ALZ00270G",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 810.0
+    },
+    "Tape": {
+      "area": 4431.2,
+      "bbox": [
+        0.0,
+        0.2,
+        -4.0,
+        270.0,
+        0.4,
+        4.0
+      ],
+      "closed": true,
+      "com": [
+        135.0,
+        0.3,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Tape",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 432.0
+    }
+  },
+  "parametric": {
+    "audited": 4,
+    "objects": {}
+  },
+  "params": {
+    "Length": 270.0,
+    "adh_t": 0.2,
+    "adh_w": 7.0,
+    "scale_t": 0.2,
+    "scale_w": 8.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "ALZ00270G.FCStd": "c2a7080fbf405af4d6e8f255a43cf94db263b92c90635083d99e4f2b0200b4c8"
+  }
+}

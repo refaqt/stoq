@@ -13,3 +13,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-10-12 | [The MK21 forcer has a FreeCAD part](2026-10-12_mk21-forcer-part.md) | mechanical engineering | 0 |
 | 2026-10-13 | [A HIWIN EG rail and QE block, with assembly frames](2026-10-13_hiwin-eg-rail-qe-block.md) | mechanical engineering, purchasing | 0 |
 | 2026-10-13 | [The HIWIN EGR15U rail is in the library](2026-10-13_hiwin-egr15u-rail.md) | mechanical engineering, purchasing | 0 |
+| 2026-10-20 | [The LAMOTION ABS linear encoder is in the library](2026-10-20_lamotion-abs-encoder.md) | mechanical engineering, purchasing, legal | 0 |

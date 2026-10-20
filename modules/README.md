@@ -10,13 +10,16 @@ checks expect. The full specification is
 | --- | --- | --- |
 | [`hiwin/`](hiwin/) | `hgr-rail`, `hgl-block`, `egr-rail`, `qeh-block` | Profile rail linear guideways (HG and EG/QE series) |
 | [`maxwell/`](maxwell/) | `mk2-mover`, `mk2-stator`, `wjm-forcer` | Iron core linear motors |
+| [`lamotion/`](lamotion/) | `abs-readhead`, `alz-scale`, `rus-et-clamp` | Absolute optical linear encoder: read head, steel tape scale and end clamps |
 
-Both brands are shared, so a machine that links one of these models keeps
+All three brands are shared, so a machine that links one of these models keeps
 working for anyone who clones it. We share brand files until the brand objects.
 See [ADR-004](../docs/decisions/2026-10-06_share-supplier-files-until-asked.md).
-Nothing written allows the sharing for either brand, so the check shows a
-warning for both. The HIWIN rail and block also have our own models in
+Nothing written allows the sharing for any of them, so the check shows a
+warning for each. The HIWIN rail and block also have our own models in
 `cad/own/`, drawn from the catalogue. They are the fallback if HIWIN objects.
+LAMOTION publishes no CAD file of the ALZ scale or the RUS-ET end clamps, so
+those two families only have our own models.
 
 Adding a brand, a family or a part follows
 [`docs/adding-components.md`](../docs/adding-components.md).

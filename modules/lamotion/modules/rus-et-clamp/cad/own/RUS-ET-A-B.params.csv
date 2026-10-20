@@ -1,0 +1,15 @@
+# Parameters for our own RUS-ET A-B end clamp pair. Change scale_len to the
+# length of the scale the clamps hold, and rebuild from the library root:
+#   "C:\Program Files\FreeCAD 1.1\bin\freecadcmd.exe" modules/lamotion/modules/rus-et-clamp/cad/own/RUS-ET-A-B.build.py
+# Page numbers are the numbers printed on the page. Plan sizes: ABS read head
+# datasheet V1.44 (BiSS-C), page 10. Thickness: RX2 grating rules V2.57, page 14,
+# which shows the same RUS-ET-A/B part.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+clamp_l,32,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,Clamp length
+clamp_w,15,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,Clamp width
+clamp_t,0.5,mm,catalogue,../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,14,,,Clamp thickness
+notch_l,14,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,Length of the notch in the adhesive backing. It is open at the scale end of the clamp
+notch_w,8,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,Width of the notch. The same as the scale width
+notch_d,0.4,mm,estimated,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,Depth of the notch. No size given: assumed equal to the scale tape plus its adhesive (0.2 + 0.2 mm on page 9)
+corner_r,2,mm,estimated,../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,14,,,Corner radius in plan view. No size given: read off the figure (15 mm width as the scale)
+scale_len,270,mm,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,14,,,Length of the scale the pair holds (ALZ00270G). Clamp B sits this far from clamp A

@@ -1,0 +1,7 @@
+# Every feature of the ALZ scale that the datasheet shows. Page numbers are the
+# numbers printed on the page.
+feature,kind,outside_envelope,source,page,status,reason
+steel tape (length x 8 x 0.2 mm),sized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,4,modelled,
+adhesive backing (7 x 0.2 mm) under the tape,sized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,4,modelled,
+absolute code track (50 um pitch) on the tape,drawn-unsized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,left-out,Printed lines on the surface. They change no outside size.
+release paper on the adhesive,drawn-unsized,no,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,left-out,Peeled off when the scale is stuck on. It is not part of the fitted scale.

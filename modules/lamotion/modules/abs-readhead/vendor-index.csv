@@ -1,0 +1,9 @@
+# Both files come from ABS+AHBS_STEP.rar, a public download on lamotion.cn. The
+# brand gives them Chinese names; they are stored under the part number.
+#   AL32B050-30MUL.step      = 绝对值外形.STEP (absolute encoder outline)
+#   AL32B050-30MUL+ALZ.step  = 绝对值直线栅尺组合.STEP (absolute linear scale set)
+# The retrieval date is the day the archive was downloaded into our purchasing
+# folder.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+lamotion,AL32B050-30MUL,cad/original/AL32B050-30MUL.step,400844,526b4bd05dd2889491775174b6cd509ffa29d8a9a4f7c1b63b577e71dd924df8,http://lamotion.cn/file/pdf/ABS%2BAHBS_STEP.rar,redistributable,2026-09-25T09:11:16Z
+lamotion,AL32B050-30MUL,cad/original/AL32B050-30MUL+ALZ.step,825537,39fbe08a6822fd86bfb6035acfd7539dacbe379e327412a23f2aa7a63d7c065b,http://lamotion.cn/file/pdf/ABS%2BAHBS_STEP.rar,redistributable,2026-09-25T09:11:16Z

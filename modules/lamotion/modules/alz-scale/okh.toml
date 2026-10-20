@@ -1,0 +1,14 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "LAMOTION ALZ Scale"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/lamotion/modules/alz-scale"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "ALZ absolute steel tape scale with a 50 um code, 8 mm wide, stuck to the machine with its adhesive backing. Cut to the length ordered."
+
+[brand]
+name = "Dalian Banyan Tree Optics Co., Ltd. (LAMOTION)"
+website = "https://www.lamotion.cn"
+cad-terms = "https://www.lamotion.cn"
+redistribute = true

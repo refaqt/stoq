@@ -1,0 +1,14 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "LAMOTION ABS Read Head"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/lamotion/modules/abs-readhead"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "ABS absolute optical read head for the ALZ steel tape scale. Size 36 x 16.5 x 18.4 mm, mounted from the side with two M3 screws."
+
+[brand]
+name = "Dalian Banyan Tree Optics Co., Ltd. (LAMOTION)"
+website = "https://www.lamotion.cn"
+cad-terms = "https://www.lamotion.cn"
+redistribute = true

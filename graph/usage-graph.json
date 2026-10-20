@@ -54,6 +54,50 @@
     ],
     "used_by_builds": []
   },
+  "modules/lamotion/modules/abs-readhead": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/lamotion",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/lamotion/modules/alz-scale": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/lamotion",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/lamotion/modules/rus-et-clamp": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/lamotion",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/lamotion": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/maxwell/modules/mk2-mover": {
     "current_version": "0.1.0",
     "trl": null,

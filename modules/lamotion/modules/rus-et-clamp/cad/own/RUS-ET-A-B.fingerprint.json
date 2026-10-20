@@ -1,0 +1,277 @@
+{
+  "document": "RUS_ET_A_B",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 1009.62,
+      "bbox": [
+        -18.0,
+        0.0,
+        -7.5,
+        14.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        -4.0839,
+        0.261577,
+        0.0
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Clamp_A",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 193.483
+    },
+    "Body001": {
+      "area": 1009.62,
+      "bbox": [
+        256.0,
+        0.0,
+        -7.5,
+        288.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        274.084,
+        0.261577,
+        0.0
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Clamp_B",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 193.483
+    },
+    "Clamp_A_corners": {
+      "area": 998.416,
+      "bbox": [
+        -18.0,
+        0.0,
+        -7.5,
+        14.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        -2.0,
+        0.25,
+        0.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "Clamp_A_corners",
+      "type": "PartDesign::Fillet",
+      "valid": true,
+      "volume": 238.283
+    },
+    "Clamp_A_notch": {
+      "area": 1009.62,
+      "bbox": [
+        -18.0,
+        0.0,
+        -7.5,
+        14.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        -4.0839,
+        0.261577,
+        0.0
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Clamp_A_notch",
+      "type": "PartDesign::SubtractiveBox",
+      "valid": true,
+      "volume": 193.483
+    },
+    "Clamp_A_plate": {
+      "area": 1007.0,
+      "bbox": [
+        -18.0,
+        0.0,
+        -7.5,
+        14.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        -2.0,
+        0.25,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Clamp_A_plate",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 240.0
+    },
+    "Clamp_B_corners": {
+      "area": 998.416,
+      "bbox": [
+        256.0,
+        0.0,
+        -7.5,
+        288.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        272.0,
+        0.25,
+        0.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 16
+      },
+      "label": "Clamp_B_corners",
+      "type": "PartDesign::Fillet",
+      "valid": true,
+      "volume": 238.283
+    },
+    "Clamp_B_notch": {
+      "area": 1009.62,
+      "bbox": [
+        256.0,
+        0.0,
+        -7.5,
+        288.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        274.084,
+        0.261577,
+        0.0
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 14,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "Clamp_B_notch",
+      "type": "PartDesign::SubtractiveBox",
+      "valid": true,
+      "volume": 193.483
+    },
+    "Clamp_B_plate": {
+      "area": 1007.0,
+      "bbox": [
+        256.0,
+        0.0,
+        -7.5,
+        288.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        272.0,
+        0.25,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Clamp_B_plate",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 240.0
+    },
+    "Part": {
+      "area": 2019.23,
+      "bbox": [
+        -18.0,
+        0.0,
+        -7.5,
+        288.0,
+        0.5,
+        7.5
+      ],
+      "closed": true,
+      "com": [
+        135.0,
+        0.261577,
+        0.0
+      ],
+      "counts": {
+        "edges": 72,
+        "faces": 28,
+        "shells": 2,
+        "solids": 2,
+        "verts": 48
+      },
+      "label": "RUS-ET-A-B",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 386.966
+    }
+  },
+  "parametric": {
+    "audited": 7,
+    "objects": {}
+  },
+  "params": {
+    "clamp_l": 32.0,
+    "clamp_t": 0.5,
+    "clamp_w": 15.0,
+    "corner_r": 2.0,
+    "notch_d": 0.4,
+    "notch_l": 14.0,
+    "notch_w": 8.0,
+    "scale_len": 270.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "RUS-ET-A-B.FCStd": "f6f330df1f0e5b597d642777471633e57af0447db3287a41232622ff1cb77799"
+  }
+}

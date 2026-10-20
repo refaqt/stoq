@@ -1,0 +1,18 @@
+# Check list for our own RUS-ET-A-B end clamp model. Page numbers are the
+# numbers printed on the page; the PDF page is one more. The plan sizes come
+# from the ABS read head datasheet V1.44 page 10. The thickness comes from the
+# RX2 grating rules V2.57 page 14, which shows the same part.
+#
+# LAMOTION publishes no CAD file of the clamps, so nothing could be compared:
+# every result is not-confirmed. Rows with basis "estimated" are read off the
+# figure or assumed. Measure a real clamp to confirm them.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (clamp length),32,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,"No brand model to compare with. Extent along X of one clamp body.",not-confirmed,2026-10-20T09:30:00Z
+envelope Y (clamp thickness),0.5,catalogue,../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,14,,,"No brand model to compare with. Extent along Y of one clamp body.",not-confirmed,2026-10-20T09:30:00Z
+envelope Z (clamp width),15,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,"No brand model to compare with. Extent along Z of one clamp body.",not-confirmed,2026-10-20T09:30:00Z
+symmetry XY,-,estimated,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,"No brand model to compare with. The figure shows the notch about in the middle of the width; the model centres it on the scale.",not-confirmed,2026-10-20T09:30:00Z
+notch length (open at the scale end),14,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,"No brand model to compare with. Extent along X of the notch.",not-confirmed,2026-10-20T09:30:00Z
+notch width,8,catalogue,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,"No brand model to compare with. Extent along Z of the notch.",not-confirmed,2026-10-20T09:30:00Z
+notch depth,0.4,estimated,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,9,,,"No size in either document. Assumed equal to the height of the scale tape on its adhesive, so the clamp lies flat over the scale end.",not-confirmed,2026-10-20T09:30:00Z
+corner radius in plan view,2,estimated,../../docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,14,,,"No size in either document. Read off the figure.",not-confirmed,2026-10-20T09:30:00Z
+end of the scale at the inner end of the notch,0,estimated,../../docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,10,,,"No size in either document. The model puts the scale end where the notch ends.",not-confirmed,2026-10-20T09:30:00Z

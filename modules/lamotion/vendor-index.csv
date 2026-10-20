@@ -1,0 +1,9 @@
+# Brand-level provenance: the datasheets cover more than one family, so they sit
+# here. The retrieval date is the day the files were downloaded from lamotion.cn
+# into our purchasing folder. The ABS datasheet gives the read head, the ALZ
+# scale and the RUS-ET end clamps. The RX2 grating rules are kept for one value:
+# they are the only LAMOTION document that gives the thickness of the RUS-ET
+# end clamps (page 14).
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+lamotion,ABS-BISS-C-V1.44,docs/datasheets/lamotion-abs-readhead-biss-c-V1.44.pdf,11970757,6dc0e3ad78ba2d7446e125a8229e6dd3abebca002669f7a36e31366e25a461b2,http://lamotion.cn/file/pdf/ABS_ReadHead(BISS_C)_)_V1.44.pdf,redistributable,2026-09-25T09:17:12Z
+lamotion,RX2-V2.57,docs/datasheets/lamotion-rx2-grating-rules-V2.57.pdf,5259351,8a5facf37a438b073cd96af1d124c0418784473e9777f08a4ade10be529a1560,http://lamotion.cn/file/pdf/RX2_GratingRules_V2.57.pdf,redistributable,2026-09-25T08:53:24Z
