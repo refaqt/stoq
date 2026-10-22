@@ -1,0 +1,17 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "ACE TUBUS TA Profile Damper"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/ace/modules/ta-damper"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "TUBUS TA profile dampers: elastomer end stops that take an axial impact, fixed with one M3 to M16 screw or stud."
+
+[brand]
+name = "ACE Stoßdämpfer GmbH"
+website = "https://www.ace-ace.com"
+cad-terms = "https://www.ace-ace.com/com/terms-of-service"
+redistribute = false
+
+# Interfaces this family provides. `doqs add-interface` in a machine adds
+# the matching port def; declare the family's own here.
