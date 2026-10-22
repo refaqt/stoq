@@ -1,0 +1,35 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+# TUBUS TA17-7 profile damper. Page numbers are the numbers printed on the
+# page of the ACE operating and mounting instructions 21_22_0019, issue 05.2022.
+# Page 3 gives the sizes: stroke 7 mm, length A 16 mm, body d1 17 mm, impact
+# face d2 15 mm, d3 22 mm when fully compressed, stud M4 with L_M 4 mm, and a
+# weight of 0.004 kg. The ACE web shop page gives 0.006 kg; the row uses the
+# manual. Page 3 and page 4 give the 1.7 Nm limit for the M4 stud.
+#
+# The STEP file came from the ACE CAD download (made by CADClick) on 2026-10-22.
+# It shows the damper with its stud, on the x axis: the back face is at x = 0
+# and the impact face at x = 16.
+#
+# The wrapper has one mounting frame, IF_mount. Its origin is the centre of the
+# back face, where the stud starts. Its z axis runs along the damper axis, out
+# of the impact face. Its x axis is the z axis of the STEP file.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+TA17-7,TUBUS TA17-7 axial profile damper with M4 stud,stroke 7 mm; length 16 mm; body 17 mm; impact face 15 mm; 22 mm when fully compressed; M4 stud 4 mm long; 1.7 Nm max; 6 Nm per stroke (9 Nm emergency stop),4,cad/parts/TA17-7.FCStd,docs/datasheets/ace-tubus-ta-operating-mounting-instructions-2022-05.pdf,redistributable,A,active,"Mount with an M4 square nut (DIN 562 or DIN 557, 7 mm across) behind a wall of at most 2 mm, because the stud is only 4 mm long. Secure the thread with Loctite (page 4)."

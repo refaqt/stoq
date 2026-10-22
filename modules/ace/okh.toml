@@ -1,0 +1,45 @@
+# A brand is the name on the part, not the supplier you buy from.
+# CC BY-SA for the record we compile; the parts are not ours.
+okhv = "OKH-LOSHv1.0"
+name = "ACE Stoßdämpfer GmbH"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/ace"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Parts made by ACE Stoßdämpfer GmbH."
+
+[brand]
+name = "ACE Stoßdämpfer GmbH"
+website = "https://www.ace-ace.com"
+cad-terms = "https://www.ace-ace.com/com/terms-of-service"
+redistribute = true
+
+# One dated [[terms-review]] per kind of file (cad, documentation).
+# `doqs add-part` adds them; a named person approves them in the pull request.
+
+# 2026-10-22. Nothing written allows sharing, so basis = "none" and the check
+# shows a warning. The ACE delivery and payment terms (item 6.8) keep all
+# rights to images, drawings and other documents for ACE. The CAD download
+# page shows no licence. Shared until ACE objects, as for HIWIN and LAMOTION:
+# see docs/decisions/2026-10-06_share-supplier-files-until-asked.md. If ACE
+# objects, add an `internal` entry and move the files to stoq-private.
+# Never edit these entries.
+# Proposed by doqs add-part on 2026-10-22; a named person approves it in the pull request.
+[[terms-review]]
+kind     = "cad"
+decision = "public"
+basis    = "none"
+source   = "https://www.ace-ace.com/com/terms-of-service"
+evidence = "evidence/ace/2026-10-22_terms-and-conditions.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-22
+
+# Proposed by doqs add-part on 2026-10-22; a named person approves it in the pull request.
+[[terms-review]]
+kind     = "documentation"
+decision = "public"
+basis    = "none"
+source   = "https://www.ace-ace.com/com/terms-of-service"
+evidence = "evidence/ace/2026-10-22_terms-and-conditions.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-22

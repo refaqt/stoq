@@ -1,0 +1,3 @@
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+ace,TA17-7,cad/original/TA17-7.step,63401,5c83c3c5499b44ec8970247b61f2b6eddbb9be724c1a8ce2050c7c6b2c19ad6a,https://www.ace-ace.com/com/products/automation-control/profile-dampers/tubus-ta/ta/ta17-7.html,redistributable,2026-10-22T10:23:26Z
+ace,TA17-7,docs/datasheets/ace-tubus-ta-operating-mounting-instructions-2022-05.pdf,505309,456000090eb675536e5d492500611a7f1901ae13d6087733074f0637db6e7ee5,https://www.ace-ace.com/com/products/automation-control/profile-dampers/tubus-ta/ta/ta17-7.html,redistributable,2026-10-22T10:23:26Z
