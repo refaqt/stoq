@@ -1,0 +1,48 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+# AK MC 15 B scanning head: BiSS C (BiSS/Cu), with a 0.5 m cable and a 15-pin
+# D-sub connector. Page numbers are the numbers printed on the page.
+# Catalogue MC 15 (brand folder docs/datasheets/rsf-mc15-catalogue-en.pdf),
+# page 6, and the mounting instructions AK MC 15, page 4, give the data: 0.1 um
+# measuring step (BiSS C), 3.6 to 14 V, 600 m/min, and a mass of 12 g for the
+# head, 22 g/m for the cable and 28 g for the D-sub connector. 12 + 11 + 28 =
+# 51 g. The mating drawing D1158017-04 (in the mc15-mk-scale family) gives the
+# size, the 26 mm screw pitch, the 0.55 +-0.25 mm air gap and the other
+# mounting tolerances. Page 9 of the instructions gives the 1.2 Nm limit for
+# the M3 screws; page 10 shows that a screw goes at least 4 mm into the part.
+#
+# RSF orders by ID number. The ID number of this version is not known yet, so
+# the part number is built from the ordering designation (AK MC 15 B), the
+# cable length and the connector. The catalogue lists only 1 m and 3 m cables:
+# ask RSF for the ID number of the 0.5 m cable before ordering.
+#
+# The STEP file AK-MC15.step (AK_MC15.stp from rsf.at) is one model for all
+# AK MC 15 versions. It shows the head with a short cable stub and no
+# connector: X along the scale (cable at +X, the direction of ascending
+# positions), Y across, Z = 0 on the face toward the scale.
+# The wrapper has three mounting frames, all with X along +X:
+#   IF_scale         on the top of the scale under the position sensor
+#                    (16.2 mm from the head side, 0.55 mm air gap). Z points
+#                    into the head. It meets IF_ml_start or IF_ml_end of the
+#                    MC 15 MK scale.
+#   IF_mount_top     on the face at Y = 13.5, between the screw holes, Z out.
+#   IF_mount_bottom  on the face at Y = 0, between the screw holes, Z out.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+AK-MC15-B-0.5M-SUBD15,AK MC 15 B absolute scanning head BiSS C with 0.5 m cable and 15-pin D-sub connector,size 36 x 13.5 x 14.8 mm; for the MC 15 scales (MK used here); BiSS C unidirectional (BiSS/Cu); measuring step 0.1 um; supply 3.6 to 14 V; max 1050 mW; 600 m/min; air gap 0.55 +-0.25 mm; lateral +-1 mm; yaw pitch roll +-20 mrad; 2 x M3 through holes 26 mm apart; max 1.2 Nm; cable 3.7 mm with bend radius 8 mm fixed or 40 mm flexing,51,cad/parts/AK-MC15-B-0.5M-SUBD15.FCStd,docs/datasheets/rsf-ak-mc15-mounting-instructions.pdf,redistributable,A,active,"The catalogue lists 1 m and 3 m cables only: confirm the 0.5 m ID number with RSF before ordering. Set the air gap with the 0.55 mm gap foil that comes with the head (instructions page 9)."

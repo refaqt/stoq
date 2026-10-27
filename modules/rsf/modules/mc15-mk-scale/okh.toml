@@ -1,0 +1,14 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "RSF MC 15 MK Scale"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/rsf/modules/mc15-mk-scale"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "MC 15 MK absolute steel tape scale, 8 mm wide, stuck to the machine with its adhesive tape. Cut to the measuring length ordered; the tape is 20 mm longer."
+
+[brand]
+name = "RSF Elektronik Ges.m.b.H."
+website = "https://www.rsf.at"
+cad-terms = "https://www.rsf.at/en/terms-of-use/"
+redistribute = true

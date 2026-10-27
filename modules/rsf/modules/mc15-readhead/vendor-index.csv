@@ -1,0 +1,6 @@
+# Both files are public downloads on https://www.rsf.at/en/products/mc-15/.
+#   AK-MC15.step = AK_MC15.stp, one model for every AK MC 15 version. It shows
+#                  the head only, with a short cable stub and no connector.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+rsf,AK-MC15-B-0.5M-SUBD15,cad/original/AK-MC15.step,313920,15732ea6e92bfa24525017469ad27565174db6f55f26637213728e15884e69df,https://www.rsf.at/wp-content/uploads/downloads/AK_MC15.stp,redistributable,2026-10-27T09:52:16Z
+rsf,AK-MC15-B-0.5M-SUBD15,docs/datasheets/rsf-ak-mc15-mounting-instructions.pdf,2945117,9484412822f3d686ff2e6f4289ee99ed97c690fb0f88bbee27830049ff6c199d,https://www.rsf.at/wp-content/uploads/downloads/AK-MC15.pdf,redistributable,2026-10-27T09:52:17Z

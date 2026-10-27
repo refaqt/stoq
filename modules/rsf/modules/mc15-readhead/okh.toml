@@ -1,0 +1,14 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "RSF AK MC 15 Read Head"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/rsf/modules/mc15-readhead"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "AK MC 15 absolute optical scanning head for the MC 15 scales. Size 36 x 13.5 x 14.8 mm, mounted from the side with two M3 screws 26 mm apart."
+
+[brand]
+name = "RSF Elektronik Ges.m.b.H."
+website = "https://www.rsf.at"
+cad-terms = "https://www.rsf.at/en/terms-of-use/"
+redistribute = true
