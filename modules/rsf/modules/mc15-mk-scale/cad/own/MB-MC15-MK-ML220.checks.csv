@@ -1,0 +1,18 @@
+# Check list for our own MB-MC15-MK-ML220 scale model. The values come from the
+# RSF drawing "MC15 MK mating dimensions", D1158017-04, one sheet.
+#
+# The brand model used for the comparison is MB_MC15MK_ML100.stp, a 100 mm
+# measuring length scale. Our copy is in stoq-private only. The comparison is
+# done after our model is finished. It holds no 220 mm scale, so the length is
+# compared through OL = ML + 20 on the 100 mm file. Only pass, fail or
+# not-confirmed is written, never the brand value.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (tape length OL = ML + 20; part number MB-MC15-MK-ML220),240,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"The brand file has a shorter measuring length, so the rule OL = ML + ol_extra was checked on it: extent along the tape of its bounding box. No brand file has our length.",pass,2026-10-27T10:40:00Z
+envelope Y (adhesive tape plus steel tape),0.45,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Extent across the thin direction of the bounding box of the whole scale, on both models",pass,2026-10-27T10:40:00Z
+envelope Z (steel tape width),8,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Extent across the tape of the bounding box of the steel tape, on both models (slice through the steel tape layer on the brand file)",pass,2026-10-27T10:40:00Z
+steel tape thickness,0.25,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Brand file: volume of the single solid compared with the volume our layer sizes give; slice positions in each layer",pass,2026-10-27T10:40:00Z
+adhesive tape width,6,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Width of a slice through the adhesive layer, on both models",pass,2026-10-27T10:40:00Z
+adhesive tape thickness,0.2,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Brand file: volume of the single solid compared with the volume our layer sizes give",pass,2026-10-27T10:40:00Z
+adhesive tape offset from the centre line of the steel tape (and as long as the tape),0,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Centre and length of a slice through the adhesive layer compared with those of the steel tape, on both models",pass,2026-10-27T10:40:00Z
+measuring length start (position sensor 9.2 mm from the tape start),9.2,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Not measurable: the brand scale file has no head and no marks for the measuring length. Checked only against the RSF read head file: IF_ml_start placed on the head frame IF_scale, then the distance from the head side to the tape start compared with head_start.",not-confirmed,2026-10-27T10:40:00Z
+symmetry XY,-,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,"Bounding box of the steel tape and of the adhesive tape compared with their mirror image in the XY plane through the origin (Z = 0), on both models",pass,2026-10-27T10:40:00Z

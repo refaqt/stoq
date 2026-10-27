@@ -1,0 +1,7 @@
+# RSF publishes the MK scale as a STEP file only for ML 100
+# (MB_MC15MK_ML100.stp). It is not the part we use, so it is not committed; our
+# copy is in stoq-private, for the comparison only. The CAD model of the 220 mm
+# scale is our own, in cad/own/.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+rsf,MB-MC15-MK-ML220,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,220980,3f52ee4e267bffcb5ed2ec171e3e89b5813a1317604d35901b8c202c0ef1396c,https://www.rsf.at/wp-content/uploads/2026/08/MC-15_MK_AMZ_1158017_Ver04_mu.pdf,redistributable,2026-10-27T09:52:17Z
+rsf,MB-MC15-MK-ML220,docs/datasheets/rsf-tmt-mx15-mk-mounting-instructions.pdf,872818,899dff2c33068351ec4a3d4638d8107f18ba41330d749551a9d3f9f06ef430dc,https://www.rsf.at/wp-content/uploads/2024/02/MA-TMTMx15MK.pdf,redistributable,2026-10-27T09:52:18Z

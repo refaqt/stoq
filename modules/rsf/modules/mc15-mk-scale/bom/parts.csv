@@ -1,0 +1,36 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+# MC 15 MK steel tape scale with absolute track and adhesive tape. RSF cuts it
+# to the measuring length ML ordered, up to 10 000 mm. The tape is OL = ML + 20
+# mm long. Our part number puts the ML in it: MB (scale) MC15 MK, ML 220.
+# The drawing "MC15 MK mating dimensions" D1158017-04 (one sheet) gives the
+# sizes: steel tape 8 x 0.25 mm on an adhesive tape 6 x 0.2 mm. The catalogue
+# (brand folder docs/datasheets/rsf-mc15-catalogue-en.pdf, page 6) gives the
+# accuracy grade +-15 um/m, the expansion 10 x 10^-6 1/K and the mass, 17 g/m:
+# 0.24 m x 17 g/m = 4 g.
+#
+# The CAD model is our own (cad/own/), built from the drawing only: RSF
+# publishes a STEP file only for ML 100. Axes: X along the tape from 0 to OL
+# (ascending positions along +X), Y up with the bottom of the adhesive at
+# Y = 0, the tape centred on Z = 0. Frames: IF_mount_bottom at the origin;
+# IF_ml_start and IF_ml_end on the top of the tape where the position sensor
+# of the head is at the two ends of the measuring length (X = 9.2 and 229.2).
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+MB-MC15-MK-ML220,MC 15 MK absolute steel tape scale with adhesive tape for 220 mm measuring length,measuring length 220 mm; tape 240 mm long; tape 8 x 0.25 mm; adhesive tape 6 x 0.2 mm; accuracy grade +-15 um/m; expansion 10 x 10^-6 1/K; for the AK MC 15 scanning head,4,cad/own/MB-MC15-MK-ML220.FCStd,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,own-model,A,active,"Order as MC 15 MK with ML 220 mm. Stick it on with the TMT Mx 15 MK tape mounting tool (docs/datasheets/rsf-tmt-mx15-mk-mounting-instructions.pdf). The surface under it must be flat within 0.1 mm and parallel to the guideway within 0.2 mm (drawing)."

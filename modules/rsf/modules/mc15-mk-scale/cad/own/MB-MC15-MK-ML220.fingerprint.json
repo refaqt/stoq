@@ -1,0 +1,165 @@
+{
+  "document": "MB_MC15_MK_ML220",
+  "errors": [],
+  "objects": {
+    "AdhesiveTape": {
+      "area": 2978.4,
+      "bbox": [
+        0.0,
+        0.0,
+        -3.0,
+        240.0,
+        0.2,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        120.0,
+        0.1,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "AdhesiveTape",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 288.0
+    },
+    "Body": {
+      "area": 2978.4,
+      "bbox": [
+        0.0,
+        0.0,
+        -3.0,
+        240.0,
+        0.2,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        120.0,
+        0.1,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Adhesive",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 288.0
+    },
+    "Body001": {
+      "area": 3964.0,
+      "bbox": [
+        0.0,
+        0.2,
+        -4.0,
+        240.0,
+        0.45,
+        4.0
+      ],
+      "closed": true,
+      "com": [
+        120.0,
+        0.325,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Scale",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 480.0
+    },
+    "Part": {
+      "area": 6942.4,
+      "bbox": [
+        0.0,
+        0.0,
+        -4.0,
+        240.0,
+        0.45,
+        4.0
+      ],
+      "closed": true,
+      "com": [
+        120.0,
+        0.240625,
+        0.0
+      ],
+      "counts": {
+        "edges": 24,
+        "faces": 12,
+        "shells": 2,
+        "solids": 2,
+        "verts": 16
+      },
+      "label": "MB_MC15_MK_ML220",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 768.0
+    },
+    "SteelTape": {
+      "area": 3964.0,
+      "bbox": [
+        0.0,
+        0.2,
+        -4.0,
+        240.0,
+        0.45,
+        4.0
+      ],
+      "closed": true,
+      "com": [
+        120.0,
+        0.325,
+        0.0
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "SteelTape",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 480.0
+    }
+  },
+  "parametric": {
+    "audited": 5,
+    "objects": {}
+  },
+  "params": {
+    "ML": 220.0,
+    "adh_t": 0.2,
+    "adh_w": 6.0,
+    "head_start": 7.0,
+    "ol_extra": 20.0,
+    "scale_t": 0.25,
+    "scale_w": 8.0,
+    "sensor_x": 16.2
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "MB-MC15-MK-ML220.FCStd": "c9bc8ac3e1570ec3a6bef96a871082cb938ae4e75135223214cfeb1979b40ded"
+  }
+}

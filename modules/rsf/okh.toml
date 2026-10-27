@@ -1,0 +1,45 @@
+# A brand is the name on the part, not the supplier you buy from.
+# CC BY-SA for the record we compile; the parts are not ours.
+okhv = "OKH-LOSHv1.0"
+name = "RSF Elektronik"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/rsf"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Linear encoders made by RSF Elektronik Ges.m.b.H. (HEIDENHAIN group)."
+
+[brand]
+name = "RSF Elektronik Ges.m.b.H."
+website = "https://www.rsf.at"
+cad-terms = "https://www.rsf.at/en/terms-of-use/"
+# Set true on 2026-10-27: we share the files until RSF objects. See
+# docs/decisions/2026-10-06_share-supplier-files-until-asked.md.
+redistribute = true
+
+# 2026-10-27. Nothing written allows sharing, so basis = "none" and the check
+# shows a warning. Item 10 of the RSF Terms of Use says that reproduction, or
+# use in other electronic or printed publications, is not permitted without the
+# explicit consent of RSF, "unless specified otherwise in paragraphs 13 and 14".
+# The page has no paragraphs 13 and 14, so nothing grants a right. Item 1 says
+# the Terms of Use also govern the files for download. The RSF drawings carry
+# the ISO 16016 notice: reproduction, distribution and use without express
+# authorization is prohibited. Niels Bosmans decided to share the files anyway,
+# until RSF objects, as for HIWIN, LAMOTION and ACE. If RSF objects, add an
+# `internal` entry and move the files to stoq-private. Never edit these entries.
+[[terms-review]]
+kind     = "cad"
+decision = "public"
+basis    = "none"
+source   = "https://www.rsf.at/en/terms-of-use/"
+evidence = "evidence/rsf/2026-10-27_terms-of-use.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-27
+
+[[terms-review]]
+kind     = "documentation"
+decision = "public"
+basis    = "none"
+source   = "https://www.rsf.at/en/terms-of-use/"
+evidence = "evidence/rsf/2026-10-27_terms-of-use.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-10-27

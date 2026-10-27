@@ -1,0 +1,8 @@
+# Brand-level provenance: these documents cover the whole MC 15 series, so they
+# sit here. All three are public downloads on https://www.rsf.at/en/products/mc-15/.
+# The catalogue gives the technical data of the read head and of every scale
+# version (page 6). The interface description covers the BiSS C read head.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+rsf,MC15-EN,docs/datasheets/rsf-mc15-catalogue-en.pdf,2271440,696fe28d6adf5d930429c14c3858319713640270a694ec1e88e6decc04d24e9b,https://www.rsf.at/wp-content/uploads/2024/02/MC15-EN.pdf,redistributable,2026-10-27T09:52:14Z
+rsf,MC15-B-INTERFACE,docs/datasheets/rsf-mc15-b-interface-description.pdf,349107,952ced2fcedba6190c76213c208ed1082ac467c3fc684b7530aad53ba1dd9936,https://www.rsf.at/wp-content/uploads/2026/04/Interface-description-MC15-B_MCS15-B_MCS16-B.pdf,redistributable,2026-10-27T09:52:14Z
+rsf,AK-MC15-DOC,docs/datasheets/rsf-ak-mc15-declaration-of-conformity.pdf,855287,31105bf0dab8fdc0d0283d41bcc798df9b5f5b09413e412227a8c481c2271967,https://www.rsf.at/wp-content/uploads/2025/03/Declaration-of-conformity-AK-MC-15.pdf,redistributable,2026-10-27T09:52:15Z
