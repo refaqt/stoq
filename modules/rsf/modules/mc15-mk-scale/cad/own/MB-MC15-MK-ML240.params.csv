@@ -1,0 +1,15 @@
+# Parameters for our own MC 15 MK scale model. Change ML and rebuild inside
+# the FreeCAD window (see MB-MC15-MK-ML240.build.py).
+# Every value comes from the RSF drawing "MC15 MK mating dimensions",
+# D1158017-04, released 15.02.2024. It has one sheet, so the page is 1.
+# ML is part of our part number: MB-MC15-MK-ML240 is a scale with a 240 mm
+# measuring length. The tape is OL = ML + 20 mm long.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+ML,240,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,Measuring length ML: the travel of the scanning head along the tape. Ordered by the customer
+ol_extra,20,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,OL = ML + 20 +-0.2: the tape is this much longer than the measuring length
+head_start,7,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,At the start of the measuring length the side of the scanning head is this far before the start of the tape
+sensor_x,16.2,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,Position sensor: distance from the side of the scanning head (16.2 +-0.7)
+scale_w,8,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,Width of the steel tape scale (8 +-0.03; detail X)
+scale_t,0.25,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,Thickness of the steel tape scale (0.25 +-0.007; detail X)
+adh_w,6,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,Width of the adhesive tape (detail X)
+adh_t,0.2,mm,catalogue,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,,,Thickness of the adhesive tape (0.2 +-0.02; detail X)

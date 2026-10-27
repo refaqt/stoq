@@ -19,18 +19,22 @@
 # existing machine is still made of it.
 # MC 15 MK steel tape scale with absolute track and adhesive tape. RSF cuts it
 # to the measuring length ML ordered, up to 10 000 mm. The tape is OL = ML + 20
-# mm long. Our part number puts the ML in it: MB (scale) MC15 MK, ML 220.
+# mm long. Our part number puts the ML in it: MB (scale) MC15 MK, then ML and
+# the length in mm. There is one row for each measuring length we use: ML 220
+# and ML 240.
 # The drawing "MC15 MK mating dimensions" D1158017-04 (one sheet) gives the
 # sizes: steel tape 8 x 0.25 mm on an adhesive tape 6 x 0.2 mm. The catalogue
 # (brand folder docs/datasheets/rsf-mc15-catalogue-en.pdf, page 6) gives the
 # accuracy grade +-15 um/m, the expansion 10 x 10^-6 1/K and the mass, 17 g/m:
-# 0.24 m x 17 g/m = 4 g.
+# ML 220: 0.24 m x 17 g/m = 4 g. ML 240: 0.26 m x 17 g/m = 4.4 g, so 4 g.
 #
-# The CAD model is our own (cad/own/), built from the drawing only: RSF
+# Each CAD model is our own (cad/own/), built from the drawing only: RSF
 # publishes a STEP file only for ML 100. Axes: X along the tape from 0 to OL
 # (ascending positions along +X), Y up with the bottom of the adhesive at
 # Y = 0, the tape centred on Z = 0. Frames: IF_mount_bottom at the origin;
 # IF_ml_start and IF_ml_end on the top of the tape where the position sensor
-# of the head is at the two ends of the measuring length (X = 9.2 and 229.2).
+# of the head is at the two ends of the measuring length (X = 9.2 and
+# X = 9.2 + ML: 229.2 for ML 220, 249.2 for ML 240).
 pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
 MB-MC15-MK-ML220,MC 15 MK absolute steel tape scale with adhesive tape for 220 mm measuring length,measuring length 220 mm; tape 240 mm long; tape 8 x 0.25 mm; adhesive tape 6 x 0.2 mm; accuracy grade +-15 um/m; expansion 10 x 10^-6 1/K; for the AK MC 15 scanning head,4,cad/own/MB-MC15-MK-ML220.FCStd,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,own-model,A,active,"Order as MC 15 MK with ML 220 mm. Stick it on with the TMT Mx 15 MK tape mounting tool (docs/datasheets/rsf-tmt-mx15-mk-mounting-instructions.pdf). The surface under it must be flat within 0.1 mm and parallel to the guideway within 0.2 mm (drawing)."
+MB-MC15-MK-ML240,MC 15 MK absolute steel tape scale with adhesive tape for 240 mm measuring length,measuring length 240 mm; tape 260 mm long; tape 8 x 0.25 mm; adhesive tape 6 x 0.2 mm; accuracy grade +-15 um/m; expansion 10 x 10^-6 1/K; for the AK MC 15 scanning head,4,cad/own/MB-MC15-MK-ML240.FCStd,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,own-model,A,active,"Order as MC 15 MK with ML 240 mm. Stick it on with the TMT Mx 15 MK tape mounting tool (docs/datasheets/rsf-tmt-mx15-mk-mounting-instructions.pdf). The surface under it must be flat within 0.1 mm and parallel to the guideway within 0.2 mm (drawing)."
