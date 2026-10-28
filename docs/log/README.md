@@ -17,3 +17,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-10-22 | [The ACE TA17-7 profile damper is in the library](2026-10-22_ace-ta17-7-damper.md) | mechanical engineering, purchasing, legal | 0 |
 | 2026-10-27 | [The RSF MC 15 absolute linear encoder is in the library](2026-10-27_rsf-mc15-encoder.md) | mechanical engineering, purchasing, legal | 0 |
 | 2026-10-27 | [The RSF MC 15 MK scale with a 240 mm measuring length is in the library](2026-10-27_rsf-mc15-mk-ml240.md) | mechanical engineering, purchasing | 0 |
+| 2026-10-28 | [Mounting frames are hidden in every part](2026-10-28_mounting-frames-hidden.md) | mechanical engineering | 0 |
