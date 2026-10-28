@@ -1,0 +1,11 @@
+# Check list for our own ISO 7092 washer, size 2.
+#
+# A standard part has no brand model to compare with. Every row stays
+# not-confirmed until a real washer is measured.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (outside diameter d2),4.5,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,"Extent along X of the bounding box of the solid, to be compared with a caliper reading on a real washer",not-confirmed,2026-10-28T00:00:00Z
+envelope Y (outside diameter d2),4.5,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,"Extent along Y of the bounding box of the solid, to be compared with a caliper reading on a real washer",not-confirmed,2026-10-28T00:00:00Z
+envelope Z (thickness h),0.3,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,"Extent along the axis of the bounding box of the solid, to be compared with a micrometer reading on a real washer",not-confirmed,2026-10-28T00:00:00Z
+hole diameter d1,2.2,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,"Diameter of the inner cylinder face, to be compared with a pin gauge on a real washer",not-confirmed,2026-10-28T00:00:00Z
+symmetry XZ,-,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,"Bounding box compared with its mirror image in the XZ plane through the origin",not-confirmed,2026-10-28T00:00:00Z
+symmetry YZ,-,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,"Bounding box compared with its mirror image in the YZ plane through the origin",not-confirmed,2026-10-28T00:00:00Z

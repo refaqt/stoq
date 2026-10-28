@@ -1,0 +1,5 @@
+# Every feature of an ISO 8734 type A pin.
+feature,kind,outside_envelope,source,page,status,reason
+cylinder (d x l),sized,no,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,modelled,
+chamfer at one end,drawn-unsized,no,ISO 8734:1997,figure,left-out,"Its size is in the standard text, which we do not hold. It only makes the part smaller, so leaving it out keeps the model on the large side."
+rounded other end,drawn-unsized,no,ISO 8734:1997,figure,left-out,"Its size is in the standard text, which we do not hold. It only makes the part smaller, so leaving it out keeps the model on the large side."

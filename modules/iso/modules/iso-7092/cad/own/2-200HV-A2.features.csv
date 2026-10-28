@@ -1,0 +1,4 @@
+# Every feature of an ISO 7092 washer.
+feature,kind,outside_envelope,source,page,status,reason
+flat ring (d1 x d2 x h),sized,no,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,modelled,
+edge burrs,not-drawn,no,ISO 7092,text,left-out,Smaller than the thickness tolerance. They change no size that matters for an assembly.

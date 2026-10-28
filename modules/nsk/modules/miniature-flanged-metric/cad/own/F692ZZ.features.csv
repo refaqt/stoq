@@ -1,0 +1,8 @@
+# Every feature of the F692ZZ that the NSK table and its figure show.
+feature,kind,outside_envelope,source,page,status,reason
+bore (d),sized,no,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,modelled,
+outer ring (D x B),sized,no,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,modelled,
+flange on the outer ring (D1 x C1),sized,yes,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,modelled,
+shields on both sides (ZZ),drawn-unsized,no,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,figure,left-out,"Inside the ring faces and between the rings. The model is solid there, so it stays on the large side."
+balls and cage,not-drawn,no,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,figure,left-out,Inside the rings. They change no outside size.
+edge chamfers (r and r1),drawn-unsized,no,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,figure,left-out,"The table gives no value for this size. They only make the part smaller, so leaving them out keeps the model on the large side."

@@ -76,6 +76,39 @@
     ],
     "used_by_builds": []
   },
+  "modules/iso/modules/iso-7092": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/iso",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/iso/modules/iso-8734": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/iso",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/iso": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/lamotion/modules/abs-readhead": {
     "current_version": "0.1.0",
     "trl": null,
@@ -154,6 +187,28 @@
     "used_by_builds": []
   },
   "modules/maxwell": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/nsk/modules/miniature-flanged-metric": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/nsk",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/nsk": {
     "current_version": "0.1.0",
     "trl": null,
     "used_by": [

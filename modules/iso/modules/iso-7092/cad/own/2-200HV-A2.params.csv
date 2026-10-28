@@ -1,0 +1,6 @@
+# Parameters for our own ISO 7092 washer, size 2 (for M2). The sizes come
+# from the Wuerth data sheet of this washer, read on 2026-10-28.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+washer_d1,2.2,mm,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,Hole diameter d1
+washer_d2,4.5,mm,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,Outside diameter d2
+washer_h,0.3,mm,catalogue,https://eshop.wuerth.de/Washer-ISO-7092-A2-stainless-steel-200-HV-plain-WSH-ISO7092-A2-200HV-2/515005202.sku/en/US/EUR,technical data,,,Thickness h

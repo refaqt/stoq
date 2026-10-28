@@ -1,0 +1,162 @@
+{
+  "document": "F692ZZ",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 161.242,
+      "bbox": [
+        -3.75,
+        -3.75,
+        0.0,
+        3.75,
+        3.75,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.34118
+      ],
+      "counts": {
+        "edges": 9,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 6
+      },
+      "label": "Bearing",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 88.1217
+    },
+    "Bore": {
+      "area": 161.242,
+      "bbox": [
+        -3.75,
+        -3.75,
+        0.0,
+        3.75,
+        3.75,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.34118
+      ],
+      "counts": {
+        "edges": 9,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 6
+      },
+      "label": "Bore",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 88.1217
+    },
+    "Flange": {
+      "area": 148.676,
+      "bbox": [
+        -3.75,
+        -3.75,
+        0.0,
+        3.75,
+        3.75,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.35652
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 5,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Flange",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 97.5465
+    },
+    "OuterRing": {
+      "area": 113.097,
+      "bbox": [
+        -3.0,
+        -3.0,
+        0.0,
+        3.0,
+        3.0,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.5
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "OuterRing",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 84.823
+    },
+    "Part": {
+      "area": 161.242,
+      "bbox": [
+        -3.75,
+        -3.75,
+        0.0,
+        3.75,
+        3.75,
+        3.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.34118
+      ],
+      "counts": {
+        "edges": 9,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 6
+      },
+      "label": "F692ZZ",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 88.1217
+    }
+  },
+  "parametric": {
+    "audited": 5,
+    "objects": {}
+  },
+  "params": {
+    "bore_d": 2.0,
+    "flange_c1": 0.8,
+    "flange_d1": 7.5,
+    "outer_d": 6.0,
+    "width_b": 3.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "F692ZZ.FCStd": "86c377a5b2810b3e2b9292a48f1e26775c6f15abdc45bd415b125f7da8bae75f"
+  }
+}

@@ -1,0 +1,10 @@
+# Parameters for our own NSK F692ZZ model. Every value comes from the NSK web
+# table "Extra Small Ball Bearings and Miniature Ball Bearings, Metric Series
+# With Flange", read on 2026-10-28. The table is one web page, so the page is
+# the row of the bearing: F692ZZ.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+bore_d,2,mm,catalogue,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,,,Bore diameter d
+outer_d,6,mm,catalogue,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,,,Outside diameter D
+width_b,3,mm,catalogue,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,,,Width B (the shielded version is wider than the open F692)
+flange_d1,7.5,mm,catalogue,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,,,Flange outside diameter D1
+flange_c1,0.8,mm,catalogue,https://www.nsk.com/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series-with-flamge.html,row F692ZZ,,,Flange width C1

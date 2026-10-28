@@ -1,0 +1,21 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+F692ZZ,"Flanged miniature ball bearing, metric, shields on both sides",d 2 mm; D 6 mm; B 3 mm; flange D1 7.5 mm x C1 0.8 mm; Cr 365 N; C0r 98 N; grease speed limit 75000 1/min,,cad/own/F692ZZ.FCStd,,own-model,A,active,"Sizes and ratings from the NSK web table for metric miniature ball bearings with flange (read 2026-10-28). NSK gives no mass. The open F692 is narrower (B 2.3 mm, C1 0.6 mm): order F692ZZ."
