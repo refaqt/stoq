@@ -9,3 +9,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-09-29 | [ADR-002 — One method for every supplier file](2026-09-29_component-intake.md) |
 | 2026-10-02 | [ADR-003 — Stop sharing the HIWIN files and use our own models](2026-10-02_hiwin-stop-sharing.md) |
 | 2026-10-06 | [ADR-004 — Share brand CAD files and documents until the brand objects](2026-10-06_share-supplier-files-until-asked.md) |
+| 2026-10-28 | [ADR-005 — Mounting frames are saved hidden in this library](2026-10-28_mounting-frames-hidden.md) |
