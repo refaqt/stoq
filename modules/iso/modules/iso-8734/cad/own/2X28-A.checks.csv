@@ -1,0 +1,11 @@
+# Check list for our own ISO 8734 pin, 2 x 28 mm, type A.
+#
+# A standard part has no brand model to compare with. Every row stays
+# not-confirmed until a real pin is measured.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (diameter d),2,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,"Extent along X of the bounding box of the solid, to be compared with a caliper reading on a real pin",not-confirmed,2026-10-28T00:00:00Z
+envelope Y (diameter d),2,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,"Extent along Y of the bounding box of the solid, to be compared with a caliper reading on a real pin",not-confirmed,2026-10-28T00:00:00Z
+envelope Z (length l),28,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,"Extent along the axis of the bounding box of the solid, to be compared with a caliper reading on a real pin",not-confirmed,2026-10-28T00:00:00Z
+symmetry XY,-,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,"Bounding box compared with its mirror image in the XY plane through the origin",not-confirmed,2026-10-28T00:00:00Z
+symmetry XZ,-,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,"Bounding box compared with its mirror image in the XZ plane through the origin",not-confirmed,2026-10-28T00:00:00Z
+symmetry YZ,-,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,"Bounding box compared with its mirror image in the YZ plane through the origin",not-confirmed,2026-10-28T00:00:00Z

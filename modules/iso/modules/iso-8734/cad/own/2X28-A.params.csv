@@ -1,0 +1,6 @@
+# Parameters for our own ISO 8734 pin, 2 mm (m6) x 28 mm, type A. The two
+# sizes are the ones in the designation of the part. The diameter tolerance
+# for type A is m6.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+pin_d,2,mm,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,Nominal diameter d (tolerance m6)
+pin_l,28,mm,catalogue,ISO 8734:1997 (designation ISO 8734 - 2 x 28 - A - St),designation,,,Length l

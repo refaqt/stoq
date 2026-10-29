@@ -1,0 +1,21 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+2-200HV-A2,"Plain washer, small series, size 2 (for M2), 200 HV, A2 stainless steel",d1 2.2 mm; d2 4.5 mm; h 0.3 mm (0.2 to 0.4 mm); 200 HV; A2 stainless steel,0.03,cad/own/2-200HV-A2.FCStd,,own-model,A,active,"Order as ISO 7092 - 2 - 200 HV - A2 (was DIN 433 2.2). Mass from the model volume and 7.9 g/cm3."

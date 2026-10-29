@@ -1,0 +1,17 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "NSK Miniature Ball Bearings, Metric, with Flange"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/nsk/modules/miniature-flanged-metric"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Extra small and miniature deep groove ball bearings, metric, with a flange on the outer ring."
+
+[brand]
+name = "NSK Ltd."
+website = "https://www.nsk.com"
+cad-terms = "https://www.nsk.com/terms-and-conditions/"
+redistribute = false
+
+# Interfaces this family provides. `doqs add-interface` in a machine adds
+# the matching port def; declare the family's own here.

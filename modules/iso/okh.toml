@@ -1,0 +1,18 @@
+# A brand is the name on the part, not the supplier you buy from.
+# CC BY-SA for the record we compile; the parts are not ours.
+okhv = "OKH-LOSHv1.0"
+name = "ISO (International Organization for Standardization)"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/iso"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Parts made by ISO (International Organization for Standardization)."
+
+[brand]
+name = "ISO (International Organization for Standardization)"
+website = "https://www.iso.org"
+cad-terms = "https://www.iso.org/terms-conditions-licence-agreement.html"
+redistribute = false
+
+# One dated [[terms-review]] per kind of file (cad, documentation).
+# `doqs add-part` adds them; a named person approves them in the pull request.

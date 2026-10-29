@@ -1,0 +1,103 @@
+{
+  "document": "_2X28_A",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 182.212,
+      "bbox": [
+        -1.0,
+        -1.0,
+        -14.0,
+        1.0,
+        1.0,
+        14.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Pin",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 87.9646
+    },
+    "Part": {
+      "area": 182.212,
+      "bbox": [
+        -1.0,
+        -1.0,
+        -14.0,
+        1.0,
+        1.0,
+        14.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "_2X28_A",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 87.9646
+    },
+    "Shank": {
+      "area": 182.212,
+      "bbox": [
+        -1.0,
+        -1.0,
+        -14.0,
+        1.0,
+        1.0,
+        14.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Shank",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 87.9646
+    }
+  },
+  "parametric": {
+    "audited": 2,
+    "objects": {}
+  },
+  "params": {
+    "pin_d": 2.0,
+    "pin_l": 28.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "2X28-A.FCStd": "ba109ae6ec2c8dddd165631acfa8041037a6951104f5312fba78f17e0879a382"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "document": "_2_200HV_A2",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 30.5206,
+      "bbox": [
+        -2.25,
+        -2.25,
+        0.0,
+        2.25,
+        2.25,
+        0.3
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Washer",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 3.6309
+    },
+    "Disc": {
+      "area": 36.0498,
+      "bbox": [
+        -2.25,
+        -2.25,
+        0.0,
+        2.25,
+        2.25,
+        0.3
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Disc",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 4.77129
+    },
+    "Hole": {
+      "area": 30.5206,
+      "bbox": [
+        -2.25,
+        -2.25,
+        0.0,
+        2.25,
+        2.25,
+        0.3
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Hole",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 3.6309
+    },
+    "Part": {
+      "area": 30.5206,
+      "bbox": [
+        -2.25,
+        -2.25,
+        0.0,
+        2.25,
+        2.25,
+        0.3
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        0.15
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "_2_200HV_A2",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 3.6309
+    }
+  },
+  "parametric": {
+    "audited": 3,
+    "objects": {}
+  },
+  "params": {
+    "washer_d1": 2.2,
+    "washer_d2": 4.5,
+    "washer_h": 0.3
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "2-200HV-A2.FCStd": "8f4a076bd0dee62a8eb694443c01508e20c45154df837311c6c3499a1f5e0dd8"
+  }
+}
