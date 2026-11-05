@@ -13,6 +13,7 @@ checks expect. The full specification is
 | [`lamotion/`](lamotion/) | `abs-readhead`, `alz-scale`, `rus-et-clamp` | Absolute optical linear encoder: read head, steel tape scale and end clamps |
 | [`nsk/`](nsk/) | `miniature-flanged-metric` | Miniature ball bearings with a flange, metric. Our own models, drawn from the NSK table |
 | [`iso/`](iso/) | `iso-8734`, `iso-7092` | Standard parts: hardened dowel pins and small plain washers. Our own models, drawn from the sizes of the standard |
+| [`generic/`](generic/) | `ndfeb-magnet-tape` | Parts sold without a brand name, named by their specification: neodymium magnet tape and the pieces we cut from it. Our own models. See [ADR-006](../docs/decisions/2026-11-05_generic-brand.md) |
 
 All three brands are shared, so a machine that links one of these models keeps
 working for anyone who clones it. We share brand files until the brand objects.

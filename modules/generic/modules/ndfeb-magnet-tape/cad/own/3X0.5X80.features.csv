@@ -1,0 +1,6 @@
+# Every feature of a cut piece of magnet tape.
+feature,kind,outside_envelope,source,page,status,reason
+flat bar (width x thickness x cut length),sized,no,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties,modelled,
+adhesive layer (3M film),not-drawn,no,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Omschrijving,left-out,"No thickness given. It is on one face and inside the 0.5 mm as far as we know, so it changes no outside size."
+release liner,not-drawn,no,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Omschrijving,left-out,"Peeled off before fitting, so it is not part of the fitted piece."
+magnetic poles (multi-pole along the length),not-drawn,no,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Magnetisering),left-out,"Inside the material. They change no size. The pole pitch is not given."

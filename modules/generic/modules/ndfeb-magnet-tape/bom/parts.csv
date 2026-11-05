@@ -1,0 +1,23 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+3X0.5X500,"Neodymium magnet tape, self-adhesive, 3 x 0.5 mm, roll of 0.5 m",width 3 mm; thickness 0.5 mm; length 0.5 m (roll); neodymium (NdFeB) in a flexible binder; magnetised multi-pole along the length (poles side by side); holding force about 150 g/cm2 (about 0.015 N/mm2); maximum working temperature 100 C; strong self-adhesive 3M film layer on one face; colour anthracite; bends only to a limited degree,,cad/own/3X0.5X500.FCStd,,own-model,A,active,"The bought roll. Sold without a brand name, so we record it by its specification. Seller's article number at the time of writing: NEOMB-ZK-3x0,5x0,5 mtr. The seller gives no pole pitch, no mass and no tolerances, and does not say whether the 0.5 mm includes the adhesive layer. Holding force as stated by the seller, on steel of unknown thickness."
+3X0.5X417.5,"Neodymium magnet tape 3 x 0.5 mm, cut to 417.5 mm",width 3 mm; thickness 0.5 mm; length 417.5 mm; cut from 3X0.5X500,,cad/own/3X0.5X417.5.FCStd,,own-model,A,active,"Long piece of the magnet ring in the base of the aqtuator compact stage: one on each long side, 2 per base. Fits between the R4 corners of the 3 mm ring pocket, with 0.25 mm room at each end. One roll gives one long piece and one short piece."
+3X0.5X80,"Neodymium magnet tape 3 x 0.5 mm, cut to 80 mm",width 3 mm; thickness 0.5 mm; length 80 mm; cut from 3X0.5X500,,cad/own/3X0.5X80.FCStd,,own-model,A,active,"Short piece of the magnet ring in the base of the aqtuator compact stage: one in each end leg, between an R4 corner and the split at the preload screw, 4 per base. 0.25 mm room at each end."

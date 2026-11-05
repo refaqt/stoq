@@ -1,0 +1,24 @@
+# A brand is the name on the part, not the supplier you buy from.
+# CC BY-SA for the record we compile; the parts are not ours.
+#
+# "generic" is not a company. It holds parts that carry no brand name, so we
+# can only record them by their specification, the way a standard part is
+# recorded under the standards body. No brand files exist for these parts:
+# every model here is our own, drawn from the published sizes. So the
+# website and cad-terms point at this folder.
+okhv = "OKH-LOSHv1.0"
+name = "Generic (no brand)"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Parts sold without a brand name, recorded by their specification."
+
+[brand]
+name = "Generic (no brand)"
+website = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+cad-terms = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+redistribute = false
+
+# One dated [[terms-review]] per kind of file (cad, documentation).
+# No brand file is stored here, so there is nothing to review yet.

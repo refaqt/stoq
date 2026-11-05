@@ -1,0 +1,7 @@
+# Parameters for our own piece of neodymium magnet tape, 3 x 0.5 mm, as a whole roll of 500 mm.
+# Width and thickness: the seller's product page, read on 2026-11-05.
+# Length: the seller sells the tape on a roll of 0.5 m.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+tape_w,3,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Breedte),,,Width of the tape
+tape_t,0.5,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Dikte),,,Thickness of the tape. The page does not say whether this includes the adhesive layer
+tape_l,500,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Lengte),,,Cut length: the whole roll as bought, unrolled
