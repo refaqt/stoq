@@ -1,0 +1,10 @@
+# Check list for our own piece of magnet tape, cut to 21.5 mm.
+#
+# The tape has no brand model to compare with. Every row stays
+# not-confirmed until a real piece is measured.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (length),21.5,catalogue,"aqtuator modules/compact-stage/cad/parts/base: MagnetRingSplitSketch, Sketch006 and DamperPocketSketch",ring pocket outline,,,"Extent along X of the bounding box of the solid, to be compared with a ruler reading on a cut piece",not-confirmed,2026-11-05T00:00:00Z
+envelope Y (width),3,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Breedte),,,"Extent along Y of the bounding box of the solid, to be compared with a caliper reading on the tape",not-confirmed,2026-11-05T00:00:00Z
+envelope Z (thickness),0.5,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Dikte),,,"Extent along Z of the bounding box of the solid, to be compared with a micrometer reading on the tape with the liner removed",not-confirmed,2026-11-05T00:00:00Z
+symmetry XZ,-,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties,,,"Bounding box compared with its mirror image in the XZ plane through the middle of the width",not-confirmed,2026-11-05T00:00:00Z
+symmetry YZ,-,catalogue,"aqtuator modules/compact-stage/cad/parts/base: MagnetRingSplitSketch, Sketch006 and DamperPocketSketch",ring pocket outline,,,"Bounding box compared with its mirror image in the YZ plane through the middle of the length",not-confirmed,2026-11-05T00:00:00Z

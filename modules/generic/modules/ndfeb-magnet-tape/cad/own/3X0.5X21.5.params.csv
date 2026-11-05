@@ -1,0 +1,7 @@
+# Parameters for our own piece of neodymium magnet tape, 3 x 0.5 mm, cut to 21.5 mm.
+# Width and thickness: the seller's product page, read on 2026-11-05.
+# Length: our cut length. Each end leg of the ring pocket has four pieces of solid floor between the holes under it (a cavity at each corner, a damper slot, the split): y = 29 to 52.5, 76.5 to 98.5, 111.5 to 133.5 and 157.5 to 181 mm. The shortest is 22 mm, so 0.25 mm room at each end.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+tape_w,3,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Breedte),,,Width of the tape
+tape_t,0.5,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Dikte),,,Thickness of the tape. The page does not say whether this includes the adhesive layer
+tape_l,21.5,mm,catalogue,"aqtuator modules/compact-stage/cad/parts/base: MagnetRingSplitSketch, Sketch006 and DamperPocketSketch",ring pocket outline,,,Cut length: short piece, four in each end leg of the magnet ring, one on each piece of solid floor
