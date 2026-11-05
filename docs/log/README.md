@@ -21,3 +21,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-10-28 | [The bearing, pin and washer of the seal strip rollers are in the library](2026-10-28_seal-strip-roller-parts.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-05 | [The magnet strips of the compact stage base are in the library](2026-11-05_magnet-tape-pieces.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-05 | [The MK21 thermal sensor values are in the library](2026-11-05_mk21-thermal-sensor.md) | electrical engineering | 0 |
+| 2026-11-05 | [The short magnet strip is now 21.5 mm](2026-11-05_magnet-tape-short-piece-21.5.md) | mechanical engineering, purchasing | 0 |
