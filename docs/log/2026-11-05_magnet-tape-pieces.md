@@ -14,7 +14,8 @@ specification (see [ADR-006](../decisions/2026-11-05_generic-brand.md)).
 | `3X0.5X417.5` | Long piece: one on each long side of the magnet ring | 2 |
 | `3X0.5X80` | Short piece: one in each end leg of the magnet ring, between a corner and the split at a preload screw | 4 |
 
-Each piece has our own model: a flat bar, built by a script from a table of sizes.
+Each piece has our own model: a flat bar, built by a script from a table of sizes. The three part
+files were built in the FreeCAD window and open visible there.
 
 The specification of the tape, translated from the seller's Dutch product page, read on
 2026-11-05:
@@ -48,10 +49,6 @@ the base. When they go in, they lie on the floor of the ring pocket, adhesive fa
 
 ## Next Steps
 
-- **The part files are not built yet.** This session had no FreeCAD. Build the three models on a
-  computer with FreeCAD 1.1, inside the FreeCAD window (see the mistake note of 2026-10-20), and
-  commit the part files and their fingerprints. Until then, the library check fails on the three
-  missing files.
 - Check the cut lengths against the base when its new version is ready. They come from the base
   of 2026-11-05.
 - Order 3 rolls for each base. One roll gives one long piece and one short piece
@@ -77,7 +74,14 @@ the base. When they go in, they lie on the floor of the ring pocket, adhesive fa
   allows only `catalogue`, `estimated` or `measured`.
 - Model axes: X along the length from one cut end, Y across the width from one edge, Z from the
   adhesive face; origin at a corner of the adhesive face. One frame, `IF_end`, at the origin.
-- `bash doqs.sh check`: fails only on the three missing part files (validate_variants and the
-  own-model build check). The rest passes.
+- The cloud session that wrote the scripts had no FreeCAD, so the part files were built in a
+  second session on a desktop, inside the FreeCAD 1.1.4 window. Each `.FCStd` was first saved
+  empty, then built by its script, saved with `cad_build.save()`, and fingerprinted after the
+  save (`saved: true`).
+- The build helper shows a new frame. `IF_end` was then hidden in each file, as ADR-005 asks,
+  and the file saved and fingerprinted again.
+- Each file was opened again in the FreeCAD window: the bar shows, `IF_end` is hidden. Sizes:
+  500 x 3 x 0.5, 417.5 x 3 x 0.5 and 80 x 3 x 0.5 mm. Each file starts with `PK`.
+- `bash doqs.sh check`: all gates passed.
 
 </details>

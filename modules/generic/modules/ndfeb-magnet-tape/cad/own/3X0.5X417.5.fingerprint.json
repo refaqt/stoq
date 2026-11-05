@@ -1,0 +1,104 @@
+{
+  "document": "_3X0_5X417_5",
+  "errors": [],
+  "objects": {
+    "Bar": {
+      "area": 2925.5,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        417.5,
+        3.0,
+        0.5
+      ],
+      "closed": true,
+      "com": [
+        208.75,
+        1.5,
+        0.25
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Bar",
+      "type": "PartDesign::AdditiveBox",
+      "valid": true,
+      "volume": 626.25
+    },
+    "Body": {
+      "area": 2925.5,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        417.5,
+        3.0,
+        0.5
+      ],
+      "closed": true,
+      "com": [
+        208.75,
+        1.5,
+        0.25
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "Tape",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 626.25
+    },
+    "Part": {
+      "area": 2925.5,
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        417.5,
+        3.0,
+        0.5
+      ],
+      "closed": true,
+      "com": [
+        208.75,
+        1.5,
+        0.25
+      ],
+      "counts": {
+        "edges": 12,
+        "faces": 6,
+        "shells": 1,
+        "solids": 1,
+        "verts": 8
+      },
+      "label": "_3X0_5X417_5",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 626.25
+    }
+  },
+  "parametric": {
+    "audited": 2,
+    "objects": {}
+  },
+  "params": {
+    "tape_l": 417.5,
+    "tape_t": 0.5,
+    "tape_w": 3.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "3X0.5X417.5.FCStd": "22367674f03e65ddf49521a2c6dcde1115d1b29c7485a1bb65607a095d99a968"
+  }
+}
