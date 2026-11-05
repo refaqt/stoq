@@ -1,0 +1,7 @@
+# Parameters for our own piece of neodymium magnet tape, 3 x 0.5 mm, cut to 417.5 mm.
+# Width and thickness: the seller's product page, read on 2026-11-05.
+# Length: our cut length. The long side of the ring pocket is straight from x = 11 to x = 429 mm (418 mm) between the R4 outer corners. 0.25 mm room at each end.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+tape_w,3,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Breedte),,,Width of the tape
+tape_t,0.5,mm,catalogue,"https://www.magneetgigant.nl/magneetband/neodymium-magneetband/Neodymium-magneetband-3x0,5-mm-rol-van-0,5-meter-150-gram-cm2-",Specificaties (Dikte),,,Thickness of the tape. The page does not say whether this includes the adhesive layer
+tape_l,417.5,mm,catalogue,aqtuator modules/compact-stage/cad/parts/base: MagnetRingSplitSketch and Sketch006,ring pocket outline,,,Cut length: long piece, one on each long side of the magnet ring

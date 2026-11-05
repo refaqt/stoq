@@ -1,0 +1,17 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Neodymium Magnet Tape, Self-Adhesive"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/generic/modules/ndfeb-magnet-tape"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Flexible magnet tape with neodymium (NdFeB) powder and a self-adhesive layer, sold on a roll without a brand name, and the pieces we cut from it."
+
+[brand]
+name = "Generic (no brand)"
+website = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+cad-terms = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+redistribute = false
+
+# Interfaces this family provides. `doqs add-interface` in a machine adds
+# the matching port def; declare the family's own here.

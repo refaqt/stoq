@@ -21,6 +21,28 @@
     ],
     "used_by_builds": []
   },
+  "modules/generic/modules/ndfeb-magnet-tape": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/generic",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/generic": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/hiwin/modules/egr-rail": {
     "current_version": "0.1.0",
     "trl": null,
