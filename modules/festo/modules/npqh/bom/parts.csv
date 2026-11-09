@@ -1,0 +1,21 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+NPQH-D-M5-Q4-P10,"Push-in fitting, male thread M5, for 4 mm tubing, nickel-plated brass, pack of 10",thread M5 x 4 mm; tubing OD 4 mm; nominal size 2.5 mm; hex 9 mm; overall length 21.5 mm; water up to 0.6 MPa at 0 to 50 deg C; tightening torque 1 Nm,5.8,cad/own/NPQH-D-M5-Q4-P10.FCStd,https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/578334.pdf,own-model,A,active,"Festo part number 578334. Sold in packs of 10. Internal hex 2.5 mm, so it can be tightened with a hex key when two fittings sit close together. Sealing ring (fluoro rubber) under the hex: the face around the tapped hole must be flat."

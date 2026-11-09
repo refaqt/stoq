@@ -1,0 +1,5 @@
+# Parameters for our own stub of Festo PUN-H-4X0,75-BL. Read in Chrome on 2026-11-09.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+hose_od,4,mm,catalogue,"https://www.festo.com/be/nl/a/197383/",Buiten-diameter,,,Outside diameter
+hose_id,2.6,mm,catalogue,"https://www.festo.com/be/nl/a/197383/",Binnen-diameter,,,Inside diameter
+hose_l,20,mm,catalogue,"aqtuator modules/compact-stage",cooling hose stubs,,,Length of the stub drawn in an assembly

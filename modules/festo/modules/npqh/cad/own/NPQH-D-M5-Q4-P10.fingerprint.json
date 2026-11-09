@@ -1,0 +1,252 @@
+{
+  "document": "NPQH_D_M5_Q4_P10",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 925.011,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        17.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        7.48141
+      ],
+      "counts": {
+        "edges": 45,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 28
+      },
+      "label": "Fitting",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 989.44
+    },
+    "Bore": {
+      "area": 863.75,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        17.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        7.80306
+      ],
+      "counts": {
+        "edges": 42,
+        "faces": 20,
+        "shells": 1,
+        "solids": 1,
+        "verts": 26
+      },
+      "label": "Bore",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 1088.99
+    },
+    "Hex": {
+      "area": 343.424,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        4.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.40325
+      ],
+      "counts": {
+        "edges": 21,
+        "faces": 10,
+        "shells": 1,
+        "solids": 1,
+        "verts": 14
+      },
+      "label": "Hex",
+      "type": "PartDesign::AdditivePrism",
+      "valid": true,
+      "volume": 394.206
+    },
+    "Part": {
+      "area": 925.011,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        17.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        7.48141
+      ],
+      "counts": {
+        "edges": 45,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 28
+      },
+      "label": "NPQH_D_M5_Q4_P10",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 989.44
+    },
+    "ReleaseRing": {
+      "area": 704.707,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        17.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        7.71002
+      ],
+      "counts": {
+        "edges": 39,
+        "faces": 19,
+        "shells": 1,
+        "solids": 1,
+        "verts": 24
+      },
+      "label": "ReleaseRing",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 1194.53
+    },
+    "Sleeve": {
+      "area": 654.442,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        15.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        6.90228
+      ],
+      "counts": {
+        "edges": 36,
+        "faces": 17,
+        "shells": 1,
+        "solids": 1,
+        "verts": 22
+      },
+      "label": "Sleeve",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 1094.0
+    },
+    "Thread": {
+      "area": 102.102,
+      "bbox": [
+        -2.5,
+        -2.5,
+        -4.0,
+        2.5,
+        2.5,
+        0.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        -2.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Thread",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 78.5398
+    },
+    "TubeSeat": {
+      "area": 925.011,
+      "bbox": [
+        -5.19615,
+        -4.5,
+        -4.0,
+        5.19615,
+        4.5,
+        17.5
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        7.48141
+      ],
+      "counts": {
+        "edges": 45,
+        "faces": 22,
+        "shells": 1,
+        "solids": 1,
+        "verts": 28
+      },
+      "label": "TubeSeat",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 989.44
+    }
+  },
+  "parametric": {
+    "audited": 7,
+    "objects": {}
+  },
+  "params": {
+    "fit_bore": 2.5,
+    "fit_d1": 5.0,
+    "fit_d5": 8.0,
+    "fit_d6": 9.0,
+    "fit_hex_af": 9.0,
+    "fit_hex_h": 4.5,
+    "fit_insert": 13.0,
+    "fit_l1": 21.5,
+    "fit_l2": 4.0,
+    "fit_ring_h": 2.0,
+    "fit_tube_od": 4.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "NPQH-D-M5-Q4-P10.FCStd": "1cea8419650c54e132bad89a4186110a4a9a62848fd85ac0b1c79475d4871470"
+  }
+}

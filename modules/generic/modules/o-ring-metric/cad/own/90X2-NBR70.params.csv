@@ -1,0 +1,4 @@
+# Parameters for our own O-ring 90 x 2 mm, NBR 70. Read on 2026-11-09.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+oring_id,90,mm,catalogue,"https://eriks.com/be/nl/p/eriks/o-ring-nbr-70-36624-90x2-10028005",product title,,,Inside diameter (unstretched)
+oring_cs,2,mm,catalogue,"https://eriks.com/be/nl/p/eriks/o-ring-nbr-70-36624-90x2-10028005",product title,,,Cross-section diameter

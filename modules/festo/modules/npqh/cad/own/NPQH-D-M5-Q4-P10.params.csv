@@ -1,0 +1,13 @@
+# Parameters for our own model of the Festo NPQH-D-M5-Q4-P10. Read in Chrome on 2026-11-09.
+alias,value,unit,basis,source,page,measured_by,measured_utc,description
+fit_d1,5,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (D1 = M5),,,Thread M5 major diameter
+fit_l2,4,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (L2),,,Thread length
+fit_l1,21.5,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (L1),,,Overall length including the thread
+fit_hex_af,9,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (hex 1),,,External hex across flats
+fit_d6,9,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (D6),,,Body diameter
+fit_d5,8,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (D5),,,Release ring diameter
+fit_bore,2.5,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/578334.pdf",Nominal size,,,Nominal flow bore
+fit_tube_od,4,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/578334.pdf",Pneumatic connection port 2,,,Tubing outside diameter
+fit_insert,13,mm,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/578334.pdf",Tubing insertion depth,,,Tubing insertion depth
+fit_hex_h,4.5,mm,estimated,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 drawing (not dimensioned),,,Hex length: estimate from the drawing. Measure a real fitting
+fit_ring_h,2,mm,estimated,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 drawing (not dimensioned),,,Release ring length: estimate from the drawing. Measure a real fitting

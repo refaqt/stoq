@@ -1,0 +1,4 @@
+# Every feature of a tubing stub.
+feature,kind,outside_envelope,source,page,status,reason
+tube (outside x inside diameter),sized,no,"https://www.festo.com/be/nl/a/197383/",product page,modelled,
+printed marking,not-drawn,no,"https://www.festo.com/be/nl/a/197383/",product page,left-out,"Printed on the surface. No size."

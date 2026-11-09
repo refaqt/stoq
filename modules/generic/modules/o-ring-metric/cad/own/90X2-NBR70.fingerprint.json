@@ -1,0 +1,103 @@
+{
+  "document": "_90X2_NBR70",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 1816.01,
+      "bbox": [
+        -50.8724,
+        -50.8724,
+        0.0,
+        50.8724,
+        50.8724,
+        2.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 1,
+        "shells": 1,
+        "solids": 1,
+        "verts": 1
+      },
+      "label": "ORing",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 908.004
+    },
+    "Part": {
+      "area": 1816.01,
+      "bbox": [
+        -50.8724,
+        -50.8724,
+        0.0,
+        50.8724,
+        50.8724,
+        2.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 1,
+        "shells": 1,
+        "solids": 1,
+        "verts": 1
+      },
+      "label": "_90X2_NBR70",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 908.004
+    },
+    "Ring": {
+      "area": 1816.01,
+      "bbox": [
+        -50.8724,
+        -50.8724,
+        0.0,
+        50.8724,
+        50.8724,
+        2.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "counts": {
+        "edges": 2,
+        "faces": 1,
+        "shells": 1,
+        "solids": 1,
+        "verts": 1
+      },
+      "label": "Ring",
+      "type": "PartDesign::AdditiveTorus",
+      "valid": true,
+      "volume": 908.004
+    }
+  },
+  "parametric": {
+    "audited": 1,
+    "objects": {}
+  },
+  "params": {
+    "oring_cs": 2.0,
+    "oring_id": 90.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "90X2-NBR70.FCStd": "03c9e1c18b20e921c1a80ae3999caec6383d5b216f2e1ce1789ca037befa5fb0"
+  }
+}

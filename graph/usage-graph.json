@@ -21,7 +21,51 @@
     ],
     "used_by_builds": []
   },
+  "modules/festo/modules/npqh": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/festo",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/festo/modules/pun-h": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/festo",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/festo": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/generic/modules/ndfeb-magnet-tape": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/generic",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/generic/modules/o-ring-metric": {
     "current_version": "0.1.0",
     "trl": null,
     "used_by": [

@@ -1,0 +1,21 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+197383,"Plastic tubing PUN-H-4X0,75-BL, polyurethane, hydrolysis resistant, 4 x 0.75 mm, blue, sold by the metre",outside diameter 4 mm; inside diameter 2.6 mm; 10 bar at -35 to 60 deg C,,cad/own/197383.FCStd,https://www.festo.com/be/nl/a/197383/,own-model,A,active,"Festo type PUN-H-4X0,75-BL. Order unit is the metre. The model is a 20 mm stub, the piece drawn at a fitting in an assembly. Order the length the machine needs."

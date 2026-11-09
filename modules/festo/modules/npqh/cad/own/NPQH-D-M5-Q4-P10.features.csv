@@ -1,0 +1,9 @@
+# Every feature of the NPQH-D-M5-Q4-P10.
+feature,kind,outside_envelope,source,page,status,reason
+male thread M5 x 4,sized,yes,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5,modelled,Drawn as a plain cylinder at the major diameter
+external hex 9 mm,sized,yes,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5,modelled,Length estimated
+body diameter 9 mm,sized,yes,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5,modelled,
+release ring diameter 8 mm,sized,yes,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5,modelled,Length estimated
+tubing seat 4 mm x 13 mm,sized,no,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/578334.pdf",Tubing insertion depth,modelled,
+sealing ring under the hex,not-drawn,no,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 drawing,left-out,"It sits in the face under the hex and is pressed flat when the fitting is tightened."
+internal hex 2.5 mm,not-drawn,no,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/DataSheet/EN_GB/578334.pdf",Type of mounting,left-out,"Inside the bore. It changes no outside size."
