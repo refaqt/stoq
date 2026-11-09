@@ -1,0 +1,132 @@
+{
+  "document": "_197383",
+  "errors": [],
+  "objects": {
+    "Body": {
+      "area": 429.204,
+      "bbox": [
+        -2.0,
+        -2.0,
+        0.0,
+        2.0,
+        2.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Hose",
+      "type": "PartDesign::Body",
+      "valid": true,
+      "volume": 145.142
+    },
+    "Bore": {
+      "area": 429.204,
+      "bbox": [
+        -2.0,
+        -2.0,
+        0.0,
+        2.0,
+        2.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "Bore",
+      "type": "PartDesign::SubtractiveCylinder",
+      "valid": true,
+      "volume": 145.142
+    },
+    "Part": {
+      "area": 429.204,
+      "bbox": [
+        -2.0,
+        -2.0,
+        0.0,
+        2.0,
+        2.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "counts": {
+        "edges": 6,
+        "faces": 4,
+        "shells": 1,
+        "solids": 1,
+        "verts": 4
+      },
+      "label": "_197383",
+      "type": "App::Part",
+      "valid": true,
+      "volume": 145.142
+    },
+    "Tube": {
+      "area": 276.46,
+      "bbox": [
+        -2.0,
+        -2.0,
+        0.0,
+        2.0,
+        2.0,
+        20.0
+      ],
+      "closed": true,
+      "com": [
+        0.0,
+        0.0,
+        10.0
+      ],
+      "counts": {
+        "edges": 3,
+        "faces": 3,
+        "shells": 1,
+        "solids": 1,
+        "verts": 2
+      },
+      "label": "Tube",
+      "type": "PartDesign::AdditiveCylinder",
+      "valid": true,
+      "volume": 251.327
+    }
+  },
+  "parametric": {
+    "audited": 3,
+    "objects": {}
+  },
+  "params": {
+    "hose_id": 2.6,
+    "hose_l": 20.0,
+    "hose_od": 4.0
+  },
+  "saved": true,
+  "schema": 1,
+  "sources": {
+    "197383.FCStd": "edea56fdb8c0013eb4769c290b4b04b2ad8e9661eab4e0cd0b2e8dd003008e2b"
+  }
+}

@@ -1,0 +1,17 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Festo Push-In Fittings NPQH"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/festo/modules/npqh"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Push-in fittings in nickel-plated brass for plastic tubing, rated for water. Male thread with a sealing ring under an external hex."
+
+[brand]
+name = "Festo SE & Co. KG"
+website = "https://www.festo.com"
+cad-terms = "https://www.festo.com/legal"
+redistribute = false
+
+# Interfaces this family provides. `doqs add-interface` in a machine adds
+# the matching port def; declare the family's own here.

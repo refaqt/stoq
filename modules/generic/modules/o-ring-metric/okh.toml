@@ -1,0 +1,17 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Metric O-Rings, NBR 70"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/generic/modules/o-ring-metric"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Endless moulded O-rings in metric sizes (inside diameter x cross-section), NBR 70 Shore A. Recorded by size and material, because many makers make the same ring."
+
+[brand]
+name = "Generic (no brand)"
+website = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+cad-terms = "https://github.com/refaqt/stoq/tree/main/modules/generic"
+redistribute = false
+
+# Interfaces this family provides. `doqs add-interface` in a machine adds
+# the matching port def; declare the family's own here.

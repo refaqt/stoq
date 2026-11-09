@@ -1,0 +1,9 @@
+# Check list for our own model of the NPQH-D-M5-Q4-P10. Compare with the Festo
+# CAD model or a real fitting. Every row stays not-confirmed until then.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (hex across corners),10.39,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (hex 1 = 9 mm across flats),,,"Extent along X of the bounding box, across two corners of the hex",not-confirmed,2026-11-09T00:00:00Z
+envelope Y (hex across flats),9,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (hex 1),,,"Extent along Y of the bounding box",not-confirmed,2026-11-09T00:00:00Z
+envelope Z (overall length),21.5,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (L1),,,"Extent along Z of the bounding box",not-confirmed,2026-11-09T00:00:00Z
+thread length,4,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (L2),,,"Distance from the sealing face to the thread end",not-confirmed,2026-11-09T00:00:00Z
+hex across flats,9,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 table (hex 1),,,"Distance between two opposite flats of the hex",not-confirmed,2026-11-09T00:00:00Z
+symmetry XZ,-,catalogue,"https://ftp.festo.com/public/PNEUMATIC/SOFTWARE_SERVICE/Documentation/2025/JA/NPQH_EN.PDF",p. 5 drawing,,,"Bounding box compared with its mirror image in the XZ plane",not-confirmed,2026-11-09T00:00:00Z

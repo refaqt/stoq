@@ -1,0 +1,22 @@
+# One row per ORDERABLE PART NUMBER. This one table is the whole catalogue: it
+# replaces catalog.toml, bom.csv, sources.toml and bom/tables/ that our own
+# families carry, because in a library all four would say the same thing.
+#
+# No price and no distributor. A library is technical; what a part costs is
+# answered by a different system. See doqs/docs/decisions/2026-09-18_money-out-of-the-bom.md.
+#
+# `cad` and `datasheet` may be empty: the table is the complete catalogue and
+# the files are a cache that fills as people use parts.
+# `terms` is one of:
+#   redistributable  the brand's terms or a written permission allow sharing,
+#                    and the brand's okh.toml records a public [[terms-review]]
+#   fetch-only       the file is not committed; each person downloads it
+#   private          the file is not committed and has no public address; the
+#                    only copy is in the private library
+#   own-model        `cad` is our own model under cad/own/, drawn from the
+#                    datasheet, with a <name>.checks.csv next to it
+# `status` is eol for a part you can no longer buy. Never delete the row: an
+# existing machine is still made of it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+90X2-NBR70,"O-ring 90 x 2 mm, NBR 70 Shore A",inside diameter 90 mm; cross-section 2 mm; outside diameter 94 mm; NBR 70 Shore A,,cad/own/90X2-NBR70.FCStd,,own-model,A,active,"Order by size and material, for example ERIKS compound 36624. Face seal around the forcer cooling channel of the aqtuator compact stage."
+5X1.5-NBR70,"O-ring 5 x 1.5 mm, NBR 70 Shore A",inside diameter 5 mm; cross-section 1.5 mm; outside diameter 8 mm; NBR 70 Shore A,,cad/own/5X1.5-NBR70.FCStd,,own-model,A,active,"Order by size and material, for example ERIKS compound 36624. Face seal at the two ports of the printed cooling block of the aqtuator compact stage."

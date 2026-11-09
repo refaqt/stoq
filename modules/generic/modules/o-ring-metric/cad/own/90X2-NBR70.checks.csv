@@ -1,0 +1,7 @@
+# Check list for our own O-ring 90 x 2. Every row stays not-confirmed
+# until a real ring is measured.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (outside diameter),94,catalogue,"https://eriks.com/be/nl/p/eriks/o-ring-nbr-70-36624-90x2-10028005",product title,,,"Extent along X of the bounding box, compared with a caliper reading on a ring",not-confirmed,2026-11-09T00:00:00Z
+envelope Y (outside diameter),94,catalogue,"https://eriks.com/be/nl/p/eriks/o-ring-nbr-70-36624-90x2-10028005",product title,,,"Extent along Y of the bounding box, compared with a caliper reading on a ring",not-confirmed,2026-11-09T00:00:00Z
+envelope Z (cross-section),2,catalogue,"https://eriks.com/be/nl/p/eriks/o-ring-nbr-70-36624-90x2-10028005",product title,,,"Extent along Z of the bounding box, compared with a caliper reading on a ring",not-confirmed,2026-11-09T00:00:00Z
+symmetry XZ,-,catalogue,"https://eriks.com/be/nl/p/eriks/o-ring-nbr-70-36624-90x2-10028005",product title,,,"Bounding box compared with its mirror image in the XZ plane",not-confirmed,2026-11-09T00:00:00Z

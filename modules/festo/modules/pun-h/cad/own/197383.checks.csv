@@ -1,0 +1,6 @@
+# Check list for our own stub of PUN-H-4X0,75-BL.
+dimension,value_mm,basis,source,page,measured_by,measured_utc,method,result,checked_utc
+envelope X (outside diameter),4,catalogue,"https://www.festo.com/be/nl/a/197383/",Buiten-diameter,,,"Extent along X of the bounding box",not-confirmed,2026-11-09T00:00:00Z
+envelope Y (outside diameter),4,catalogue,"https://www.festo.com/be/nl/a/197383/",Buiten-diameter,,,"Extent along Y of the bounding box",not-confirmed,2026-11-09T00:00:00Z
+envelope Z (stub length),20,catalogue,"aqtuator modules/compact-stage",cooling hose stubs,,,"Extent along Z of the bounding box",not-confirmed,2026-11-09T00:00:00Z
+symmetry XZ,-,catalogue,"https://www.festo.com/be/nl/a/197383/",product page,,,"Bounding box compared with its mirror image in the XZ plane",not-confirmed,2026-11-09T00:00:00Z

@@ -1,0 +1,20 @@
+# A brand is the name on the part, not the supplier you buy from.
+# CC BY-SA for the record we compile; the parts are not ours.
+#
+# No Festo file is stored in this library yet. The models here are our own,
+# drawn from the sizes in Festo's public catalogue pages. So there is no
+# [[terms-review]] yet: add one per kind of file before a Festo file is
+# committed. See docs/adding-components.md.
+okhv = "OKH-LOSHv1.0"
+name = "Festo"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/festo"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Pneumatic and fluid components from Festo: push-in fittings and plastic tubing."
+
+[brand]
+name = "Festo SE & Co. KG"
+website = "https://www.festo.com"
+cad-terms = "https://www.festo.com/legal"
+redistribute = false
