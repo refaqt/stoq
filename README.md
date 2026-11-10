@@ -83,6 +83,8 @@ family or a part.
 
 ## Licence
 
+Copyright © 2025–2026 Refaqt (BE 0804.145.539) and contributors. Contributions are accepted under the [Refaqt Contributor Licence Agreement](https://github.com/refaqt/.github/blob/main/CLA.md).
+
 The record we compile is **CC BY-SA 4.0**. Supplier files under any `cad/` or
 `docs/datasheets/` directory keep their own terms and are **not** covered by
 it. There is deliberately no CERN Open Hardware Licence here: nothing in this
