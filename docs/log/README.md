@@ -24,3 +24,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-11-05 | [The short magnet strip is now 21.5 mm](2026-11-05_magnet-tape-short-piece-21.5.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-09 | [The DGSMARTWIN SA32 encoder is not added to the library](2026-11-09_dgsmartwin-sa32-not-added.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-10 | [Two HIWIN documents are in the library](2026-11-10_hiwin-assembly-instructions-and-e1-manual-pages.md) | mechanical engineering, purchasing, legal | 0 |
+| 2026-11-10 | [The full HIWIN E1 drive manual is in the library](2026-11-10_hiwin-e1-full-manual.md) | electrical engineering, purchasing, legal | 0 |
