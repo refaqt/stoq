@@ -10,3 +10,5 @@
 # and the file is back in git.
 supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
 hiwin,GW-13-1-EN-2606-K,docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,7798960,b2ccae74dedaaec76019c9affff38b73546556070fb188f72533475261b3c570,https://www.hiwin.de/medias/sys_master/hiwinDocumentMedia/h0d/h5a/14755945709598/HIWIN%20CATALOGUE%20LINEAR%20GUIDEWAYS/HIWIN-CATALOGUE-LINEAR-GUIDEWAYS.PDF?attachment=true,redistributable,2026-09-21T00:00:00Z
+hiwin,GW-06-2-EN-2610-MA,docs/datasheets/hiwin-linear-guideways-assembly-instructions-GW-06-2-EN-2610-MA.pdf,2943580,71b45cb8493089f27302ce3f359a7473053f7b58a85612815b84d321ae4014d4,,redistributable,2026-11-10T12:49:05Z
+hiwin,ED1-01-5-EN-2610-MA-p128-130,docs/datasheets/hiwin-e1-manual-ED1-01-5-EN-2610-MA-pages-128-130.pdf,671058,5d18484cbc2d676e0ef342a12a657fb2e25989a382ff2f7228134b5364ac768b,,redistributable,2026-11-10T12:29:38Z
