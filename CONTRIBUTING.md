@@ -8,6 +8,20 @@ Before you start, read [`docs/architecture.md`](docs/architecture.md) and
 [`modules/README.md`](modules/README.md). The full specification is
 [`doqs/docs/parts-library.md`](doqs/docs/parts-library.md).
 
+## Contributor agreement and copyright
+
+The rules for all Refaqt repositories are in the
+[Refaqt contributor manual](https://github.com/refaqt/.github/blob/main/CONTRIBUTING.md). In short:
+
+- On your first pull request, you accept the
+  [Refaqt Contributor Licence Agreement](https://github.com/refaqt/.github/blob/main/CLA.md)
+  by posting one sentence as a comment. The check "Contributor agreement" tells you how. You do
+  this once for all Refaqt repositories.
+- You keep your copyright. Refaqt (BE 0804.145.539) gets a licence to use and license your work.
+- Mark anything that you did not make yourself, and keep its own licence and notice.
+- New text files that we made start with an `SPDX-FileCopyrightText` and an
+  `SPDX-License-Identifier` line. The manual shows how.
+
 ## One command
 
 ```bash
