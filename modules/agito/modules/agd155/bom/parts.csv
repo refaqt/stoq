@@ -1,0 +1,21 @@
+# AGD155 standalone servo drive. One table for the whole range: the part
+# number is AGD155-xx-2Ayy, where xx is EC (EtherCAT) or AF (no EtherCAT; CAN,
+# RS232 and RS485 instead) and yy is the current: 06 = 6 Arms continuous and
+# 18 Arms peak, 10 = 10 Arms continuous and 20 Arms peak. An optional
+# customisation number may follow.
+#
+# Source: AGD155 Product Manual Rev.3.4 (docs/datasheets/), pages 6 to 14.
+# Page numbers are the numbers printed on the page. The main encoder port X2
+# is on pages 42 and 43: 10 pins, mating plug 3M 36210-0100PL with shell
+# 36310-3200-008 (or Sunchu SC-10-4P). For BiSS C: pin 1 = 5 V (0.5 A max),
+# pin 2 = GND, pins 3 and 4 = CLOCK+ and CLOCK-, pins 9 and 10 = DATA+ and
+# DATA-. Akribis does not sell cables for other brands' encoders, so the cable
+# to the 15-pin D-sub of the RSF head is ours to make.
+#
+# The manual says the BiSS C clock is 1 MHz. Akribis wrote on 2026-11-20 that it
+# is 2 MHz. Ask which one is right before you rely on it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+AGD155-EC-2A06,AGD155 servo drive with EtherCAT 6 Arms continuous,1 axis; EtherCAT + Ethernet + USB; continuous 6 Arms; peak 18 Arms for 1.5 s; supply 1-phase 110 to 240 VAC (71 to 276 VAC) or 3-phase 120 VAC L-L; 1.44 kVA at 240 VAC; PWM 16 kHz; 2 encoder ports (main port AqB + sin/cos + BiSS C + EnDat 2.2; BiSS C up to 32 bits); 16 isolated inputs; 6 isolated outputs; 2 analog inputs 16 bit; 1 temperature input PT100 + PT1000 + thermostat; brake output 24 V 3 A; regeneration output; 2 safety inputs; size H 196.97 x W 65.80 x D 158.60 mm; IP20; 0 to 50 C,1290,,docs/datasheets/agito-agd155-product-manual-rev3.4.pdf,private,A,active,"Akribis (2026-11-20): position loop closed every 62.5 us; EtherCAT CSP commands may come slower and are interpolated; up to 4 filters in the velocity loop (lead-lag is one type) and 1 on the position command; current sense resolution 0.5 to 2 mA (exact value not given); peak and continuous current can both be set; not tested with the IgH EtherLab master (tested with Beckhoff, Advantech and Adlink). The manual names the STO bypass plug C-AGD301-SFT on this model: check the part number. More: ../../docs/drive-questions.md in stoq-private."
+AGD155-EC-2A10,AGD155 servo drive with EtherCAT 10 Arms continuous,as AGD155-EC-2A06 but continuous 10 Arms; peak 20 Arms for 1.5 s; 2.4 kVA at 240 VAC; 0 to 40 C,1290,,docs/datasheets/agito-agd155-product-manual-rev3.4.pdf,private,A,active,
+AGD155-AF-2A06,AGD155 servo drive without EtherCAT 6 Arms continuous,as AGD155-EC-2A06 but Ethernet + USB + CAN + RS232 + RS485 and no EtherCAT; 2 analog outputs 16 bit; temperature input PT100 + thermostat only,1290,,docs/datasheets/agito-agd155-product-manual-rev3.4.pdf,private,A,active,
+AGD155-AF-2A10,AGD155 servo drive without EtherCAT 10 Arms continuous,as AGD155-AF-2A06 but continuous 10 Arms; peak 20 Arms for 1.5 s; 2.4 kVA at 240 VAC; 0 to 40 C,1290,,docs/datasheets/agito-agd155-product-manual-rev3.4.pdf,private,A,active,

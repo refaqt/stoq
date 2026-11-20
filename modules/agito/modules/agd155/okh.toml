@@ -1,0 +1,14 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Agito AGD155 Servo Drive"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/agito/modules/agd155"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Single-axis standalone AC servo drive, 110 to 240 VAC, 6 or 10 Arms continuous, with EtherCAT (EC) or without (AF)."
+
+[brand]
+name = "Agito Akribis Systems Ltd."
+website = "https://www.agito-akribis.com"
+cad-terms = "https://www.agito-akribis.com"
+redistribute = false

@@ -1,0 +1,37 @@
+okhv = "OKH-LOSHv1.0"
+name = "Agito"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/agito"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Servo drives from Agito (Akribis group)."
+
+# The name on the part. Agito Akribis Systems Ltd. designs the drives; a
+# supplier is commercial and is deliberately not recorded here.
+[brand]
+name = "Agito Akribis Systems Ltd."
+website = "https://www.agito-akribis.com"
+cad-terms = "https://www.agito-akribis.com"
+redistribute = false
+
+# The manuals came by email with a request for quote, and each one says "All
+# rights reserved". Nothing allows sharing them, so they stay in stoq-private
+# and the rows here are private. No CAD files from Agito yet; the cad entry
+# records the same answer for when they come. Evidence path is in stoq-private.
+[[terms-review]]
+kind = "cad"
+decision = "internal"
+basis = "terms"
+source = "https://www.agito-akribis.com"
+evidence = "evidence/agito/2026-11-20_email-manuals.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-11-20
+
+[[terms-review]]
+kind = "documentation"
+decision = "internal"
+basis = "terms"
+source = "https://www.agito-akribis.com"
+evidence = "evidence/agito/2026-11-20_email-manuals.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-11-20

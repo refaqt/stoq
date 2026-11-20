@@ -1,0 +1,6 @@
+# No source address. The manual came by email with a request for quote on
+# 2026-11-20, and it says "All rights reserved". The row is private: the file
+# is not committed. Our own copy is in stoq-private at the same path, with a
+# dated copy of the email in its evidence/agito/ folder.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+agito,AGD155-MANUAL-REV3.4,docs/datasheets/agito-agd155-product-manual-rev3.4.pdf,4038445,f82f20cd04b1f4c80f40214c95313dcd50fc730373231c4f83eebc319e9dc41a,,private,2026-11-20T09:17:24Z
