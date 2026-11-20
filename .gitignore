@@ -14,6 +14,8 @@ __pycache__/
 #
 # modules/thk/modules/shs-rail/cad/parts/SHS20R300.FCStd
 # modules/thk/modules/shs-rail/cad/original/SHS20R300.step
+modules/agito/modules/agd155/docs/datasheets/agito-agd155-product-manual-rev3.4.pdf
+modules/agito/modules/agd156/docs/datasheets/agito-agd156-product-manual-rev1.1.pdf
 
 # FreeCAD rotates a backup beside every document it saves. It is a copy of the
 # file next to it, so it never belongs in the history.

@@ -1,0 +1,16 @@
+# AGD156 compact standalone servo drive with EtherCAT. Part number
+# AGD156-xx-2Ayy; the manual lists only EC-2A03 (3 Arms continuous, 9 Arms
+# peak). Its safe operating area page also shows a 2A06 version, which the
+# part numbering page does not list.
+#
+# Source: AGD156 Product Manual Rev.1.1 (docs/datasheets/), pages 4 to 9.
+# Page numbers are the numbers printed on the page. The encoder port X5 is on
+# pages 31 and 32: the same 10-pin pinout and mating plug as X2 on the AGD155
+# (3M 36210-0100PL with shell 36310-3200-008, or Sunchu SC-10-4P). The
+# temperature input is X6, pins 8 and 9 (page 20). The STO bypass plug is
+# C-AGD156-SFT.
+#
+# The manual says the BiSS C clock is 1 MHz. Akribis wrote on 2026-11-20 that it
+# is 2 MHz. Ask which one is right before you rely on it.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+AGD156-EC-2A03,AGD156 compact servo drive with EtherCAT 3 Arms continuous,1 axis; EtherCAT + Ethernet; continuous 3 Arms; peak 9 Arms for 1.5 s; supply 1-phase 220 VAC (187 to 242 VAC); 0.95 kVA at 220 VAC; PWM 16 kHz; 1 encoder port (AqB + sin/cos + BiSS C + EnDat 2.2; BiSS C up to 32 bits); 8 isolated inputs; 4 isolated outputs; 4 differential I/O; 1 analog input 16 bit; 1 temperature input PT100 + PT1000 + thermostat; no brake output; regeneration output 3 A min 120 ohm; 2 safety inputs; size H 170 x W 40 x D 168 mm; IP20; 0 to 50 C,1100,,docs/datasheets/agito-agd156-product-manual-rev1.1.pdf,private,A,active,"Akribis (2026-11-20): reads BiSS C every 61 us (16 kHz); up to 32 bits; position loop closed every 62.5 us with interpolated EtherCAT CSP commands. No brake output: a vertical axis needs another drive or an external brake circuit. More: ../../docs/drive-questions.md in stoq-private."

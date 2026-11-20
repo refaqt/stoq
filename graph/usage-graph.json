@@ -21,6 +21,39 @@
     ],
     "used_by_builds": []
   },
+  "modules/agito/modules/agd155": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/agito",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/agito/modules/agd156": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/agito",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/agito": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/festo/modules/npqh": {
     "current_version": "0.1.0",
     "trl": null,
