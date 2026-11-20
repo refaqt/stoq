@@ -1,5 +1,18 @@
 # QE series square block (QEH, the quiet version of the EGH block with the
 # SynchMotion ball chain). It runs on the EGR rail. The block type (QEH square /
 # QEW flange) changes the mounting envelope, so each is its own family.
+#
+# HIWIN GmbH answers by email (Harjot Singh, 2026-11-10), for the QEH15 blocks:
+# - Delivery: preserved (no grease), or filled with HIWIN standard grease G05.
+#   HIWIN greases the blocks only when rail and blocks are ordered as a set.
+#   HIWIN did not name the oil in the E2 lubrication unit.
+# - Each block comes on a mounting aid. The aid works as a dummy rail, so the
+#   balls stay in the block when it is off the rail.
+# - A block may come off the rail and go back. Accuracy, preload and lubrication
+#   stay if the reference sides of rail and block face the same way. The
+#   warranty stays. How to do it: the assembly instructions GW-06-2-EN-2610-MA
+#   in ../../docs/datasheets/.
+# - Preload ZA in accuracy class H is in stock, like class H in general.
+#   Class P has a longer delivery time.
 pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
 QEH15SAZAP+E2,QEH15SA square block (light load) ZA medium preload accuracy class P with E2 lubrication unit,block width 34 mm; installation height 24 mm; block length 40.1 mm (56.0 mm with the E2 unit; measured on the HIWIN model); 2 x M4 x 6 mounting threads 26 mm apart across the block; Cdyn 8560 N and C0 8790 N,150,cad/parts/QEH15SAZAP+E2.FCStd,../../docs/datasheets/hiwin-linear-guideways-GW-13-1-EN-2606-K.pdf,redistributable,A,active,Downloaded as QEH15SAZAP_E2_FILE_1.stp. SA = light load block with 2 mounting holes (confirmed by Niels Bosmans). ZA = medium preload; P = precision class. The E2 lifetime lubrication unit sits on one end. The hole row is at the centre of the block body; 6.55 mm off the centre of the whole block.

@@ -25,4 +25,5 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-11-09 | [The DGSMARTWIN SA32 encoder is not added to the library](2026-11-09_dgsmartwin-sa32-not-added.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-10 | [Two HIWIN documents are in the library](2026-11-10_hiwin-assembly-instructions-and-e1-manual-pages.md) | mechanical engineering, purchasing, legal | 0 |
 | 2026-11-10 | [The full HIWIN E1 drive manual is in the library](2026-11-10_hiwin-e1-full-manual.md) | electrical engineering, purchasing, legal | 0 |
+| 2026-11-20 | [HIWIN answers on the QEH15 blocks are in the library](2026-11-20_hiwin-guide-answers.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-20 | [The Agito AGD155 and AGD156 servo drives are in the library](2026-11-20_agito-drive-records.md) | electrical engineering, purchasing, legal | 0 |
