@@ -24,9 +24,11 @@ block off the rail matter at assembly.
 
 - No part row for the class H block QEH15SAZAH+E2. A row needs the HIWIN CAD file from the product
   configurator. Download it before the first order.
-- No HIWIN drive. The library has the E1 manual but no drive family. On 2026-11-20 the team dropped
-  the HIWIN drives: the speed loop is too slow. The reason is in the aqtuator log
-  `docs/log/2026-11-20_hiwin-drives-dropped.md`.
+- No HIWIN drive. The library has the E1 manual but no drive family. The E1 is still a candidate
+  in the aqtuator drive list. HIWIN's new answers on the drive are in the aqtuator log
+  `docs/log/2026-11-20_hiwin-loop-bandwidth-answers.md`. (Corrected on 2026-11-20: an earlier
+  version of this entry said the HIWIN drives were dropped. That was a misreading. HIWIN gave a
+  speed loop bandwidth, not a loop rate.)
 - Prices, stock and delivery times stay out of this library. They belong in the purchasing
   database.
 
