@@ -1,0 +1,35 @@
+# Brand-level provenance: the CME User Guide covers all Copley drives, and the
+# Xenus Plus User Guide covers the whole Xenus Plus range, so the documents sit
+# here rather than in one family. The source address is empty: the files were
+# downloaded from the Copley website and the exact address was not kept. The
+# retrieval date is the day they were recorded into this library.
+#
+# Xenus Plus Compact (XEC and XPC) files: downloaded on 2026-11-23 from
+# https://copleycontrols.com/products/servo-drives/panel-drives/xenus-plus-compact-xec-xpc
+# The drawings come as one zip per drive (PDF, DXF and STEP); the address is the
+# zip, the checksum is of the file inside it. The XEC and XPC STEP files are the
+# same file (same checksum), so it is stored once, in the XEC family.
+# Firmware (.cff, inside one zip each) is software, not documentation or CAD,
+# and no terms cover sharing it. It is fetch-only: not committed, our copy is in
+# stoq-private at the same path.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+copley,16-01157-Rev05,docs/datasheets/copley-cme-user-guide-16-01157-rev05.pdf,6410185,d8b67bd806d8db1ee93754ee261de936ca744bf3829114fff7f3340883403ed7,,redistributable,2026-11-23T00:00:00Z
+copley,16-01344-Rev08,docs/datasheets/copley-xenus-plus-user-guide-16-01344-rev08.pdf,8054893,c2516628b9721b29efe5e9627af5a8946ba1f009a1cc3eddf3471db0d29f391b,,redistributable,2026-11-23T00:00:00Z
+copley,16-01637-Rev02,docs/datasheets/copley-xenus-plus-xel-datasheet-16-01637-rev02.pdf,3210396,5f29ae0717401449e1d831e652524dbf5e6c5bb050909779ae726e168d9791ab,,redistributable,2026-11-23T00:00:00Z
+copley,16-01435-Rev04,docs/datasheets/copley-xenus-plus-compact-xec-datasheet-16-01435-rev04.pdf,3037494,efd465c71a63e839842f3684719baeac8bf798e570499202ce23f722de9c6d28,https://copleycontrols.directus.app/assets/b49da0a9-09ec-4c23-b3ad-0c7e91ee6b4f,redistributable,2026-11-23T00:00:00Z
+copley,16-01436-Rev03,docs/datasheets/copley-xenus-plus-compact-xpc-datasheet-16-01436-rev03.pdf,3296125,5e672a14151593c7ce5307e4953a333c807f1115edfd08f0a2c7ff7dedfeb6f2,https://copleycontrols.directus.app/assets/37fbadab-88b2-47cb-a616-dc3f5f1c2740,redistributable,2026-11-23T00:00:00Z
+copley,16-01552-Rev02,docs/datasheets/copley-xenus-plus-compact-user-guide-16-01552-rev02.pdf,3911511,a66ec78c85e2f778d80d7d828b95bdf0e1d249368b0dc7fa92e58d2be204e2ea,https://copleycontrols.directus.app/assets/3eb0cafe-400d-4ec5-8e69-7b627129ef35,redistributable,2026-11-23T00:00:00Z
+copley,16-01553-Rev02,docs/datasheets/copley-xenus-plus-compact-sto-manual-16-01553-rev02.pdf,1162601,857b4957b89f6a43b5a62b3e193e8476c0523dc8f3f4352d4c45d88f412746c4,https://copleycontrols.directus.app/assets/7d5252c3-46ab-4902-b7bf-852f825702d9,redistributable,2026-11-23T00:00:00Z
+copley,16-01554-Rev00,docs/datasheets/copley-xenus-plus-compact-ec-declaration-of-conformity-16-01554-rev00.pdf,316521,dfda50b9d8177c1e515970b20f208a272f33aebe4ff56792276045f1d799ecd1,https://copleycontrols.directus.app/assets/52e4a388-f03f-42d9-8498-768102ee67ef,redistributable,2026-11-23T00:00:00Z
+copley,UL-20160927-E168959,docs/datasheets/copley-xenus-plus-compact-ul-functional-safety-certificate-20160927-e168959.pdf,86332,5437d72e6d20ee4cb06e33dcf24ed06fe004c6c3c0a83f9e9433b72e87c41adb,https://copleycontrols.directus.app/assets/2cda36bf-3d96-465b-9459-d72ee136a213,redistributable,2026-11-23T00:00:00Z
+copley,XEC-230-12-DPC-01rev01,docs/datasheets/copley-xec-230-12-mtbf-prediction-dpc-01-rev01.pdf,71140,6311f2918a38dcfc8ac337be24f54f94f8504ee0dd42ab79eecb0d44dc98aaf6,https://copleycontrols.directus.app/assets/4bd3d1af-9a31-4e7e-b208-c6414bd14489,redistributable,2026-11-23T00:00:00Z
+copley,RoHS-REACH-Rev03,docs/datasheets/copley-rohs-reach-certificate-rev03.pdf,271560,520f4f50d33303448fb84401488f0989db302101b952ec46dfff32b1e6f0e4df,https://copleycontrols.directus.app/assets/88d85e8b-1e4e-4553-a703-15b599b7bf93,redistributable,2026-11-23T00:00:00Z
+copley,XEC-drawing-pdf,docs/drawings/copley-xec-drawing.pdf,114161,41ae4645d9905779db7ccd5892410567584482257ab9df26723f1ed49abd9977,https://copleycontrols.directus.app/assets/c6dbe5e8-d54a-4813-94a7-3f6d811a7cf8,redistributable,2026-11-23T00:00:00Z
+copley,XEC-drawing-dxf,docs/drawings/copley-xec-drawing.dxf,1960933,83621b9ae80c6134727d63bdce2ef1001f859606fee4495a9ca8bbd527870a3e,https://copleycontrols.directus.app/assets/c6dbe5e8-d54a-4813-94a7-3f6d811a7cf8,redistributable,2026-11-23T00:00:00Z
+copley,XPC-drawing-pdf,docs/drawings/copley-xpc-drawing.pdf,101067,0e7b4e9caf325a36c55344f0fde532f4c7ba25e51e3e55e48da972952179960f,https://copleycontrols.directus.app/assets/7cb0687a-03ee-4079-a971-985c72a9bd63,redistributable,2026-11-23T00:00:00Z
+copley,XPC-drawing-dxf,docs/drawings/copley-xpc-drawing.dxf,1956874,8b1fbbabba5784ddb88de8e7cac5668bec6faeff541d1afbe7b1ade489e2c712,https://copleycontrols.directus.app/assets/7cb0687a-03ee-4079-a971-985c72a9bd63,redistributable,2026-11-23T00:00:00Z
+copley,XEC-4.36,firmware/XEC_4.36.cff,1167457,d4e5c8d3f9fc5b1e7ecbbaa57e32fead7fb0d59efe85462e86dc57a2d328358c,https://copleycontrols.directus.app/assets/e00a14f5-ae57-43b6-a76f-fb69710f9847,fetch-only,2026-11-23T00:00:00Z
+copley,XEC-4.60,firmware/XEC_4.60.cff,1175622,4f0a73e317fdf9ece51f9fa7729b2538ec1da1a61f9ed5ccd7575a13a5bc13c7,https://copleycontrols.directus.app/assets/bf034c5b-9164-488b-81a5-39adebb3e134,fetch-only,2026-11-23T00:00:00Z
+copley,XEC-enet-4.88,firmware/XEC_enet_4.88.cff,1161528,36cb96db2f9bdb30641f599d75a91628f47eafce8fcc2e10ff098a5ae1464cf8,https://copleycontrols.directus.app/assets/50f4dc73-990a-4346-97e2-31ff42a751d8,fetch-only,2026-11-23T00:00:00Z
+copley,XPC-4.36,firmware/XPC_4.36.cff,930381,76e504c36846edba810c81af5aaed082e1ee144ccdbeb914d15f443908f00bd2,https://copleycontrols.directus.app/assets/d7e5e23e-530c-4daa-adce-9fcff3b268df,fetch-only,2026-11-23T00:00:00Z
+copley,XPC-4.60,firmware/XPC_4.60.cff,935769,cb53dae39e496eaf61fcce22913e5bb1c33f775eaa60ed4f7626e482342c8140,https://copleycontrols.directus.app/assets/b8d0e3e1-dc3e-4187-9df5-a0ece47d4f04,fetch-only,2026-11-23T00:00:00Z

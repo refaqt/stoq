@@ -1,0 +1,45 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Copley Xenus Plus Compact XEC Servo Drive"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/copley/modules/xenus-plus-compact-xec"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Compact single-axis AC servo drive for brush and brushless motors, 100 to 240 VAC, with EtherCAT (CoE, CiA 402) and certified Safe Torque Off."
+
+[brand]
+name = "Copley Controls"
+website = "https://copleycontrols.com"
+cad-terms = "https://copleycontrols.com"
+redistribute = true
+# Xenus Plus Compact XEC, EtherCAT version. Source: XEC datasheet 16-01435
+# Rev 04, Xenus Plus Compact User Guide 16-01552 Rev 02 and STO Manual
+# 16-01553 Rev 02 (../../docs/datasheets/). The CME notes in the XEL family
+# (../xenus-plus-xel/okh.toml) apply to all Plus drives, but see the firmware
+# point below.
+#
+# - Loops: current 16 kHz (62.5 us), velocity and position 4 kHz (250 us).
+#   The default filter table shows three velocity loop output filters and two
+#   current loop input filters (datasheet page 11).
+# - Motor temperature: digital input IN11 (J5 pin 7), 4.99 kohm pull-up to
+#   +5 V, 330 us filter, Schmitt trigger (on above 3.15 V, off below 1.13 V).
+#   Made for PTC thermistors to BS 4999 Part 111 (1650 ohm at 95 C, 3990 ohm at
+#   105 C), the same values as the MAXWELL MK21 sensor. The input trips at
+#   about 8.5 kohm, so a few kelvin above the 3990 ohm point.
+# - Brake resistor: inside. 60 ohm, 20 W continuous, 2500 W peak for 100 ms,
+#   248 J at most. Bus capacitance 940 uF absorbs 34 J at 200 VAC and 17 J at
+#   240 VAC before the resistor switches on at 390 Vdc. An external resistor
+#   (60 ohm at least) is optional.
+# - Encoder: BiSS (B and C), 4-wire, clock from the drive, read at 16 kHz.
+#   Number of bits and clock frequency are not given. Two +5 V outputs.
+# - Safe Torque Off certified by UL (certificate 20160927-E168959, ISO 13849-1,
+#   IEC 61508, IEC 61800-5-2). The STO manual shows a SIL 3, Cat. 3, PL d
+#   wiring example. EC Declaration of Conformity 16-01554: EMC to
+#   IEC 61800-3 category C3.
+# - Firmware on the Copley web page (2026-11-23): XEC 4.36 (production) and
+#   4.60 (regression tested). The CME User Guide asks for 4.92 or later for the
+#   open loop and position frequency analysis modes on Plus drives. So with the
+#   published firmware, the position loop Bode modes may not work on the XEC.
+#   Question sent to Copley.
+#
+# The XPC (CANopen version) uses the same STEP file. It has no family here.

@@ -21,3 +21,10 @@ modules/agito/modules/agd156/docs/datasheets/agito-agd156-product-manual-rev1.1.
 # file next to it, so it never belongs in the history.
 *.FCBak
 *.FCStd1
+
+# Copley Xenus Plus Compact firmware: fetch-only, our copy is in stoq-private.
+modules/copley/firmware/XEC_4.36.cff
+modules/copley/firmware/XEC_4.60.cff
+modules/copley/firmware/XEC_enet_4.88.cff
+modules/copley/firmware/XPC_4.36.cff
+modules/copley/firmware/XPC_4.60.cff

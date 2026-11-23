@@ -1,0 +1,51 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Copley Xenus Plus XEL Servo Drive"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/copley/modules/xenus-plus-xel"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Single-axis AC servo drive for brush and brushless motors, 100 to 240 VAC, with EtherCAT (CoE, CiA 402)."
+
+[brand]
+name = "Copley Controls"
+website = "https://copleycontrols.com"
+cad-terms = "https://copleycontrols.com"
+redistribute = true
+# Xenus Plus XEL, EtherCAT version. Source: XEL datasheet 16-01637 Rev 02,
+# Xenus Plus User Guide 16-01344 Rev 08 and CME User Guide 16-01157 Rev 05
+# (../../docs/datasheets/).
+#
+# Control (all three documents):
+# - Current loop 16 kHz (62.5 us). Velocity and position loops 4 kHz (250 us).
+# - Position loop: Pp, Pi, Pd and Pi drain, velocity feedforward (Vff) and
+#   acceleration feedforward (Aff), then a gain multiplier (CME 12.5, 12.6).
+# - Velocity loop: PI with an input filter and an output filter. Each filter is
+#   a low-pass (1 or 2 pole Butterworth) or a custom biquad with your own
+#   coefficients, rounded to fixed point (User Guide 2.2.5, CME 17.4.5).
+# - Filter screen in CME: analog input, velocity loop and current loop filters,
+#   input shaping, and motor and load velocity filters. Filter types: low-pass,
+#   high-pass, notch, band-pass and custom biquad. Families: Butterworth,
+#   Chebyshev and elliptic (CME chapter 17).
+# - Gain scheduling: Pp, Vp, Vi and current offset, interpolated from a table of
+#   up to 1000 rows. The key is commanded or actual velocity or position, or a
+#   value written over EtherCAT (index 0x2371) (CME chapter 22).
+# - Encoder correction tables for firmware 2.24 and later (CME chapter 21).
+#
+# Frequency analysis in CME (chapter 18): sine sweep with magnitude and phase,
+# saved as .csv. Twelve modes: current closed loop, velocity closed loop,
+# velocity open loop and velocity plant (each HF and LF, measured with the loop
+# closed), position plant (HF and LF, with the loop closed), and four modes
+# with the outer loop open: velocity open loop, velocity plant, position open
+# loop and position plant. The open loop and position modes need firmware 4.92
+# or later on Plus drives.
+#
+# Motor temperature: input AIN3 (Motemp) on J10, 4.99 kohm pull-up to +5 V,
+# 12-bit, fault above or below a set voltage. The datasheet names thermistor
+# and posistor (PTC) sensors.
+#
+# The datasheet revision history changes "Safe Torque Off" to "Motor Torque
+# Off" (Rev 01, 2019). No STO certificate is named for the XEL.
+#
+# The distributor offered the XEC-230-09 (Xenus Plus Compact) instead. That is
+# a different family. Its datasheet is not in this library yet.
