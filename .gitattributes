@@ -23,4 +23,6 @@
 # Binary - never apply CRLF heuristics.
 # ---------------------------------------------------------------------------
 *.pdf    -text
+*.dxf    -text
+*.DXF    -text
 *.png    -text
