@@ -28,3 +28,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-11-20 | [HIWIN answers on the QEH15 blocks are in the library](2026-11-20_hiwin-guide-answers.md) | mechanical engineering, purchasing | 0 |
 | 2026-11-20 | [The Agito AGD155 and AGD156 servo drives are in the library](2026-11-20_agito-drive-records.md) | electrical engineering, purchasing, legal | 0 |
 | 2026-11-20 | [The HIWIN E1 servo drive is in the library](2026-11-20_hiwin-e1-drive-family.md) | electrical engineering, purchasing | 0 |
+| 2026-11-23 | [The Copley Xenus Plus documents and the XEL drive are in the library](2026-11-23_copley-xenus-plus-documents.md) | electrical engineering, purchasing, legal | 0 |

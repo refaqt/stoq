@@ -1,0 +1,6 @@
+# The XEC drawing zip holds XEC.STEP (renamed to .step here), XEC.DXF and
+# XEC.pdf. The XPC zip holds a STEP file with the same checksum. The drawing
+# carries an Analogic "confidential/proprietary" stamp, but Copley publishes it
+# as a free download.
+supplier,pn,relpath,bytes,sha256,source_url,terms,retrieved_utc
+copley,XEC,cad/original/XEC.step,87290450,f9224e5e429ae8212c94ef82c888c6f0897c22c3c799f3adc0eea3a57e6f42f0,https://copleycontrols.directus.app/assets/c6dbe5e8-d54a-4813-94a7-3f6d811a7cf8,redistributable,2026-11-23T00:00:00Z

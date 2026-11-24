@@ -1,0 +1,48 @@
+okhv = "OKH-LOSHv1.0"
+name = "Copley Controls"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/copley"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Servo drives and setup software from Copley Controls."
+
+# The name on the part. Copley Controls is part of Curtiss-Wright. The
+# distributor we talk to is commercial and is deliberately not recorded here.
+[brand]
+name = "Copley Controls"
+website = "https://copleycontrols.com"
+cad-terms = "https://copleycontrols.com"
+redistribute = true
+
+# The three documents are free downloads from the Copley website. Each one
+# says: "No part of this document may be reproduced in any form or by any
+# means, electronic or mechanical, including photocopying, without express
+# written permission of Copley Controls." (CME User Guide section 1.2, Xenus
+# Plus User Guide "Copyrights"). So the terms say no. The proposal is to share
+# them under ADR-004 (share until the brand objects), like the HIWIN E1 manual.
+# Niels Bosmans approves this in the pull request. The evidence is a dated
+# copy of the CME User Guide in stoq-private: its section 1.2 holds the clause.
+[[terms-review]]
+kind = "documentation"
+decision = "public"
+basis = "none"
+source = "https://copleycontrols.com"
+evidence = "evidence/copley/2026-11-23_cme-user-guide-copyright-section-1-2.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-11-23
+
+# 2026-11-23: the Xenus Plus Compact page offers a drawing zip with a STEP, a
+# DXF and a PDF. The drawing carries an Analogic "confidential/proprietary"
+# stamp, but Copley publishes it as a free download, with no other terms. The
+# proposal is again ADR-004 (share until the brand objects). Niels Bosmans
+# approves this in the pull request. The same day, the Xenus Plus Compact user
+# guide repeats the copyright clause of the other manuals (section 1.7), so the
+# documentation entry above still holds.
+[[terms-review]]
+kind = "cad"
+decision = "public"
+basis = "none"
+source = "https://copleycontrols.com/products/servo-drives/panel-drives/xenus-plus-compact-xec-xpc"
+evidence = "evidence/copley/2026-11-23_cme-user-guide-copyright-section-1-2.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-11-23
