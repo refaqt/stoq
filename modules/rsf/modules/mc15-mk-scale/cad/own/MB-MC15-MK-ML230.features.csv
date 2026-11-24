@@ -1,0 +1,8 @@
+# Every feature of the MC 15 MK scale that the RSF drawing D1158017-04 shows.
+# The drawing has one sheet, so the page is 1.
+feature,kind,outside_envelope,source,page,status,reason
+steel tape scale (OL x 8 x 0.25 mm; OL = ML + 20),sized,no,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,modelled,
+adhesive tape (6 x 0.2 mm) under the steel tape,sized,no,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,modelled,"Its position across the tape and its length are not dimensioned. Detail X shows it in the middle of the tape, and the side view gives no shorter length, so it is centred and as long as the tape."
+measuring length (start and end for the position sensor),sized,no,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,modelled,"No solid: the frames IF_ml_start and IF_ml_end mark where the position sensor of the scanning head is at the two ends of the measuring length."
+absolute code track and graduation lines,drawn-unsized,no,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,left-out,Optical pattern on the tape surface. It has no size that matters for a machine design.
+printed text on the tape,drawn-unsized,no,docs/datasheets/rsf-mc15-mk-mating-dimensions-D1158017-04.pdf,1,left-out,Brand text. Never modelled in an own model.
