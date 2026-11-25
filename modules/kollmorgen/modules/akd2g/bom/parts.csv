@@ -1,0 +1,5 @@
+# AKD2G single-axis servo drive, 120/240 VAC, EtherCAT, FS1 safety, X23
+# feedback, with mating connectors (-A). Figures from the AKD2G-S Installation
+# Manual FS1 Rev G (March 2024), 240 VAC.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+AKD2G-SPE-6V03S-A1F3-0000-A,AKD2G servo drive 3 A rms single axis with EtherCAT and STO,1 axis; EtherCAT CoE with CiA 402; continuous 3 Arms; peak 9 Arms for 5 s; supply 1 or 3 phase 100 to 240 VAC (bus about 300 V); current command 62.5 us; velocity loop 62.5 us; position loop 250 us; feedback X23 HD15 with BiSS-C (1 MHz clock); motor PTC on X23; internal regen 15 ohm 100 W; bus 1640 uF; no internal mains filter; STO 2 channels SIL 2 PL d; service port Ethernet X20,,,docs/datasheets/kollmorgen-akd2g-s-installation-manual-fs1-revg-en.pdf,redistributable,A,active,"Quoted for the AQTUATOR CS stage on 2026-10-30. The MAXWELL MK21 needs 2.0 Arms continuous and 5.9 Arms for 1 s. Mass not found in the documents."

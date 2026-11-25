@@ -1,0 +1,39 @@
+okhv = "OKH-LOSHv1.0"
+name = "Kollmorgen"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/kollmorgen"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Servo drives (AKD and AKD2G) and setup software from Kollmorgen."
+
+# The name on the part. Kollmorgen is part of Regal Rexnord. The CE
+# Declaration of the AKD2G names Kollmorgen Corporation, Radford, Virginia,
+# USA, as the manufacturer, with Kollmorgen Europe GmbH (Ratingen, Germany) as
+# the EU contact. The distributor we talk to is deliberately not recorded.
+[brand]
+name = "Kollmorgen"
+website = "https://www.kollmorgen.com"
+cad-terms = "https://www.kollmorgen.com"
+redistribute = false
+
+# The documents are free downloads from the AKD and AKD2G product pages
+# (2026-11-25), with no login. Each manual says: "No part of this work may be
+# reproduced in any form (by photocopying, microfilm or any other method) or
+# stored, processed, copied or distributed by electronic means without the
+# written permission of Kollmorgen." (AKD2G-S Installation Manual FS1 Rev G,
+# page 3). So the terms say no. The proposal is to share them under ADR-004
+# (share until the brand objects), like the Copley and HIWIN manuals. Niels
+# Bosmans approves this in the pull request. The evidence is a dated copy of
+# page 3 of that manual in stoq-private.
+#
+# No CAD file is recorded. The Kollmorgen 3D models come through a CADENAS
+# portal that needs a login, so there is no cad review yet and redistribute
+# stays false.
+[[terms-review]]
+kind = "documentation"
+decision = "public"
+basis = "none"
+source = "https://www.kollmorgen.com/en-us/products/drives/servo/akd2g/akd2g-servo-drive"
+evidence = "evidence/kollmorgen/2026-11-25_akd2g-installation-manual-copyright-page-3.pdf"
+reviewer = "Niels Bosmans"
+reviewed = 2026-11-25
