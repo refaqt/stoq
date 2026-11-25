@@ -28,3 +28,7 @@ modules/copley/firmware/XEC_4.60.cff
 modules/copley/firmware/XEC_enet_4.88.cff
 modules/copley/firmware/XPC_4.36.cff
 modules/copley/firmware/XPC_4.60.cff
+
+# Kollmorgen AKD2G manuals for other safety options: fetch-only, our copy is in stoq-private.
+modules/kollmorgen/modules/akd2g/docs/datasheets/kollmorgen-akd2g-s-installation-manual-fs2-revg-en.pdf
+modules/kollmorgen/modules/akd2g/docs/datasheets/kollmorgen-akd2g-s-installation-manual-fs3-revg-en.pdf

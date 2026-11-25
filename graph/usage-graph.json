@@ -252,6 +252,39 @@
     ],
     "used_by_builds": []
   },
+  "modules/kollmorgen/modules/akd": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/kollmorgen",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/kollmorgen/modules/akd2g": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": "modules/kollmorgen",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
+  "modules/kollmorgen": {
+    "current_version": "0.1.0",
+    "trl": null,
+    "used_by": [
+      {
+        "path": ".",
+        "version": "0.1.0"
+      }
+    ],
+    "used_by_builds": []
+  },
   "modules/lamotion/modules/abs-readhead": {
     "current_version": "0.1.0",
     "trl": null,

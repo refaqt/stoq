@@ -30,3 +30,4 @@ Write entries in B2 English. Follow `.agents/rules/communication.md`.
 | 2026-11-20 | [The HIWIN E1 servo drive is in the library](2026-11-20_hiwin-e1-drive-family.md) | electrical engineering, purchasing | 0 |
 | 2026-11-23 | [The Copley Xenus Plus documents and the XEL drive are in the library](2026-11-23_copley-xenus-plus-documents.md) | electrical engineering, purchasing, legal | 0 |
 | 2026-11-24 | [The RSF MC 15 MK scale with a 230 mm measuring length is in the library](2026-11-24_rsf-mc15-mk-ml230.md) | mechanical engineering, purchasing | 0 |
+| 2026-11-25 | [The Kollmorgen AKD and AKD2G drives and their documents are in the library](2026-11-25_kollmorgen-akd-and-akd2g-documents.md) | electrical engineering, purchasing, legal | 0 |

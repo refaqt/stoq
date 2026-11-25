@@ -1,0 +1,4 @@
+# AKD single-axis servo drive, 120/240 VAC, EtherCAT and CANopen. Figures from
+# the AKD Installation Manual Rev AG (May 2022), 240 VAC.
+pn,description,spec,unit_mass_g,cad,datasheet,terms,revision,status,notes
+AKD-P00306-NDCC-E000,AKD servo drive 3 A rms with EtherCAT and CANopen,1 axis; EtherCAT or CANopen with CiA 402; continuous 3 Arms; peak 9 Arms for 5 s; supply 1 or 3 phase 100 to 240 VAC; velocity loop 62.5 us; position loop 250 us; feedback X10 HD15 with BiSS-C (Renishaw type; 1 MHz clock); motor PTC on X10; no internal regen (external 33 ohm); bus 940 uF; no internal mains filter; STO 1 channel SIL 2 PL d (self-assessed since 2026-10-01); service port Ethernet X11,,,docs/datasheets/kollmorgen-akd-installation-manual-903-200003-00-revag-en.pdf,redistributable,A,active,"Quoted for the AQTUATOR CS stage on 2026-10-30 as the replacement of AKD-P00306-NBEC. Mass not checked."

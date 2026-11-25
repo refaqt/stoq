@@ -1,0 +1,62 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Kollmorgen AKD2G Servo Drive"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/kollmorgen/modules/akd2g"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Single- and dual-axis AC servo drive, 120 to 240 VAC, with EtherCAT (CoE, CiA 402), Safe Torque Off and an internal regen resistor."
+
+[brand]
+name = "Kollmorgen"
+website = "https://www.kollmorgen.com"
+cad-terms = "https://www.kollmorgen.com"
+redistribute = false
+# AKD2G, 6V (120/240 VAC) single-axis models. Source: AKD2G-S Installation
+# Manual FS1 Rev G (March 2024), part number scheme (May 2022), EtherCAT and
+# CANopen manual Rev A, and the AKD2G online help (webhelp.kollmorgen.com,
+# read 2026-11-25). Page numbers are the printed numbers of the FS1 manual.
+#
+# - Part number AKD2G-SPE-6V03S-A1F3-0000-A: S = IP20 servo, P = position
+#   indexer, E = EtherCAT, 6V = 120/240 VAC, 03 = 3 A rms, S = single axis,
+#   A = platform revision, 1 = FS1 (STO and safe inputs, SIL 2 PL d),
+#   F3 = feedback connector X23, 0000 = standard, -A = mating connectors in
+#   the box, except X1/X2 (motor) and X23 (feedback) (p 28).
+# - Loops: current command 62.5 us, velocity 62.5 us, position 250 us (4 kHz)
+#   (p 32, p 34). EtherCAT cycle 250 us or longer.
+# - Motor inductance 2.4 mH to 240 mH at 240 VAC (p 36).
+# - Regen: internal resistor in all models, 15 ohm, 100 W, 3 / 9 kW for 0.5 s
+#   (120 / 240 V). Starts at 380 V, overvoltage fault at 420 V. External
+#   resistor at least 10 ohm, 15 ohm recommended. Bus 1640 uF on 6V03S and
+#   6V06S, absorbs 6 / 23 J (p 41). The 2021 catalogue said "no internal
+#   regen" for 6V03S; the 2024 manual says otherwise. The online help lists
+#   33 ohm external resistors for 6V03S. Question sent to Kollmorgen.
+# - Mains filter: none inside. External FN2090 (1 phase) or FN3288 (3 phase)
+#   needed for industrial use. C2 with motor cable < 10 m, C3 above, stated
+#   for the 3-phase case (p 53, p 80, p 82).
+# - Feedback X23 (Sub-D HD15 female): BiSS-C, clock limit 1 MHz, encoder
+#   supply 5.1 V up to 350 mA, cable up to 25 m (35 m after asking). The
+#   wiring example is a Renishaw Resolute RA26B (p 105, p 115).
+# - Motor temperature: X23 pins 8 and 9. AXIS#.MOTOR.RTYPE 0 = single PTC;
+#   AXIS#.MOTOR.TEMPFAULT sets the trip level in ohm (default 2000) (online
+#   help). The FS1 pin table shows pins 8 and 9 as unused for BiSS-C, the FS2
+#   wiring diagram shows Th+ and Th- there.
+# - Filters (online help): four biquads in the velocity loop, AR1 and AR2 in
+#   the forward path, AR3 and AR4 in the feedback path, each low-pass,
+#   notch/resonator, lead/lag or free biquad (AXIS#.VL.ARTYPEx, ARZFx, ARZQx,
+#   ARPFx, ARPQx). A moving average filter on the position command
+#   (AXIS#.PL.FILTER.FREQ). Luenberger observer (AXIS#.OBS.*). Current loop
+#   gain scheduling against current. Cogging compensation table taught by a
+#   slow move (AXIS#.IL.COMPTABLE.*). Feedforward: velocity, acceleration,
+#   friction.
+# - Frequency response (WorkBench, AXIS#.BODE.*): measures plant, closed loop,
+#   current loop or a custom pair, with PRB, sine, noise or chirp excitation,
+#   sampled at up to 8 kHz. Export to CSV. Open loop is computed from the
+#   measured plant and the controller.
+# - Service port X20: RJ45 Ethernet. No USB and no RS-232. Telnet on port 23
+#   (the WorkBench terminal), Modbus TCP on port 502 (online help).
+# - STO: two channels, SIL 2, PL d Cat 3 (p 186). TUV NORD certificate
+#   SEBS-A.095714/15 V2.0 for "AKD2G", valid until 2030-01-29.
+# - Manufacturer in the CE Declaration and the TUV certificate: Kollmorgen
+#   Corporation, Radford, Virginia, USA. The manual names service sites in
+#   Brno (Czech Republic), Shanghai and Tianjin (p 25).

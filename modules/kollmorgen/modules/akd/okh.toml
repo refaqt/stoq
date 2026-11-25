@@ -1,0 +1,46 @@
+# The family is the module. One orderable part number is a row in bom/parts.csv.
+okhv = "OKH-LOSHv1.0"
+name = "Kollmorgen AKD Servo Drive"
+repo = "https://github.com/refaqt/stoq/tree/main/modules/kollmorgen/modules/akd"
+version = "0.1.0"
+license = "CC-BY-SA-4.0"
+licensor = "REFAQT"
+function = "Single-axis AC servo drive (first generation AKD), 120 to 240 VAC, with EtherCAT or CANopen (CiA 402) and Safe Torque Off."
+
+[brand]
+name = "Kollmorgen"
+website = "https://www.kollmorgen.com"
+cad-terms = "https://www.kollmorgen.com"
+redistribute = false
+# AKD, 06 (120/240 VAC) models. Source: AKD Installation Manual Rev AG (May
+# 2022, "INST"), AKD User Guide Rev N (December 2014, "UG"), AKD EtherCAT
+# manual Rev U (October 2020), and the STO product notice of 2026-10-01.
+#
+# - Part number AKD-P00306-NDCC-E000: P = position indexer, 003 = 3 A rms,
+#   06 = 120/240 VAC, CC = EtherCAT and CANopen (one at a time, DRV.TYPE).
+#   ND and E000 are not explained in the documents (INST p 33).
+# - Loops: velocity 62.5 us, position 250 us (4 kHz) (INST p 36). EtherCAT
+#   cycle 250 us or longer, cyclic synchronous position supported.
+# - Motor inductance 2.5 mH to 250 mH at 240 V (INST p 39).
+# - Regen: no internal resistor on the 00306. External 33 ohm. Starts at
+#   380 V, fault at 420 V. Bus 940 uF, absorbs 20 J at 240 V (INST p 46-47).
+# - Mains filter: none inside. External filter: C2 with motor cable < 10 m,
+#   C3 above (INST p 28).
+# - Feedback X10 (Sub-D HD15 female): BiSS-C is feedback type 34, named
+#   "BiSS Mode C Renishaw" (UG 25.17.34). Clock limit 1 MHz, supply 5.1 V.
+#   FB1.BISSBITS 0 to 64, default 32. Primary feedback only.
+# - Motor temperature: X10 pins 8 and 9, MOTOR.RTYPE 0 = single PTC,
+#   MOTOR.TEMPFAULT in ohm. The INST pin table shows pins 8 and 9 unused for
+#   BiSS-C; the UG shows them as thermal input for all feedback types.
+# - Filters (UG 14.3 to 14.5): four biquads in the velocity loop (AR1, AR2
+#   forward; AR3, AR4 feedback), a position command filter, an observer, and
+#   current loop gain scheduling against current. The frequency response tool
+#   measures plant, closed loop and controller, and exports CSV.
+# - Service port X11: RJ45 Ethernet. No USB, no RS-232. Telnet on port 23
+#   (WorkBench terminal, ASCII commands), Modbus TCP on port 502.
+# - STO: one input, SIL 2, PL d, Cat 3 (INST p 58-60). Since 2026-10-01 the
+#   STO rating rests on a Kollmorgen self-assessment, not on a certificate
+#   from a testing body (product notice, Kollmorgen Europe GmbH, Ratingen).
+# - Manufacturer in the UKCA Declaration and the UL certificate: Kollmorgen
+#   Corporation, Radford, Virginia, USA. The product page (2026-11-25) has no
+#   EU Declaration of Conformity for the standard AKD, only a UKCA one.
