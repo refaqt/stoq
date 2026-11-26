@@ -32,3 +32,6 @@ modules/copley/firmware/XPC_4.60.cff
 # Kollmorgen AKD2G manuals for other safety options: fetch-only, our copy is in stoq-private.
 modules/kollmorgen/modules/akd2g/docs/datasheets/kollmorgen-akd2g-s-installation-manual-fs2-revg-en.pdf
 modules/kollmorgen/modules/akd2g/docs/datasheets/kollmorgen-akd2g-s-installation-manual-fs3-revg-en.pdf
+
+# Skill links made by .agents/scripts/link_skills.sh at the start of each session.
+/.claude/skills/
